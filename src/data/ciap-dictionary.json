@@ -1,0 +1,445 @@
+[
+  {
+    "code": "N01",
+    "label": "Cefaleia",
+    "terms": [
+      "cefaleia",
+      "cefaleias",
+      "cefalgia",
+      "dor de cabeça",
+      "dores de cabeça",
+      "dor na cabeça"
+    ]
+  },
+  {
+    "code": "A03",
+    "label": "Febre",
+    "terms": [
+      "febre",
+      "febril",
+      "pirexia"
+    ]
+  },
+  {
+    "code": "A04",
+    "label": "Cansaço geral/fadiga",
+    "terms": [
+      "fadiga",
+      "cansaço",
+      "fraqueza generalizada",
+      "exaustão"
+    ]
+  },
+  {
+    "code": "A05",
+    "label": "Mal-estar",
+    "terms": [
+      "mal estar",
+      "mal-estar",
+      "indisposição"
+    ]
+  },
+  {
+    "code": "A06",
+    "label": "Desmaio/síncope",
+    "terms": [
+      "desmaio",
+      "desmaiou",
+      "síncope"
+    ]
+  },
+  {
+    "code": "R05",
+    "label": "Tosse",
+    "terms": [
+      "tosse",
+      "tossindo",
+      "tossir"
+    ]
+  },
+  {
+    "code": "R02",
+    "label": "Dificuldade respiratória/dispneia",
+    "terms": [
+      "falta de ar",
+      "dispneia",
+      "dificuldade para respirar",
+      "dificuldade respiratória"
+    ]
+  },
+  {
+    "code": "R07",
+    "label": "Espirro/congestão nasal",
+    "terms": [
+      "espirro",
+      "espirros",
+      "nariz entupido",
+      "congestão nasal"
+    ]
+  },
+  {
+    "code": "R21",
+    "label": "Sintomas da garganta",
+    "terms": [
+      "dor de garganta",
+      "garganta dolorida",
+      "irritação na garganta"
+    ]
+  },
+  {
+    "code": "R06",
+    "label": "Sangramento nasal",
+    "terms": [
+      "sangramento nasal",
+      "sangramento pelo nariz",
+      "epistaxe"
+    ]
+  },
+  {
+    "code": "R25",
+    "label": "Expectoração anormal",
+    "terms": [
+      "catarro",
+      "expectoração",
+      "escarro"
+    ]
+  },
+  {
+    "code": "D01",
+    "label": "Dor abdominal/cólicas",
+    "terms": [
+      "dor abdominal",
+      "dor de barriga",
+      "cólica abdominal",
+      "cólicas abdominais"
+    ]
+  },
+  {
+    "code": "D02",
+    "label": "Dor epigástrica",
+    "terms": [
+      "dor no estômago",
+      "dor epigástrica",
+      "epigastralgia"
+    ]
+  },
+  {
+    "code": "D03",
+    "label": "Azia/queimação",
+    "terms": [
+      "azia",
+      "queimação no estômago",
+      "pirose"
+    ]
+  },
+  {
+    "code": "D08",
+    "label": "Gases/flatulência",
+    "terms": [
+      "flatulência",
+      "gases intestinais",
+      "muitos gases"
+    ]
+  },
+  {
+    "code": "D09",
+    "label": "Náusea",
+    "terms": [
+      "náusea",
+      "náuseas",
+      "enjoo",
+      "enjoos"
+    ]
+  },
+  {
+    "code": "D10",
+    "label": "Vômitos",
+    "terms": [
+      "vômito",
+      "vômitos",
+      "vomitando",
+      "vomitou"
+    ]
+  },
+  {
+    "code": "D11",
+    "label": "Diarreia",
+    "terms": [
+      "diarreia",
+      "fezes líquidas",
+      "evacuações líquidas"
+    ]
+  },
+  {
+    "code": "D12",
+    "label": "Constipação intestinal",
+    "terms": [
+      "constipação intestinal",
+      "intestino preso",
+      "prisão de ventre",
+      "obstipação"
+    ]
+  },
+  {
+    "code": "D16",
+    "label": "Sangramento retal",
+    "terms": [
+      "sangue nas fezes",
+      "sangramento retal",
+      "hematoquezia"
+    ]
+  },
+  {
+    "code": "U01",
+    "label": "Disúria",
+    "terms": [
+      "disúria",
+      "dor ao urinar",
+      "ardor ao urinar",
+      "queimação ao urinar"
+    ]
+  },
+  {
+    "code": "U02",
+    "label": "Frequência/urgência urinária",
+    "terms": [
+      "urina toda hora",
+      "urinando toda hora",
+      "micção frequente",
+      "urgência urinária",
+      "polaciúria"
+    ]
+  },
+  {
+    "code": "U04",
+    "label": "Incontinência urinária",
+    "terms": [
+      "incontinência urinária",
+      "perda involuntária de urina",
+      "escapa urina"
+    ]
+  },
+  {
+    "code": "U06",
+    "label": "Hematúria",
+    "terms": [
+      "sangue na urina",
+      "hematúria"
+    ]
+  },
+  {
+    "code": "L03",
+    "label": "Sintomas da região lombar",
+    "terms": [
+      "dor lombar",
+      "lombalgia",
+      "dor nas costas na lombar",
+      "dor na lombar"
+    ]
+  },
+  {
+    "code": "L01",
+    "label": "Sintomas do pescoço",
+    "terms": [
+      "dor no pescoço",
+      "cervicalgia"
+    ]
+  },
+  {
+    "code": "L02",
+    "label": "Sintomas da região dorsal",
+    "terms": [
+      "dor dorsal",
+      "dorsalgia",
+      "dor no meio das costas"
+    ]
+  },
+  {
+    "code": "L08",
+    "label": "Sintomas do ombro",
+    "terms": [
+      "dor no ombro",
+      "ombro dolorido"
+    ]
+  },
+  {
+    "code": "L15",
+    "label": "Sintomas do joelho",
+    "terms": [
+      "dor no joelho",
+      "joelho dolorido"
+    ]
+  },
+  {
+    "code": "L18",
+    "label": "Dores musculares",
+    "terms": [
+      "mialgia",
+      "dor muscular",
+      "dores musculares"
+    ]
+  },
+  {
+    "code": "L20",
+    "label": "Sintomas articulares",
+    "terms": [
+      "dor nas articulações",
+      "artralgia",
+      "dores articulares"
+    ]
+  },
+  {
+    "code": "N17",
+    "label": "Tontura/vertigem",
+    "terms": [
+      "tontura",
+      "tonturas",
+      "vertigem",
+      "vertigens"
+    ]
+  },
+  {
+    "code": "N05",
+    "label": "Formigamento dos dedos",
+    "terms": [
+      "formigamento nos dedos",
+      "formigamento nas mãos",
+      "formigamento nos pés"
+    ]
+  },
+  {
+    "code": "P01",
+    "label": "Sensação de ansiedade/nervosismo",
+    "terms": [
+      "ansiedade",
+      "ansioso",
+      "ansiosa",
+      "nervosismo"
+    ]
+  },
+  {
+    "code": "P03",
+    "label": "Tristeza/sensação de depressão",
+    "terms": [
+      "tristeza",
+      "se sente triste",
+      "desanimado",
+      "desanimada"
+    ]
+  },
+  {
+    "code": "P06",
+    "label": "Perturbação do sono",
+    "terms": [
+      "insônia",
+      "insonia",
+      "dificuldade para dormir",
+      "sono ruim",
+      "não consegue dormir"
+    ]
+  },
+  {
+    "code": "S02",
+    "label": "Prurido",
+    "terms": [
+      "coceira",
+      "prurido",
+      "pele coçando"
+    ]
+  },
+  {
+    "code": "S06",
+    "label": "Erupção cutânea localizada",
+    "terms": [
+      "manchas na pele localizadas",
+      "erupção localizada",
+      "lesões avermelhadas localizadas"
+    ]
+  },
+  {
+    "code": "S23",
+    "label": "Queda de cabelo",
+    "terms": [
+      "queda de cabelo",
+      "cabelo caindo",
+      "alopecia"
+    ]
+  },
+  {
+    "code": "F01",
+    "label": "Dor ocular",
+    "terms": [
+      "dor no olho",
+      "dor nos olhos",
+      "dor ocular"
+    ]
+  },
+  {
+    "code": "F02",
+    "label": "Olho vermelho",
+    "terms": [
+      "olho vermelho",
+      "olhos vermelhos"
+    ]
+  },
+  {
+    "code": "F03",
+    "label": "Secreção ocular",
+    "terms": [
+      "secreção ocular",
+      "remela nos olhos"
+    ]
+  },
+  {
+    "code": "H01",
+    "label": "Dor de ouvido",
+    "terms": [
+      "dor de ouvido",
+      "otalgia"
+    ]
+  },
+  {
+    "code": "H03",
+    "label": "Zumbido",
+    "terms": [
+      "zumbido",
+      "zumbido no ouvido",
+      "acufeno"
+    ]
+  },
+  {
+    "code": "A11",
+    "label": "Dor torácica inespecífica",
+    "terms": [
+      "dor no peito",
+      "dor torácica"
+    ]
+  },
+  {
+    "code": "K04",
+    "label": "Palpitações",
+    "terms": [
+      "palpitação",
+      "palpitações",
+      "coração acelerado"
+    ]
+  },
+  {
+    "code": "T01",
+    "label": "Sede excessiva",
+    "terms": [
+      "muita sede",
+      "sede excessiva",
+      "polidipsia"
+    ]
+  },
+  {
+    "code": "T08",
+    "label": "Perda de peso",
+    "terms": [
+      "perda de peso",
+      "emagrecimento involuntário",
+      "perdendo peso"
+    ]
+  }
+]

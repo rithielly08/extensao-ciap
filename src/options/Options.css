@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  background: var(--ciap-bg);
+  color: var(--ciap-text);
+  font: 14px/1.5 Arial, sans-serif;
+}
+.options {
+  max-width: 520px;
+  padding: 24px;
+}
+.options h1 {
+  margin: 0 0 16px;
+  font-size: 18px;
+  color: var(--ciap-primary-dark);
+}
+.options-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.options-row input[type="number"] {
+  width: 4.5em;
+  padding: 4px 6px;
+  font: inherit;
+}
+.options-note {
+  color: var(--ciap-muted);
+  font-size: 12px;
+}

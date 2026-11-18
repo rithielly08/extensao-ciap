@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Sugestão CIAP-2 no SOAP",
+  "version": "0.4.0",
+  "description": "Sugere códigos CIAP-2 a partir do texto do Subjetivo no SOAP do e-SUS PEC. Somente copia o código; não altera o prontuário.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "ciap-sugestao@hbrodrigues.com"
+    }
+  },
+  "action": {
+    "default_popup": "src/popup/index.html",
+    "default_title": "Sugestão CIAP-2",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "options_page": "src/options/index.html",
+  "content_scripts": [
+    {
+      "matches": ["https://esus.palmas.to.gov.br/*"],
+      "js": ["content/index.js"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ],
+  "permissions": ["storage"]
+}

@@ -1,0 +1,45 @@
+.ciap-btn {
+  font: inherit;
+  color: var(--ciap-primary-dark);
+  background: var(--ciap-primary-soft);
+  border: 1px solid var(--ciap-primary);
+  border-radius: 6px;
+  padding: 5px 9px;
+  cursor: pointer;
+}
+.ciap-btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.ciap-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.ciap-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 8px;
+  border: 1px solid var(--ciap-border);
+  border-radius: 7px;
+}
+.ciap-item-title {
+  min-width: 140px;
+}
+.ciap-item-terms {
+  flex-basis: 100%;
+  color: var(--ciap-muted);
+  font-size: 11px;
+}
+.ciap-more,
+.ciap-empty {
+  color: var(--ciap-muted);
+  font-size: 12px;
+}

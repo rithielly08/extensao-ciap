@@ -1,0 +1,10 @@
+:root,
+:host {
+  --ciap-primary: #197a86;
+  --ciap-primary-dark: #115a66;
+  --ciap-primary-soft: #edf9fa;
+  --ciap-border: #badbdc;
+  --ciap-text: #172d3f;
+  --ciap-muted: #4b6270;
+  --ciap-bg: #fff;
+}

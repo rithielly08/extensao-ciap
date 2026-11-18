@@ -1,0 +1,102 @@
+/* Posicionamento do host: flutuante por padrão, ou inline entre o Subjetivo
+ * e o "Motivo da consulta" (definido em dom/placement.ts). */
+:host {
+  all: initial;
+  display: block;
+  box-sizing: border-box;
+  color: var(--ciap-text);
+  font: 14px/1.5 Arial, sans-serif;
+}
+:host([data-placement="floating"]) {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 320px;
+  z-index: 2147483647;
+}
+:host([data-placement="inline"]) {
+  width: 100%;
+  max-width: 100%;
+  margin: 6px 0 10px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.ciap-panel {
+  padding: 12px;
+  background: var(--ciap-bg);
+  border: 2px solid var(--ciap-primary);
+  border-radius: 12px;
+  box-shadow: 0 8px 30px #0003;
+}
+:host([data-placement="inline"]) .ciap-panel {
+  padding: 8px 12px;
+  border-width: 1px;
+  border-radius: 7px;
+  box-shadow: none;
+}
+
+.ciap-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+:host([data-placement="inline"]) .ciap-top {
+  margin: 0;
+  font-size: 12px;
+}
+.ciap-min {
+  padding: 0 8px;
+  font-weight: bold;
+}
+
+.ciap-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.ciap-status {
+  margin: 8px 0 10px;
+}
+.ciap-debug,
+.ciap-result {
+  margin-top: 10px;
+}
+.ciap-debug {
+  font-size: 12px;
+  color: var(--ciap-muted);
+}
+.ciap-footnote {
+  display: block;
+  margin-top: 10px;
+  color: var(--ciap-muted);
+  font-size: 11px;
+}
+
+/* Modo compacto (inline): só as sugestões, em linhas enxutas. */
+:host([data-placement="inline"]) .ciap-body {
+  margin-top: 4px;
+}
+:host([data-placement="inline"]) .ciap-result {
+  margin: 0;
+  font-size: 12px;
+}
+:host([data-placement="inline"]) .ciap-item {
+  justify-content: flex-start;
+  padding: 3px 8px;
+  border: none;
+}
+:host([data-placement="inline"]) .ciap-item .ciap-btn {
+  margin-left: auto;
+  padding: 2px 8px;
+  font-size: 12px;
+}
+.is-scrollable {
+  max-height: 190px;
+  overflow: auto;
+}

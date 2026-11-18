@@ -1,0 +1,34 @@
+{
+  "title": "Sugestão CIAP-2 no SOAP",
+  "name": "ciap-sugestao",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/herodrigues/ciap-sugestao.git"
+  },
+  "scripts": {
+    "clean": "node scripts/clean.mjs",
+    "dev": "npm run clean && concurrently -n app,content \"vite build --watch --mode development\" \"vite build --config vite.content.config.ts --watch --mode development\"",
+    "build": "npm run clean && tsc && vite build && vite build --config vite.content.config.ts",
+    "typecheck": "tsc",
+    "test": "tsx --test \"src/**/*.test.ts\""
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.3.7",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "concurrently": "^10.0.7",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8"
+  }
+}

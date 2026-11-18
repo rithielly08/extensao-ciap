@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background: var(--ciap-bg);
+  color: var(--ciap-text);
+  font: 14px/1.5 Arial, sans-serif;
+}
+.popup {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 340px;
+  padding: 14px;
+}
+.popup-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.popup-header h1 {
+  margin: 0;
+  font-size: 16px;
+  color: var(--ciap-primary-dark);
+}
+.popup-version {
+  color: var(--ciap-muted);
+  font-size: 12px;
+}
+.popup-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.popup-tester {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.popup-tester textarea {
+  font: inherit;
+  padding: 6px;
+  border: 1px solid var(--ciap-border);
+  border-radius: 6px;
+  resize: vertical;
+}
+.popup-tester small {
+  color: var(--ciap-muted);
+  font-size: 11px;
+}
