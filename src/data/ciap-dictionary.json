@@ -1,14 +1,498 @@
 [
   {
-    "code": "N01",
-    "label": "Cefaleia",
+    "code": "30",
+    "label": "Exame médico/avaliação de saúde - completo",
     "terms": [
-      "cefaleia",
-      "cefaleias",
-      "cefalgia",
-      "dor de cabeça",
-      "dores de cabeça",
-      "dor na cabeça"
+      "exame médico completo",
+      "avaliação de saúde completa",
+      "exame físico completo",
+      "check-up completo"
+    ]
+  },
+  {
+    "code": "31",
+    "label": "Exame médico/avaliação de saúde - parcial",
+    "terms": [
+      "exame médico parcial",
+      "avaliação de saúde parcial",
+      "exame físico parcial",
+      "exame físico dirigido"
+    ]
+  },
+  {
+    "code": "32",
+    "label": "Teste de sensibilidade",
+    "terms": [
+      "teste de sensibilidade",
+      "teste alérgico",
+      "teste de alergia",
+      "teste cutâneo",
+      "teste de sensibilidade cutânea"
+    ]
+  },
+  {
+    "code": "33",
+    "label": "Exame microbiológico/imunológico",
+    "terms": [
+      "exame microbiológico",
+      "exame imunológico",
+      "sorologia",
+      "teste rápido",
+      "exame de cultura",
+      "baciloscopia",
+      "antibiograma"
+    ]
+  },
+  {
+    "code": "34",
+    "label": "Análise de sangue",
+    "terms": [
+      "análise de sangue",
+      "exame de sangue",
+      "exames de sangue",
+      "hemograma",
+      "coleta de sangue",
+      "glicemia capilar",
+      "glicemia de jejum"
+    ]
+  },
+  {
+    "code": "35",
+    "label": "Análise de urina",
+    "terms": [
+      "análise de urina",
+      "exame de urina",
+      "urina tipo 1",
+      "coleta de urina",
+      "urocultura"
+    ]
+  },
+  {
+    "code": "36",
+    "label": "Análise de fezes",
+    "terms": [
+      "análise de fezes",
+      "exame de fezes",
+      "parasitológico de fezes",
+      "coleta de fezes",
+      "coprocultura",
+      "pesquisa de sangue oculto nas fezes"
+    ]
+  },
+  {
+    "code": "37",
+    "label": "Citologia esfoliativa/histologia",
+    "terms": [
+      "citologia esfoliativa",
+      "exame citológico",
+      "exame histológico",
+      "histologia",
+      "coleta de papanicolau",
+      "coleta de preventivo",
+      "coleta de citologia",
+      "anatomopatológico"
+    ]
+  },
+  {
+    "code": "38",
+    "label": "Outras análises laboratoriais NE",
+    "terms": []
+  },
+  {
+    "code": "39",
+    "label": "Teste de função física",
+    "terms": [
+      "teste de função física",
+      "espirometria",
+      "prova de função pulmonar",
+      "teste ergométrico",
+      "audiometria",
+      "teste de acuidade visual",
+      "teste de snellen"
+    ]
+  },
+  {
+    "code": "40",
+    "label": "Endoscopia diagnóstica",
+    "terms": [
+      "endoscopia",
+      "endoscopia digestiva",
+      "endoscopia diagnóstica",
+      "colonoscopia",
+      "colposcopia",
+      "broncoscopia",
+      "cistoscopia",
+      "laringoscopia"
+    ]
+  },
+  {
+    "code": "41",
+    "label": "Radiologia diagnóstica",
+    "terms": [
+      "radiografia",
+      "raio x",
+      "raio-x",
+      "radiologia diagnóstica",
+      "ultrassonografia",
+      "ultrassom",
+      "ecografia",
+      "tomografia",
+      "ressonância magnética",
+      "mamografia",
+      "densitometria óssea"
+    ]
+  },
+  {
+    "code": "42",
+    "label": "Eletrocardiograma",
+    "terms": [
+      "eletrocardiograma",
+      "ecg",
+      "exame de eletrocardiograma"
+    ]
+  },
+  {
+    "code": "43",
+    "label": "Outros procedimentos diagnósticos",
+    "terms": []
+  },
+  {
+    "code": "44",
+    "label": "Vacinação/medicação preventiva",
+    "terms": [
+      "vacinação",
+      "vacina",
+      "vacinas",
+      "aplicação de vacina",
+      "imunização",
+      "dose de vacina",
+      "campanha de vacinação",
+      "vacina atrasada",
+      "carteira de vacinação",
+      "medicação preventiva",
+      "profilaxia"
+    ]
+  },
+  {
+    "code": "45",
+    "label": "Educação em saúde/aconselhamento/dieta",
+    "terms": [
+      "educação em saúde",
+      "aconselhamento em saúde",
+      "aconselhamento nutricional",
+      "orientação alimentar",
+      "orientação nutricional",
+      "orientação sobre dieta",
+      "orientações sobre estilo de vida",
+      "orientações de saúde"
+    ]
+  },
+  {
+    "code": "46",
+    "label": "Consulta com profissional de APS",
+    "terms": [
+      "consulta de enfermagem",
+      "consulta com enfermeiro",
+      "consulta com enfermeira",
+      "consulta com nutricionista",
+      "consulta com psicólogo",
+      "consulta com fisioterapeuta",
+      "consulta com profissional da aps"
+    ]
+  },
+  {
+    "code": "47",
+    "label": "Consulta com especialista",
+    "terms": [
+      "consulta com especialista",
+      "avaliação do especialista",
+      "parecer do especialista",
+      "consulta especializada",
+      "acompanhamento com especialista"
+    ]
+  },
+  {
+    "code": "48",
+    "label": "Esclarecimento/discussão do motivo da consulta",
+    "terms": [
+      "esclarecimento do motivo da consulta",
+      "discussão do motivo da consulta",
+      "esclarecimento de dúvidas",
+      "tirar dúvidas"
+    ]
+  },
+  {
+    "code": "49",
+    "label": "Outros procedimentos preventivos",
+    "terms": []
+  },
+  {
+    "code": "50",
+    "label": "Medicação/prescrição/renovação/injeção",
+    "terms": [
+      "renovação de receita",
+      "renovação de prescrição",
+      "renovar receita",
+      "renovar a receita",
+      "pedido de receita",
+      "troca de receita",
+      "prescrição de medicação",
+      "aplicação de injeção",
+      "injeção intramuscular",
+      "aplicação de medicação",
+      "medicação contínua"
+    ]
+  },
+  {
+    "code": "51",
+    "label": "Incisão/drenagem/aspiração/remoção",
+    "terms": [
+      "incisão e drenagem",
+      "drenagem de abscesso",
+      "drenagem de furúnculo",
+      "aspiração",
+      "remoção de corpo estranho",
+      "retirada de corpo estranho"
+    ]
+  },
+  {
+    "code": "52",
+    "label": "Excisão/biópsia/remoção/debridamento/cauterização",
+    "terms": [
+      "excisão",
+      "biópsia",
+      "exérese",
+      "exérese de lesão",
+      "retirada de lesão",
+      "debridamento",
+      "cauterização",
+      "crioterapia"
+    ]
+  },
+  {
+    "code": "53",
+    "label": "Cateterização/intubação",
+    "terms": [
+      "cateterização",
+      "sondagem vesical",
+      "sonda vesical",
+      "passagem de sonda",
+      "intubação",
+      "sondagem nasogástrica",
+      "sonda nasogástrica"
+    ]
+  },
+  {
+    "code": "54",
+    "label": "Reparação/sutura/gesso/prótese",
+    "terms": [
+      "sutura",
+      "suturar",
+      "sutura de ferida",
+      "gesso",
+      "colocação de gesso",
+      "imobilização com gesso",
+      "talas",
+      "tala gessada"
+    ]
+  },
+  {
+    "code": "55",
+    "label": "Injeção local/infiltração",
+    "terms": [
+      "infiltração",
+      "infiltração local",
+      "infiltração articular",
+      "infiltração com corticoide",
+      "injeção local",
+      "anestesia local",
+      "bloqueio local"
+    ]
+  },
+  {
+    "code": "56",
+    "label": "Ligadura/compressa/tamponamento",
+    "terms": [
+      "curativo",
+      "troca de curativo",
+      "curativo de ferida",
+      "compressa",
+      "compressas",
+      "tamponamento",
+      "ligadura",
+      "bandagem",
+      "bota de unna"
+    ]
+  },
+  {
+    "code": "57",
+    "label": "Medicina física/reabilitação",
+    "terms": [
+      "fisioterapia",
+      "reabilitação",
+      "medicina física",
+      "sessão de fisioterapia",
+      "terapia ocupacional",
+      "exercícios de reabilitação"
+    ]
+  },
+  {
+    "code": "58",
+    "label": "Aconselhamento/escuta terapêutica",
+    "terms": [
+      "escuta terapêutica",
+      "escuta qualificada",
+      "apoio psicológico",
+      "acolhimento psicológico",
+      "aconselhamento terapêutico",
+      "psicoterapia",
+      "suporte emocional"
+    ]
+  },
+  {
+    "code": "59",
+    "label": "Outros procedimentos terapêuticos/pequena cirurgia NE",
+    "terms": []
+  },
+  {
+    "code": "60",
+    "label": "Resultados de análises/procedimentos",
+    "terms": [
+      "resultado de exame",
+      "resultados de exames",
+      "resultado do exame",
+      "resultado de análise",
+      "resultado de laboratório",
+      "trouxe resultado",
+      "trouxe exames",
+      "retorno com exames",
+      "vem buscar resultado"
+    ]
+  },
+  {
+    "code": "61",
+    "label": "Contra referência de outro prestador - resultado de exames/teste/análise",
+    "terms": [
+      "contrarreferência",
+      "contra referência",
+      "contra-referência",
+      "resposta do especialista",
+      "relatório do especialista",
+      "retorno do encaminhamento",
+      "resultado de exames de outro prestador"
+    ]
+  },
+  {
+    "code": "62",
+    "label": "Procedimento administrativo",
+    "terms": [
+      "procedimento administrativo",
+      "atestado",
+      "atestado médico",
+      "pedido de atestado",
+      "declaração de comparecimento",
+      "laudo",
+      "solicitação de laudo",
+      "relatório médico",
+      "preenchimento de formulário",
+      "documentação"
+    ]
+  },
+  {
+    "code": "63",
+    "label": "Consulta de seguimento não especificada",
+    "terms": [
+      "consulta de seguimento",
+      "consulta de retorno",
+      "retorno de consulta",
+      "consulta de acompanhamento",
+      "reavaliação",
+      "volta para reavaliação"
+    ]
+  },
+  {
+    "code": "64",
+    "label": "Episódio/problema iniciado pelo prestador",
+    "terms": [
+      "episódio iniciado pelo prestador",
+      "problema iniciado pelo profissional",
+      "consulta por iniciativa do profissional",
+      "busca ativa",
+      "convocado pela unidade",
+      "convocada pela unidade",
+      "chamado pela unidade",
+      "chamada pela unidade"
+    ]
+  },
+  {
+    "code": "65",
+    "label": "Episódio/problema iniciado por outro NE",
+    "terms": [
+      "episódio iniciado por outro prestador",
+      "problema iniciado por outro profissional",
+      "iniciado por outro serviço",
+      "indicado por outro profissional"
+    ]
+  },
+  {
+    "code": "66",
+    "label": "Referenciado a outro prestador/enfermeiro/assistente social/terapeuta",
+    "terms": [
+      "encaminhamento para enfermeiro",
+      "encaminhado para enfermeiro",
+      "encaminhamento para psicólogo",
+      "encaminhado ao psicólogo",
+      "encaminhamento para nutricionista",
+      "encaminhado ao nutricionista",
+      "encaminhamento para assistente social",
+      "encaminhado para assistente social",
+      "encaminhado para terapeuta"
+    ]
+  },
+  {
+    "code": "67",
+    "label": "Referenciado para médico/especialista/clínica/hospital",
+    "terms": [
+      "encaminhamento para especialista",
+      "encaminhado para especialista",
+      "encaminhado ao especialista",
+      "referência para especialista",
+      "encaminhamento médico",
+      "encaminhamento para hospital",
+      "encaminhado para o hospital",
+      "encaminhado para clínica"
+    ]
+  },
+  {
+    "code": "68",
+    "label": "Outras referências NE",
+    "terms": []
+  },
+  {
+    "code": "69",
+    "label": "Outro motivo de consulta NE",
+    "terms": []
+  },
+  {
+    "code": "A01",
+    "label": "Dor generalizada/múltipla",
+    "terms": [
+      "dor generalizada",
+      "dor pelo corpo todo",
+      "dor no corpo todo",
+      "dores pelo corpo",
+      "dor em vários lugares",
+      "dor difusa"
+    ]
+  },
+  {
+    "code": "A02",
+    "label": "Arrepios/calafrios",
+    "terms": [
+      "arrepios",
+      "calafrios",
+      "calafrio",
+      "tremedeira de frio"
     ]
   },
   {
@@ -22,7 +506,7 @@
   },
   {
     "code": "A04",
-    "label": "Cansaço geral/fadiga",
+    "label": "Debilidade/cansaço geral/fadiga",
     "terms": [
       "fadiga",
       "cansaço",
@@ -32,7 +516,7 @@
   },
   {
     "code": "A05",
-    "label": "Mal-estar",
+    "label": "Sentir-se doente",
     "terms": [
       "mal estar",
       "mal-estar",
@@ -49,64 +533,713 @@
     ]
   },
   {
-    "code": "R05",
-    "label": "Tosse",
+    "code": "A07",
+    "label": "Coma",
     "terms": [
-      "tosse",
-      "tossindo",
-      "tossir"
+      "comatoso",
+      "paciente em coma",
+      "rebaixamento do nível de consciência",
+      "entrou em coma"
     ]
   },
   {
-    "code": "R02",
-    "label": "Dificuldade respiratória/dispneia",
+    "code": "A08",
+    "label": "Inchaço",
     "terms": [
-      "falta de ar",
-      "dispneia",
-      "dificuldade para respirar",
-      "dificuldade respiratória"
+      "inchaço",
+      "corpo inchado",
+      "edema generalizado",
+      "anasarca"
     ]
   },
   {
-    "code": "R07",
-    "label": "Espirro/congestão nasal",
+    "code": "A09",
+    "label": "Problemas de sudorese",
     "terms": [
-      "espirro",
-      "espirros",
-      "nariz entupido",
-      "congestão nasal"
+      "sudorese",
+      "sudorese excessiva",
+      "suor excessivo",
+      "suando muito",
+      "suores noturnos",
+      "sudorese noturna",
+      "hiperidrose"
     ]
   },
   {
-    "code": "R21",
-    "label": "Sintomas da garganta",
+    "code": "A10",
+    "label": "Sangramento/Hemorragia NE",
+    "terms": []
+  },
+  {
+    "code": "A11",
+    "label": "Dores torácicas NE",
     "terms": [
-      "dor de garganta",
-      "garganta dolorida",
-      "irritação na garganta"
+      "dor no peito",
+      "dor torácica"
     ]
   },
   {
-    "code": "R06",
-    "label": "Sangramento nasal",
+    "code": "A13",
+    "label": "Receio/Medo do tratamento",
     "terms": [
-      "sangramento nasal",
-      "sangramento pelo nariz",
-      "epistaxe"
+      "medo do tratamento",
+      "receio do tratamento",
+      "medo da cirurgia",
+      "medo de tomar medicação",
+      "medo de tomar remédio"
     ]
   },
   {
-    "code": "R25",
-    "label": "Expectoração anormal",
+    "code": "A16",
+    "label": "Criança irritável",
     "terms": [
-      "catarro",
-      "expectoração",
-      "escarro"
+      "criança irritada",
+      "criança irritável",
+      "criança chorosa",
+      "choro excessivo",
+      "bebê irritado",
+      "bebê chorando muito"
     ]
+  },
+  {
+    "code": "A18",
+    "label": "Preocupação com aparência",
+    "terms": [
+      "preocupação com a aparência",
+      "preocupado com a aparência",
+      "preocupada com a aparência",
+      "insatisfeito com o corpo",
+      "insatisfeita com o corpo"
+    ]
+  },
+  {
+    "code": "A20",
+    "label": "Pedido/discussão eutanásia",
+    "terms": [
+      "eutanásia",
+      "pedido de eutanásia",
+      "morte assistida"
+    ]
+  },
+  {
+    "code": "A21",
+    "label": "Fator de risco de malignidade",
+    "terms": [
+      "fator de risco para câncer",
+      "história familiar de câncer",
+      "antecedente familiar de câncer",
+      "risco de malignidade"
+    ]
+  },
+  {
+    "code": "A23",
+    "label": "Fator de risco NE",
+    "terms": []
+  },
+  {
+    "code": "A25",
+    "label": "Medo de morrer/medo da morte",
+    "terms": [
+      "medo de morrer",
+      "medo da morte",
+      "tem medo de morrer",
+      "sensação de morte iminente",
+      "sensação de que vai morrer"
+    ]
+  },
+  {
+    "code": "A26",
+    "label": "Medo de câncer NE",
+    "terms": [
+      "medo de câncer",
+      "medo de ter câncer",
+      "receio de câncer",
+      "preocupado com câncer",
+      "preocupada com câncer"
+    ]
+  },
+  {
+    "code": "A27",
+    "label": "Medo de outra doença NE",
+    "terms": [
+      "medo de doença grave",
+      "medo de estar doente",
+      "medo de ter uma doença",
+      "receio de doença grave",
+      "preocupado com doença grave"
+    ]
+  },
+  {
+    "code": "A28",
+    "label": "Limitação funcional/incapacidade NE",
+    "terms": []
+  },
+  {
+    "code": "A29",
+    "label": "Outros sinais/sintomas gerais",
+    "terms": []
+  },
+  {
+    "code": "A70",
+    "label": "Tuberculose",
+    "terms": [
+      "tuberculose",
+      "tuberculose pulmonar",
+      "baciloscopia positiva",
+      "tuberculoso",
+      "tuberculosa"
+    ]
+  },
+  {
+    "code": "A71",
+    "label": "Sarampo",
+    "terms": [
+      "sarampo",
+      "suspeita de sarampo"
+    ]
+  },
+  {
+    "code": "A72",
+    "label": "Varicela",
+    "terms": [
+      "varicela",
+      "catapora"
+    ]
+  },
+  {
+    "code": "A73",
+    "label": "Malária",
+    "terms": [
+      "malária",
+      "maleita",
+      "impaludismo"
+    ]
+  },
+  {
+    "code": "A74",
+    "label": "Rubéola",
+    "terms": [
+      "rubéola",
+      "suspeita de rubéola"
+    ]
+  },
+  {
+    "code": "A75",
+    "label": "Mononucleose infecciosa",
+    "terms": [
+      "mononucleose",
+      "mononucleose infecciosa",
+      "doença do beijo"
+    ]
+  },
+  {
+    "code": "A76",
+    "label": "Outro exantema viral",
+    "terms": [
+      "exantema viral",
+      "exantema",
+      "roséola",
+      "roséola infantil"
+    ]
+  },
+  {
+    "code": "A77",
+    "label": "Dengue e outras doenças virais NE",
+    "terms": [
+      "dengue",
+      "suspeita de dengue",
+      "zika",
+      "chikungunya",
+      "febre amarela",
+      "virose"
+    ]
+  },
+  {
+    "code": "A78",
+    "label": "Hanseníase e outras doenças infecciosas NE",
+    "terms": [
+      "hanseníase",
+      "lepra",
+      "leishmaniose",
+      "doença de chagas",
+      "leptospirose"
+    ]
+  },
+  {
+    "code": "A79",
+    "label": "Carcinomatose (localização primária desconhecida)",
+    "terms": [
+      "carcinomatose",
+      "metástases",
+      "metástase",
+      "câncer metastático",
+      "tumor primário desconhecido"
+    ]
+  },
+  {
+    "code": "A80",
+    "label": "Lesão traumática/acidente NE",
+    "terms": [
+      "acidente",
+      "sofreu acidente",
+      "sofreu um acidente",
+      "lesão traumática"
+    ]
+  },
+  {
+    "code": "A81",
+    "label": "Politraumatismos/ferimentos múltiplos",
+    "terms": [
+      "politraumatismo",
+      "politraumatizado",
+      "politraumatizada",
+      "múltiplas lesões",
+      "ferimentos múltiplos",
+      "múltiplos traumas"
+    ]
+  },
+  {
+    "code": "A82",
+    "label": "Efeito secundário de lesão traumática",
+    "terms": [
+      "sequela de trauma",
+      "sequelas de trauma",
+      "sequela de acidente",
+      "sequela de lesão traumática",
+      "efeito tardio de trauma"
+    ]
+  },
+  {
+    "code": "A84",
+    "label": "Intoxicação por medicamento",
+    "terms": [
+      "intoxicação medicamentosa",
+      "intoxicação por medicamento",
+      "intoxicação por remédio",
+      "overdose de medicamento",
+      "tomou remédio demais",
+      "ingeriu muitos comprimidos",
+      "superdosagem de medicamento"
+    ]
+  },
+  {
+    "code": "A85",
+    "label": "Efeito adverso de fármaco dose correta",
+    "terms": [
+      "efeito colateral",
+      "efeitos colaterais",
+      "reação adversa",
+      "reação adversa a medicamento",
+      "efeito adverso de medicamento",
+      "intolerância ao medicamento",
+      "reação ao remédio"
+    ]
+  },
+  {
+    "code": "A86",
+    "label": "Efeito tóxico de substância não medicinal",
+    "terms": [
+      "intoxicação por veneno",
+      "intoxicação por produto químico",
+      "intoxicação por agrotóxico",
+      "intoxicação por inseticida",
+      "intoxicação por monóxido de carbono",
+      "envenenamento",
+      "ingeriu veneno",
+      "ingeriu produto de limpeza"
+    ]
+  },
+  {
+    "code": "A87",
+    "label": "Complicações de tratamento médico",
+    "terms": [
+      "complicação de cirurgia",
+      "complicação cirúrgica",
+      "complicação pós-operatória",
+      "infecção pós-operatória",
+      "deiscência de sutura",
+      "complicação de procedimento",
+      "complicação do tratamento médico",
+      "iatrogenia"
+    ]
+  },
+  {
+    "code": "A88",
+    "label": "Efeito adverso de fator físico",
+    "terms": [
+      "insolação",
+      "golpe de calor",
+      "intermação",
+      "hipotermia",
+      "geladura",
+      "choque elétrico",
+      "eletrocussão",
+      "afogamento",
+      "mal de altitude",
+      "lesão por radiação"
+    ]
+  },
+  {
+    "code": "A89",
+    "label": "Efeito da prótese",
+    "terms": [
+      "problema com prótese",
+      "prótese com defeito",
+      "rejeição de prótese",
+      "dor na prótese",
+      "prótese solta",
+      "prótese quebrada",
+      "problema com implante",
+      "complicação de prótese"
+    ]
+  },
+  {
+    "code": "A90",
+    "label": "Malformação congênita NE/múltiplas",
+    "terms": [
+      "síndrome de down",
+      "trissomia 21",
+      "malformações múltiplas",
+      "malformação congênita",
+      "anomalia congênita",
+      "síndrome genética"
+    ]
+  },
+  {
+    "code": "A91",
+    "label": "Investigação com resultado anormal NE",
+    "terms": [
+      "exame alterado",
+      "resultado de exame alterado",
+      "exames alterados",
+      "alteração em exame",
+      "resultado anormal",
+      "exame de imagem alterado",
+      "exame laboratorial alterado"
+    ]
+  },
+  {
+    "code": "A92",
+    "label": "Alergia/reação alérgica NE",
+    "terms": [
+      "reação alérgica",
+      "alergia alimentar",
+      "alergia a medicamento",
+      "alergia medicamentosa",
+      "choque anafilático",
+      "anafilaxia"
+    ]
+  },
+  {
+    "code": "A93",
+    "label": "Recém-nascido prematuro",
+    "terms": [
+      "recém-nascido prematuro",
+      "recém nascido prematuro",
+      "bebê prematuro",
+      "prematuridade",
+      "nasceu prematuro"
+    ]
+  },
+  {
+    "code": "A94",
+    "label": "Morbidade perinatal, outra",
+    "terms": []
+  },
+  {
+    "code": "A95",
+    "label": "Mortalidade perinatal",
+    "terms": [
+      "mortalidade perinatal",
+      "óbito perinatal",
+      "óbito neonatal",
+      "morte neonatal",
+      "morte do recém-nascido"
+    ]
+  },
+  {
+    "code": "A96",
+    "label": "Morte",
+    "terms": [
+      "constatação de óbito",
+      "declaração de óbito",
+      "atestado de óbito",
+      "paciente em óbito",
+      "óbito"
+    ]
+  },
+  {
+    "code": "A97",
+    "label": "Sem doença",
+    "terms": [
+      "sem doença",
+      "sem queixas",
+      "sem nenhuma queixa",
+      "nega queixas",
+      "assintomático",
+      "assintomática",
+      "paciente saudável",
+      "exames normais"
+    ]
+  },
+  {
+    "code": "A98",
+    "label": "Medicina preventiva/manutenção da saúde",
+    "terms": [
+      "check-up",
+      "checkup",
+      "consulta de rotina",
+      "exames de rotina",
+      "consulta preventiva",
+      "medicina preventiva",
+      "manutenção da saúde",
+      "rastreamento",
+      "avaliação periódica de saúde"
+    ]
+  },
+  {
+    "code": "A99",
+    "label": "Outras doenças gerais NE",
+    "terms": []
+  },
+  {
+    "code": "B02",
+    "label": "Gânglio linfático aumentado/doloroso",
+    "terms": [
+      "íngua",
+      "ínguas",
+      "gânglio inchado",
+      "gânglio aumentado",
+      "linfonodomegalia",
+      "adenomegalia"
+    ]
+  },
+  {
+    "code": "B04",
+    "label": "Sinais/sintomas sangue",
+    "terms": [
+      "sangue fraco",
+      "sangue ruim",
+      "sangue ralo",
+      "sangue grosso"
+    ]
+  },
+  {
+    "code": "B25",
+    "label": "Medo de HIV/AIDS",
+    "terms": [
+      "medo de hiv",
+      "medo de aids",
+      "medo de ter hiv",
+      "medo de ter aids",
+      "medo de estar com aids",
+      "receio de hiv"
+    ]
+  },
+  {
+    "code": "B26",
+    "label": "Medo de câncer no sangue/linfático",
+    "terms": [
+      "medo de leucemia",
+      "medo de linfoma",
+      "medo de câncer no sangue"
+    ]
+  },
+  {
+    "code": "B27",
+    "label": "Medo de outras doenças do sangue/vasos linfáticos",
+    "terms": [
+      "medo de anemia",
+      "medo de doença no sangue",
+      "medo de problema no sangue"
+    ]
+  },
+  {
+    "code": "B28",
+    "label": "Limitação funcional/incapacidade",
+    "terms": []
+  },
+  {
+    "code": "B29",
+    "label": "Outros sinais/sintomas do sangue/sistema linfático/baço NE",
+    "terms": []
+  },
+  {
+    "code": "B70",
+    "label": "Linfadenite aguda",
+    "terms": [
+      "linfadenite",
+      "linfadenite aguda",
+      "adenite",
+      "gânglio inflamado",
+      "ínguas inflamadas"
+    ]
+  },
+  {
+    "code": "B71",
+    "label": "Linfadenite crônica NE",
+    "terms": [
+      "linfadenite crônica",
+      "adenite crônica",
+      "linfadenopatia crônica"
+    ]
+  },
+  {
+    "code": "B72",
+    "label": "Doença de Hodgkin/linfomas",
+    "terms": [
+      "linfoma",
+      "doença de hodgkin",
+      "linfoma de hodgkin",
+      "linfoma não hodgkin",
+      "câncer no sistema linfático"
+    ]
+  },
+  {
+    "code": "B73",
+    "label": "Leucemia",
+    "terms": [
+      "leucemia",
+      "leucemia aguda",
+      "leucemia crônica",
+      "câncer no sangue"
+    ]
+  },
+  {
+    "code": "B74",
+    "label": "Outra neoplasia maligna no sangue",
+    "terms": [
+      "mieloma múltiplo",
+      "mieloma",
+      "neoplasia maligna do sangue",
+      "síndrome mielodisplásica"
+    ]
+  },
+  {
+    "code": "B75",
+    "label": "Neoplasia benigna NE",
+    "terms": []
+  },
+  {
+    "code": "B76",
+    "label": "Ruptura traumática do baço",
+    "terms": [
+      "ruptura do baço",
+      "rotura do baço",
+      "baço rompido",
+      "trauma no baço"
+    ]
+  },
+  {
+    "code": "B77",
+    "label": "Outras lesões traumáticas do sangue/linfa/baço",
+    "terms": []
+  },
+  {
+    "code": "B78",
+    "label": "Anemia hemolítica hereditária",
+    "terms": [
+      "anemia falciforme",
+      "anemia hemolítica",
+      "esferocitose hereditária",
+      "talassemia",
+      "doença falciforme"
+    ]
+  },
+  {
+    "code": "B79",
+    "label": "Outra malformação congênita do sangue/linfática",
+    "terms": []
+  },
+  {
+    "code": "B80",
+    "label": "Anemia por deficiência ferro",
+    "terms": [
+      "anemia ferropriva",
+      "anemia por falta de ferro",
+      "anemia por deficiência de ferro",
+      "deficiência de ferro",
+      "ferro baixo"
+    ]
+  },
+  {
+    "code": "B81",
+    "label": "Anemia perniciosa/deficiência de folatos",
+    "terms": [
+      "anemia perniciosa",
+      "deficiência de vitamina b12",
+      "deficiência de b12",
+      "deficiência de ácido fólico",
+      "anemia megaloblástica"
+    ]
+  },
+  {
+    "code": "B82",
+    "label": "Outras anemias NE",
+    "terms": [
+      "anemia",
+      "hemoglobina baixa",
+      "anêmico",
+      "anêmica"
+    ]
+  },
+  {
+    "code": "B83",
+    "label": "Púrpura/defeitos de coagulação",
+    "terms": [
+      "púrpura",
+      "manchas roxas espontâneas",
+      "hematomas espontâneos",
+      "distúrbio de coagulação",
+      "hemofilia",
+      "trombocitopenia",
+      "plaquetas baixas"
+    ]
+  },
+  {
+    "code": "B84",
+    "label": "Glóbulos brancos anormais",
+    "terms": [
+      "leucocitose",
+      "leucopenia",
+      "leucócitos altos",
+      "leucócitos baixos",
+      "glóbulos brancos altos",
+      "glóbulos brancos baixos",
+      "neutropenia"
+    ]
+  },
+  {
+    "code": "B87",
+    "label": "Esplenomegalia",
+    "terms": [
+      "esplenomegalia",
+      "baço aumentado",
+      "baço grande"
+    ]
+  },
+  {
+    "code": "B90",
+    "label": "Infecção por HIV/AIDS",
+    "terms": [
+      "infecção por hiv",
+      "hiv positivo",
+      "vírus hiv",
+      "portador de hiv",
+      "soropositivo",
+      "soropositiva",
+      "aids",
+      "síndrome da imunodeficiência adquirida"
+    ]
+  },
+  {
+    "code": "B99",
+    "label": "Outra doença do sangue/linfáticos/baço",
+    "terms": []
   },
   {
     "code": "D01",
-    "label": "Dor abdominal/cólicas",
+    "label": "Dor abdominal generalizada/cólicas",
     "terms": [
       "dor abdominal",
       "dor de barriga",
@@ -116,7 +1249,7 @@
   },
   {
     "code": "D02",
-    "label": "Dor epigástrica",
+    "label": "Dores abdominais, epigástricas",
     "terms": [
       "dor no estômago",
       "dor epigástrica",
@@ -125,7 +1258,7 @@
   },
   {
     "code": "D03",
-    "label": "Azia/queimação",
+    "label": "Azia/Queimação",
     "terms": [
       "azia",
       "queimação no estômago",
@@ -133,8 +1266,52 @@
     ]
   },
   {
+    "code": "D04",
+    "label": "Dor anal/retal",
+    "terms": [
+      "dor no ânus",
+      "dor anal",
+      "dor retal",
+      "dor no reto"
+    ]
+  },
+  {
+    "code": "D05",
+    "label": "Irritação perianal",
+    "terms": [
+      "coceira no ânus",
+      "coceira anal",
+      "prurido anal",
+      "irritação perianal",
+      "assadura no ânus"
+    ]
+  },
+  {
+    "code": "D06",
+    "label": "Outras dores abdominais localizadas",
+    "terms": [
+      "dor no baixo ventre",
+      "dor no flanco",
+      "dor na fossa ilíaca",
+      "dor no hipocôndrio",
+      "dor no pé da barriga"
+    ]
+  },
+  {
+    "code": "D07",
+    "label": "Dispepsia/indigestão",
+    "terms": [
+      "indigestão",
+      "dispepsia",
+      "má digestão",
+      "empachamento",
+      "estômago pesado",
+      "digestão difícil"
+    ]
+  },
+  {
     "code": "D08",
-    "label": "Gases/flatulência",
+    "label": "Flatulência/gases/eructações",
     "terms": [
       "flatulência",
       "gases intestinais",
@@ -153,7 +1330,7 @@
   },
   {
     "code": "D10",
-    "label": "Vômitos",
+    "label": "Vômito",
     "terms": [
       "vômito",
       "vômitos",
@@ -172,7 +1349,7 @@
   },
   {
     "code": "D12",
-    "label": "Constipação intestinal",
+    "label": "Obstipação",
     "terms": [
       "constipação intestinal",
       "intestino preso",
@@ -181,8 +1358,39 @@
     ]
   },
   {
+    "code": "D13",
+    "label": "Icterícia",
+    "terms": [
+      "icterícia",
+      "amarelão",
+      "pele amarelada",
+      "olhos amarelos",
+      "olhos amarelados"
+    ]
+  },
+  {
+    "code": "D14",
+    "label": "Hematêmese/vômito sangue",
+    "terms": [
+      "vômito com sangue",
+      "vomitou sangue",
+      "vomitando sangue",
+      "hematêmese"
+    ]
+  },
+  {
+    "code": "D15",
+    "label": "Melena",
+    "terms": [
+      "melena",
+      "fezes pretas",
+      "fezes escuras",
+      "fezes escurecidas"
+    ]
+  },
+  {
     "code": "D16",
-    "label": "Sangramento retal",
+    "label": "Hemorragia retal",
     "terms": [
       "sangue nas fezes",
       "sangramento retal",
@@ -190,184 +1398,443 @@
     ]
   },
   {
-    "code": "U01",
-    "label": "Disúria",
+    "code": "D17",
+    "label": "Incontinência fecal",
     "terms": [
-      "disúria",
-      "dor ao urinar",
-      "ardor ao urinar",
-      "queimação ao urinar"
+      "incontinência fecal",
+      "perda de fezes",
+      "escapa fezes",
+      "não segura as fezes",
+      "não controla as fezes"
     ]
   },
   {
-    "code": "U02",
-    "label": "Frequência/urgência urinária",
+    "code": "D18",
+    "label": "Alterações nas fezes/mov. intestinais",
     "terms": [
-      "urina toda hora",
-      "urinando toda hora",
-      "micção frequente",
-      "urgência urinária",
-      "polaciúria"
+      "alteração das fezes",
+      "fezes com muco",
+      "fezes pastosas",
+      "fezes claras",
+      "fezes esbranquiçadas",
+      "alteração do hábito intestinal"
     ]
   },
   {
-    "code": "U04",
-    "label": "Incontinência urinária",
+    "code": "D19",
+    "label": "Sinais/sintomas dos dentes/gengivas",
     "terms": [
-      "incontinência urinária",
-      "perda involuntária de urina",
-      "escapa urina"
+      "dor de dente",
+      "dor no dente",
+      "dente doendo",
+      "gengiva sangrando",
+      "sangramento na gengiva",
+      "gengiva inchada",
+      "dente sensível"
     ]
   },
   {
-    "code": "U06",
-    "label": "Hematúria",
+    "code": "D20",
+    "label": "Sinais/sintomas da boca/língua/lábios",
     "terms": [
-      "sangue na urina",
-      "hematúria"
+      "ferida na boca",
+      "afta",
+      "aftas",
+      "língua inchada",
+      "lábio rachado",
+      "boca seca",
+      "dor na língua",
+      "língua saburrosa"
     ]
   },
   {
-    "code": "L03",
-    "label": "Sintomas da região lombar",
+    "code": "D21",
+    "label": "Problemas de deglutição",
     "terms": [
-      "dor lombar",
-      "lombalgia",
-      "dor nas costas na lombar",
-      "dor na lombar"
+      "disfagia",
+      "dificuldade para engolir",
+      "dificuldade de engolir",
+      "engasgo",
+      "engasgando"
     ]
   },
   {
-    "code": "L01",
-    "label": "Sintomas do pescoço",
+    "code": "D23",
+    "label": "Hepatomegalia",
     "terms": [
-      "dor no pescoço",
-      "cervicalgia"
+      "hepatomegalia",
+      "fígado aumentado",
+      "fígado grande"
     ]
   },
   {
-    "code": "L02",
-    "label": "Sintomas da região dorsal",
+    "code": "D24",
+    "label": "Massa abdominal NE",
     "terms": [
-      "dor dorsal",
-      "dorsalgia",
-      "dor no meio das costas"
+      "massa abdominal",
+      "caroço na barriga",
+      "tumor na barriga",
+      "nódulo abdominal"
     ]
   },
   {
-    "code": "L08",
-    "label": "Sintomas do ombro",
+    "code": "D25",
+    "label": "Distensão abdominal",
     "terms": [
-      "dor no ombro",
-      "ombro dolorido"
+      "distensão abdominal",
+      "barriga inchada",
+      "barriga distendida",
+      "abdome distendido",
+      "abdômen distendido",
+      "barriga estufada"
     ]
   },
   {
-    "code": "L15",
-    "label": "Sintomas do joelho",
+    "code": "D26",
+    "label": "Medo de câncer no aparelho digestivo",
     "terms": [
-      "dor no joelho",
-      "joelho dolorido"
+      "medo de câncer no estômago",
+      "medo de câncer de estômago",
+      "medo de câncer no intestino",
+      "medo de câncer de intestino",
+      "medo de câncer no fígado"
     ]
   },
   {
-    "code": "L18",
-    "label": "Dores musculares",
+    "code": "D27",
+    "label": "Medo de outras doenças aparelho digestivo",
     "terms": [
-      "mialgia",
-      "dor muscular",
-      "dores musculares"
+      "medo de úlcera",
+      "medo de gastrite",
+      "medo de doença no estômago",
+      "medo de doença no intestino"
     ]
   },
   {
-    "code": "L20",
-    "label": "Sintomas articulares",
+    "code": "D28",
+    "label": "Limitação funcional/incapacidade",
+    "terms": []
+  },
+  {
+    "code": "D29",
+    "label": "Outros sinais/sintomas digestivos",
+    "terms": []
+  },
+  {
+    "code": "D70",
+    "label": "Infecção gastrointestinal",
     "terms": [
-      "dor nas articulações",
-      "artralgia",
-      "dores articulares"
+      "infecção intestinal",
+      "infecção gastrointestinal",
+      "disenteria",
+      "salmonelose",
+      "intoxicação alimentar"
     ]
   },
   {
-    "code": "N17",
-    "label": "Tontura/vertigem",
+    "code": "D71",
+    "label": "Caxumba/parotidite epidêmica",
     "terms": [
-      "tontura",
-      "tonturas",
-      "vertigem",
-      "vertigens"
+      "caxumba",
+      "parotidite",
+      "papeira",
+      "parotidite epidêmica"
     ]
   },
   {
-    "code": "N05",
-    "label": "Formigamento dos dedos",
+    "code": "D72",
+    "label": "Hepatite viral",
     "terms": [
-      "formigamento nos dedos",
-      "formigamento nas mãos",
-      "formigamento nos pés"
+      "hepatite viral",
+      "hepatite b",
+      "hepatite c",
+      "vírus da hepatite",
+      "hepatite tipo a"
     ]
   },
   {
-    "code": "P01",
-    "label": "Sensação de ansiedade/nervosismo",
+    "code": "D73",
+    "label": "Gastroenterite, presumível infecção",
     "terms": [
-      "ansiedade",
-      "ansioso",
-      "ansiosa",
-      "nervosismo"
+      "gastroenterite",
+      "gastroenterite aguda",
+      "virose intestinal",
+      "gastroenterocolite"
     ]
   },
   {
-    "code": "P03",
-    "label": "Tristeza/sensação de depressão",
+    "code": "D74",
+    "label": "Neoplasia maligna do estômago",
     "terms": [
-      "tristeza",
-      "se sente triste",
-      "desanimado",
-      "desanimada"
+      "câncer de estômago",
+      "câncer no estômago",
+      "neoplasia maligna do estômago",
+      "tumor no estômago",
+      "adenocarcinoma gástrico"
     ]
   },
   {
-    "code": "P06",
-    "label": "Perturbação do sono",
+    "code": "D75",
+    "label": "Neoplasia maligna do cólon/reto",
     "terms": [
-      "insônia",
-      "insonia",
-      "dificuldade para dormir",
-      "sono ruim",
-      "não consegue dormir"
+      "câncer de intestino",
+      "câncer de cólon",
+      "câncer de reto",
+      "câncer colorretal",
+      "câncer no intestino",
+      "neoplasia de cólon"
     ]
   },
   {
-    "code": "S02",
-    "label": "Prurido",
+    "code": "D76",
+    "label": "Neoplasia maligna do pâncreas",
     "terms": [
-      "coceira",
-      "prurido",
-      "pele coçando"
+      "câncer de pâncreas",
+      "câncer no pâncreas",
+      "neoplasia de pâncreas",
+      "tumor no pâncreas"
     ]
   },
   {
-    "code": "S06",
-    "label": "Erupção cutânea localizada",
+    "code": "D77",
+    "label": "Neoplasia maligna do aparelho digestivo NE",
     "terms": [
-      "manchas na pele localizadas",
-      "erupção localizada",
-      "lesões avermelhadas localizadas"
+      "câncer de esôfago",
+      "câncer de fígado",
+      "câncer de vesícula biliar",
+      "hepatocarcinoma"
     ]
   },
   {
-    "code": "S23",
-    "label": "Queda de cabelo",
+    "code": "D78",
+    "label": "Neoplasia benigna do aparelho digestivo/incerta",
     "terms": [
-      "queda de cabelo",
-      "cabelo caindo",
-      "alopecia"
+      "pólipo intestinal",
+      "pólipo no intestino",
+      "pólipo no cólon",
+      "pólipos colônicos",
+      "adenoma colônico",
+      "pólipo gástrico"
     ]
+  },
+  {
+    "code": "D79",
+    "label": "Corpo estranho no aparelho digestivo",
+    "terms": [
+      "engoliu objeto",
+      "corpo estranho no estômago",
+      "corpo estranho no esôfago",
+      "engoliu moeda",
+      "objeto engolido"
+    ]
+  },
+  {
+    "code": "D80",
+    "label": "Outras lesões traumáticas",
+    "terms": []
+  },
+  {
+    "code": "D81",
+    "label": "Malformações congênitas do aparelho digestivo",
+    "terms": [
+      "atresia de esôfago",
+      "estenose hipertrófica do piloro",
+      "megacólon congênito",
+      "ânus imperfurado",
+      "malformação do aparelho digestivo"
+    ]
+  },
+  {
+    "code": "D82",
+    "label": "Doença dos dentes/gengivas",
+    "terms": [
+      "cárie",
+      "dente cariado",
+      "gengivite",
+      "periodontite",
+      "abscesso dentário",
+      "doença periodontal"
+    ]
+  },
+  {
+    "code": "D83",
+    "label": "Doença da boca/língua/lábios",
+    "terms": [
+      "estomatite",
+      "glossite",
+      "queilite",
+      "leucoplasia oral",
+      "aftas recorrentes"
+    ]
+  },
+  {
+    "code": "D84",
+    "label": "Doença do esôfago",
+    "terms": [
+      "refluxo",
+      "refluxo gastroesofágico",
+      "doença do refluxo gastroesofágico",
+      "esofagite",
+      "esôfago de barrett"
+    ]
+  },
+  {
+    "code": "D85",
+    "label": "Úlcera do duodeno",
+    "terms": [
+      "úlcera duodenal",
+      "úlcera no duodeno",
+      "úlcera de duodeno"
+    ]
+  },
+  {
+    "code": "D86",
+    "label": "Úlcera péptica, outra",
+    "terms": [
+      "úlcera gástrica",
+      "úlcera péptica",
+      "úlcera no estômago",
+      "úlcera de estômago"
+    ]
+  },
+  {
+    "code": "D87",
+    "label": "Alterações funcionais estômago",
+    "terms": [
+      "gastrite",
+      "gastroparesia",
+      "esvaziamento gástrico lento"
+    ]
+  },
+  {
+    "code": "D88",
+    "label": "Apendicite",
+    "terms": [
+      "apendicite",
+      "apendicite aguda",
+      "inflamação do apêndice"
+    ]
+  },
+  {
+    "code": "D89",
+    "label": "Hérnia inguinal",
+    "terms": [
+      "hérnia inguinal",
+      "hérnia na virilha",
+      "caroço na virilha"
+    ]
+  },
+  {
+    "code": "D90",
+    "label": "Hérnia de hiato/diafragmática",
+    "terms": [
+      "hérnia de hiato",
+      "hérnia hiatal",
+      "hérnia diafragmática"
+    ]
+  },
+  {
+    "code": "D91",
+    "label": "Hérnia abdominal, outra",
+    "terms": [
+      "hérnia umbilical",
+      "hérnia incisional",
+      "hérnia abdominal",
+      "hérnia epigástrica",
+      "hérnia no umbigo"
+    ]
+  },
+  {
+    "code": "D92",
+    "label": "Doença diverticular intestinal",
+    "terms": [
+      "diverticulite",
+      "diverticulose",
+      "doença diverticular",
+      "divertículos no intestino"
+    ]
+  },
+  {
+    "code": "D93",
+    "label": "Síndrome do cólon irritável",
+    "terms": [
+      "síndrome do intestino irritável",
+      "síndrome do cólon irritável",
+      "intestino irritável",
+      "cólon irritável"
+    ]
+  },
+  {
+    "code": "D94",
+    "label": "Enterite crônica/colite ulcerosa",
+    "terms": [
+      "colite ulcerativa",
+      "colite ulcerosa",
+      "retocolite ulcerativa",
+      "retocolite",
+      "doença de crohn",
+      "enterite crônica",
+      "colite"
+    ]
+  },
+  {
+    "code": "D95",
+    "label": "Fissura anal/abscesso perianal",
+    "terms": [
+      "fissura anal",
+      "fissura no ânus",
+      "abscesso perianal",
+      "abscesso anal"
+    ]
+  },
+  {
+    "code": "D96",
+    "label": "Lombrigas/outros parasitas",
+    "terms": [
+      "lombriga",
+      "lombrigas",
+      "verminose",
+      "vermes",
+      "oxiúros",
+      "oxiuríase",
+      "giardíase",
+      "parasitose intestinal",
+      "ascaridíase"
+    ]
+  },
+  {
+    "code": "D97",
+    "label": "Doenças do fígado/NE",
+    "terms": [
+      "cirrose",
+      "hepatite alcoólica",
+      "esteatose hepática",
+      "gordura no fígado",
+      "fígado gorduroso",
+      "doença hepática",
+      "hepatopatia"
+    ]
+  },
+  {
+    "code": "D98",
+    "label": "Colecistite, colelitíase",
+    "terms": [
+      "colecistite",
+      "colelitíase",
+      "pedra na vesícula",
+      "cálculo biliar",
+      "cálculos na vesícula",
+      "litíase biliar"
+    ]
+  },
+  {
+    "code": "D99",
+    "label": "Outra doença do aparelho digestivo",
+    "terms": []
   },
   {
     "code": "F01",
-    "label": "Dor ocular",
+    "label": "Dor no olho",
     "terms": [
       "dor no olho",
       "dor nos olhos",
@@ -391,16 +1858,364 @@
     ]
   },
   {
+    "code": "F04",
+    "label": "Moscas volantes/pontos luminosos/escotomas/manchas",
+    "terms": [
+      "moscas volantes",
+      "pontos luminosos",
+      "vendo pontos",
+      "manchas na visão",
+      "escotoma",
+      "pontos pretos na visão"
+    ]
+  },
+  {
+    "code": "F05",
+    "label": "Outras perturbações visuais",
+    "terms": [
+      "visão turva",
+      "visão embaçada",
+      "visão borrada",
+      "visão dupla",
+      "diplopia",
+      "vista embaçada",
+      "vista turva",
+      "dificuldade para enxergar"
+    ]
+  },
+  {
+    "code": "F13",
+    "label": "Sensações oculares anormais",
+    "terms": [
+      "olho seco",
+      "olhos secos",
+      "ardência nos olhos",
+      "olhos ardendo",
+      "coceira nos olhos",
+      "lacrimejamento",
+      "olhos lacrimejando",
+      "sensação de areia nos olhos"
+    ]
+  },
+  {
+    "code": "F14",
+    "label": "Movimentos oculares anormais",
+    "terms": [
+      "nistagmo",
+      "movimento anormal dos olhos",
+      "olho tremendo",
+      "olhos tremendo",
+      "olho pulando"
+    ]
+  },
+  {
+    "code": "F15",
+    "label": "Aparência anormal nos olhos",
+    "terms": [
+      "olhos saltados",
+      "exoftalmia",
+      "olhos fundos",
+      "anisocoria",
+      "aparência anormal dos olhos"
+    ]
+  },
+  {
+    "code": "F16",
+    "label": "Sinais/sintomas das pálpebras",
+    "terms": [
+      "pálpebra inchada",
+      "pálpebras inchadas",
+      "pálpebra caída",
+      "ptose palpebral",
+      "olho inchado",
+      "pálpebra tremendo"
+    ]
+  },
+  {
+    "code": "F17",
+    "label": "Sinais/sintomas relacionados a óculos",
+    "terms": [
+      "óculos quebrado",
+      "óculos novo",
+      "problema com os óculos",
+      "receita de óculos",
+      "adaptação aos óculos",
+      "trocar os óculos"
+    ]
+  },
+  {
+    "code": "F18",
+    "label": "Sinais/sintomas relacionados a lentes de contato",
+    "terms": [
+      "lente de contato",
+      "lentes de contato",
+      "problema com lente de contato",
+      "irritação por lente de contato",
+      "lente de contato presa"
+    ]
+  },
+  {
+    "code": "F27",
+    "label": "Medo de doença ocular",
+    "terms": [
+      "medo de ficar cego",
+      "medo de cegueira",
+      "medo de perder a visão",
+      "medo de glaucoma",
+      "medo de catarata"
+    ]
+  },
+  {
+    "code": "F28",
+    "label": "Limitação funcional/incapacidade",
+    "terms": []
+  },
+  {
+    "code": "F29",
+    "label": "Outros sinais/sintomas oculares",
+    "terms": []
+  },
+  {
+    "code": "F70",
+    "label": "Conjuntivite infecciosa",
+    "terms": [
+      "conjuntivite infecciosa",
+      "conjuntivite bacteriana",
+      "conjuntivite viral",
+      "conjuntivite"
+    ]
+  },
+  {
+    "code": "F71",
+    "label": "Conjuntivite alérgica",
+    "terms": [
+      "conjuntivite alérgica",
+      "alergia nos olhos",
+      "alergia ocular",
+      "olho alérgico"
+    ]
+  },
+  {
+    "code": "F72",
+    "label": "Blefarite/hordéolo/calázio",
+    "terms": [
+      "terçol",
+      "hordéolo",
+      "calázio",
+      "blefarite",
+      "caroço na pálpebra"
+    ]
+  },
+  {
+    "code": "F73",
+    "label": "Outras infecções/inflamações oculares",
+    "terms": [
+      "ceratite",
+      "uveíte",
+      "irite",
+      "episclerite",
+      "infecção no olho",
+      "inflamação no olho",
+      "dacriocistite"
+    ]
+  },
+  {
+    "code": "F74",
+    "label": "Neoplasia do olho/anexos",
+    "terms": [
+      "câncer no olho",
+      "tumor no olho",
+      "retinoblastoma",
+      "melanoma ocular",
+      "neoplasia ocular"
+    ]
+  },
+  {
+    "code": "F75",
+    "label": "Contusão/hemorragia ocular",
+    "terms": [
+      "pancada no olho",
+      "olho roxo",
+      "hematoma no olho",
+      "hemorragia no olho",
+      "contusão ocular",
+      "sangue no olho",
+      "hiposfagma"
+    ]
+  },
+  {
+    "code": "F76",
+    "label": "Corpo estranho ocular",
+    "terms": [
+      "cisco no olho",
+      "corpo estranho no olho",
+      "objeto no olho",
+      "poeira no olho",
+      "entrou algo no olho",
+      "argueiro no olho"
+    ]
+  },
+  {
+    "code": "F79",
+    "label": "Outras lesões traumáticas oculares",
+    "terms": [
+      "queimadura no olho",
+      "queimadura química no olho",
+      "arranhão na córnea",
+      "lesão na córnea",
+      "laceração ocular",
+      "ferimento no olho",
+      "lesão ocular traumática"
+    ]
+  },
+  {
+    "code": "F80",
+    "label": "Obstrução canal lacrimal da criança",
+    "terms": [
+      "obstrução do canal lacrimal",
+      "canal lacrimal entupido",
+      "obstrução lacrimal",
+      "dacriostenose",
+      "olho de bebê lacrimejando"
+    ]
+  },
+  {
+    "code": "F81",
+    "label": "Outras malformações congênitas do olho",
+    "terms": []
+  },
+  {
+    "code": "F82",
+    "label": "Descolamento da retina",
+    "terms": [
+      "descolamento de retina",
+      "descolamento da retina",
+      "retina descolada"
+    ]
+  },
+  {
+    "code": "F83",
+    "label": "Retinopatia",
+    "terms": [
+      "retinopatia",
+      "retinopatia diabética",
+      "retinopatia hipertensiva",
+      "alteração na retina"
+    ]
+  },
+  {
+    "code": "F84",
+    "label": "Degeneração macular",
+    "terms": [
+      "degeneração macular",
+      "degeneração macular relacionada à idade",
+      "mácula degenerada"
+    ]
+  },
+  {
+    "code": "F85",
+    "label": "Úlcera da córnea",
+    "terms": [
+      "úlcera de córnea",
+      "úlcera na córnea",
+      "úlcera corneana",
+      "ferida na córnea"
+    ]
+  },
+  {
+    "code": "F86",
+    "label": "Tracoma",
+    "terms": [
+      "tracoma",
+      "tracoma ocular"
+    ]
+  },
+  {
+    "code": "F91",
+    "label": "Erro de refração",
+    "terms": [
+      "miopia",
+      "hipermetropia",
+      "astigmatismo",
+      "presbiopia",
+      "erro de refração",
+      "vista cansada",
+      "precisa de óculos"
+    ]
+  },
+  {
+    "code": "F92",
+    "label": "Catarata",
+    "terms": [
+      "catarata",
+      "opacidade do cristalino",
+      "cristalino opaco"
+    ]
+  },
+  {
+    "code": "F93",
+    "label": "Glaucoma",
+    "terms": [
+      "glaucoma",
+      "pressão alta no olho",
+      "pressão ocular alta",
+      "pressão intraocular elevada"
+    ]
+  },
+  {
+    "code": "F94",
+    "label": "Cegueira",
+    "terms": [
+      "cegueira",
+      "perda total da visão",
+      "perdeu a visão",
+      "ficou cego",
+      "deficiência visual grave",
+      "baixa visão grave"
+    ]
+  },
+  {
+    "code": "F95",
+    "label": "Estrabismo",
+    "terms": [
+      "estrabismo",
+      "olho torto",
+      "olhos tortos",
+      "vesgo",
+      "olho vesgo",
+      "olho desviado"
+    ]
+  },
+  {
+    "code": "F99",
+    "label": "Outras doenças oculares/anexos",
+    "terms": []
+  },
+  {
     "code": "H01",
-    "label": "Dor de ouvido",
+    "label": "Dor de ouvidos",
     "terms": [
       "dor de ouvido",
       "otalgia"
     ]
   },
   {
+    "code": "H02",
+    "label": "Problemas de audição",
+    "terms": [
+      "perda auditiva",
+      "dificuldade para ouvir",
+      "dificuldade de audição",
+      "ouvindo mal",
+      "não ouve bem",
+      "diminuição da audição",
+      "audição diminuída",
+      "hipoacusia"
+    ]
+  },
+  {
     "code": "H03",
-    "label": "Zumbido",
+    "label": "Acufeno, zumbidos, ruído, assobios",
     "terms": [
       "zumbido",
       "zumbido no ouvido",
@@ -408,21 +2223,3259 @@
     ]
   },
   {
-    "code": "A11",
-    "label": "Dor torácica inespecífica",
+    "code": "H04",
+    "label": "Secreção no ouvido",
     "terms": [
-      "dor no peito",
-      "dor torácica"
+      "secreção no ouvido",
+      "pus no ouvido",
+      "ouvido escorrendo",
+      "otorreia",
+      "ouvido com secreção",
+      "saindo líquido do ouvido"
+    ]
+  },
+  {
+    "code": "H05",
+    "label": "Hemorragia no ouvido",
+    "terms": [
+      "sangramento no ouvido",
+      "sangue no ouvido",
+      "otorragia",
+      "ouvido sangrando"
+    ]
+  },
+  {
+    "code": "H13",
+    "label": "Sensação de ouvido tapado",
+    "terms": [
+      "ouvido tapado",
+      "ouvido entupido",
+      "sensação de ouvido tapado",
+      "ouvido abafado",
+      "sensação de ouvido cheio",
+      "plenitude auricular"
+    ]
+  },
+  {
+    "code": "H15",
+    "label": "Preocupação com a aparência das orelhas",
+    "terms": [
+      "orelha de abano",
+      "orelhas de abano",
+      "orelhas grandes",
+      "orelha deformada",
+      "preocupação com a orelha"
+    ]
+  },
+  {
+    "code": "H27",
+    "label": "Medo de doença do ouvido",
+    "terms": [
+      "medo de ficar surdo",
+      "medo de surdez",
+      "medo de perder a audição",
+      "medo de otite"
+    ]
+  },
+  {
+    "code": "H28",
+    "label": "Limitação funcional/incapacidade",
+    "terms": []
+  },
+  {
+    "code": "H29",
+    "label": "Outros sinais/sintomas ouvido",
+    "terms": []
+  },
+  {
+    "code": "H70",
+    "label": "Otite externa",
+    "terms": [
+      "otite externa",
+      "ouvido de nadador",
+      "inflamação no canal do ouvido",
+      "infecção no canal do ouvido"
+    ]
+  },
+  {
+    "code": "H71",
+    "label": "Otite média aguda/miringite",
+    "terms": [
+      "otite",
+      "otite média",
+      "otite média aguda",
+      "miringite",
+      "infecção de ouvido",
+      "infecção no ouvido",
+      "ouvido inflamado"
+    ]
+  },
+  {
+    "code": "H72",
+    "label": "Otite média serosa",
+    "terms": [
+      "otite serosa",
+      "otite média serosa",
+      "otite com efusão",
+      "líquido no ouvido",
+      "ouvido com líquido"
+    ]
+  },
+  {
+    "code": "H73",
+    "label": "Infecção da Trompa de Eustáquio",
+    "terms": [
+      "trompa de eustáquio",
+      "infecção da trompa de eustáquio",
+      "disfunção da trompa de eustáquio",
+      "disfunção tubária",
+      "tuba auditiva"
+    ]
+  },
+  {
+    "code": "H74",
+    "label": "Otite média crônica",
+    "terms": [
+      "otite crônica",
+      "otite média crônica",
+      "otite de repetição",
+      "otites recorrentes",
+      "otite média supurativa crônica"
+    ]
+  },
+  {
+    "code": "H75",
+    "label": "Neoplasia do ouvido",
+    "terms": [
+      "tumor no ouvido",
+      "câncer de ouvido",
+      "neoplasia de ouvido",
+      "neuroma acústico"
+    ]
+  },
+  {
+    "code": "H76",
+    "label": "Corpo estranho do ouvido",
+    "terms": [
+      "corpo estranho no ouvido",
+      "objeto no ouvido",
+      "inseto no ouvido",
+      "algo no ouvido",
+      "entrou algo no ouvido",
+      "bicho no ouvido"
+    ]
+  },
+  {
+    "code": "H77",
+    "label": "Perfuração do tímpano",
+    "terms": [
+      "perfuração do tímpano",
+      "tímpano perfurado",
+      "tímpano rompido",
+      "ruptura do tímpano"
+    ]
+  },
+  {
+    "code": "H78",
+    "label": "Traumatismo superficial do ouvido",
+    "terms": [
+      "ferida na orelha",
+      "corte na orelha",
+      "lesão na orelha",
+      "machucado na orelha",
+      "hematoma na orelha",
+      "orelha ferida"
+    ]
+  },
+  {
+    "code": "H79",
+    "label": "Outros traumatismos do ouvido",
+    "terms": []
+  },
+  {
+    "code": "H80",
+    "label": "Malformações congênitas do ouvido",
+    "terms": [
+      "malformação de orelha",
+      "microtia",
+      "orelha malformada",
+      "fístula pré-auricular",
+      "ausência de orelha"
+    ]
+  },
+  {
+    "code": "H81",
+    "label": "Cerúmen no ouvido em excesso",
+    "terms": [
+      "cerume",
+      "cerúmen",
+      "excesso de cera no ouvido",
+      "cera no ouvido",
+      "rolha de cera",
+      "ouvido com cera",
+      "tampão de cera"
+    ]
+  },
+  {
+    "code": "H82",
+    "label": "Síndrome vertiginosa",
+    "terms": [
+      "labirintite",
+      "síndrome vertiginosa",
+      "doença de menière",
+      "vertigem posicional paroxística benigna",
+      "vertigem de origem labiríntica"
+    ]
+  },
+  {
+    "code": "H83",
+    "label": "Otoesclerose",
+    "terms": [
+      "otosclerose",
+      "otoesclerose"
+    ]
+  },
+  {
+    "code": "H84",
+    "label": "Presbiacusia",
+    "terms": [
+      "presbiacusia",
+      "perda auditiva do idoso",
+      "perda auditiva senil",
+      "surdez senil"
+    ]
+  },
+  {
+    "code": "H85",
+    "label": "Lesão acústica",
+    "terms": [
+      "trauma acústico",
+      "lesão acústica",
+      "perda auditiva por ruído",
+      "perda auditiva induzida por ruído"
+    ]
+  },
+  {
+    "code": "H86",
+    "label": "Surdez",
+    "terms": [
+      "surdez",
+      "surdez súbita",
+      "deficiência auditiva",
+      "deficiente auditivo",
+      "surdez neurossensorial"
+    ]
+  },
+  {
+    "code": "H99",
+    "label": "Outra doença do ouvido/mastóide",
+    "terms": []
+  },
+  {
+    "code": "K01",
+    "label": "Dor atribuída ao coração",
+    "terms": [
+      "dor no coração",
+      "dor cardíaca",
+      "dor precordial",
+      "pontada no coração"
+    ]
+  },
+  {
+    "code": "K02",
+    "label": "Sensação de pressão/aperto atribuída ao coração",
+    "terms": [
+      "aperto no peito",
+      "aperto no coração",
+      "pressão no peito",
+      "peito apertado",
+      "sensação de aperto no peito",
+      "opressão torácica"
+    ]
+  },
+  {
+    "code": "K03",
+    "label": "Dores atribuídas ao aparelho circulatório NE",
+    "terms": [
+      "dor nas veias",
+      "dor vascular",
+      "dor circulatória",
+      "dor nas pernas por má circulação"
     ]
   },
   {
     "code": "K04",
-    "label": "Palpitações",
+    "label": "Palpitações/percepção dos batimentos cardíacos",
     "terms": [
       "palpitação",
       "palpitações",
       "coração acelerado"
     ]
+  },
+  {
+    "code": "K05",
+    "label": "Outras irregularidades dos batimentos cardíacos",
+    "terms": [
+      "batimentos irregulares",
+      "coração irregular",
+      "coração falhando",
+      "extrassístole",
+      "pulso irregular",
+      "coração pula batimento"
+    ]
+  },
+  {
+    "code": "K06",
+    "label": "Veias proeminentes",
+    "terms": [
+      "veias saltadas",
+      "veias dilatadas",
+      "veias proeminentes",
+      "veias aparentes"
+    ]
+  },
+  {
+    "code": "K07",
+    "label": "Tornozelos inchados/edema",
+    "terms": [
+      "tornozelo inchado",
+      "tornozelos inchados",
+      "pé inchado",
+      "pés inchados",
+      "perna inchada",
+      "pernas inchadas",
+      "edema de membros inferiores",
+      "edema nos pés",
+      "edema nas pernas",
+      "inchaço nas pernas",
+      "inchaço nos pés",
+      "inchaço no tornozelo"
+    ]
+  },
+  {
+    "code": "K22",
+    "label": "Fator de risco para doença cardiovascular",
+    "terms": [
+      "risco cardiovascular",
+      "fator de risco cardiovascular",
+      "história familiar de doença cardíaca",
+      "história familiar de infarto",
+      "avaliação de risco cardiovascular"
+    ]
+  },
+  {
+    "code": "K24",
+    "label": "Medo de doença cardíaca",
+    "terms": [
+      "medo de infarto",
+      "medo de ter infarto",
+      "medo de doença do coração",
+      "medo de doença cardíaca",
+      "medo de ter problema no coração"
+    ]
+  },
+  {
+    "code": "K25",
+    "label": "Medo de hipertensão",
+    "terms": [
+      "medo de pressão alta",
+      "medo de ser hipertenso",
+      "medo de ter pressão alta",
+      "receio de pressão alta"
+    ]
+  },
+  {
+    "code": "K27",
+    "label": "Medo de outra doença cardiovascular",
+    "terms": [
+      "medo de avc",
+      "medo de derrame",
+      "medo de trombose",
+      "medo de doença vascular"
+    ]
+  },
+  {
+    "code": "K28",
+    "label": "Limitação funcional/incapacidade",
+    "terms": []
+  },
+  {
+    "code": "K29",
+    "label": "Outros sinais/sintomas cardiovasculares",
+    "terms": []
+  },
+  {
+    "code": "K70",
+    "label": "Doença infecciosa do aparelho circulatório",
+    "terms": [
+      "endocardite",
+      "endocardite bacteriana",
+      "miocardite",
+      "pericardite infecciosa",
+      "infecção no coração",
+      "infecção cardíaca"
+    ]
+  },
+  {
+    "code": "K71",
+    "label": "Febre reumática/cardiopatia",
+    "terms": [
+      "febre reumática",
+      "cardiopatia reumática",
+      "doença reumática do coração",
+      "cardite reumática"
+    ]
+  },
+  {
+    "code": "K72",
+    "label": "Neoplasia do aparelho circulatório",
+    "terms": [
+      "tumor no coração",
+      "mixoma cardíaco",
+      "neoplasia cardíaca",
+      "tumor cardíaco",
+      "câncer no coração"
+    ]
+  },
+  {
+    "code": "K73",
+    "label": "Malformações congênitas do aparelho circulatório",
+    "terms": [
+      "cardiopatia congênita",
+      "malformação cardíaca",
+      "comunicação interatrial",
+      "comunicação interventricular",
+      "persistência do canal arterial",
+      "tetralogia de fallot"
+    ]
+  },
+  {
+    "code": "K74",
+    "label": "Doença cardíaca isquêmica com angina",
+    "terms": [
+      "angina",
+      "angina do peito",
+      "angina estável",
+      "angina instável",
+      "angina pectoris"
+    ]
+  },
+  {
+    "code": "K75",
+    "label": "Infarto agudo do miocárdio",
+    "terms": [
+      "infarto",
+      "infarto agudo do miocárdio",
+      "infarto do miocárdio",
+      "ataque cardíaco",
+      "enfarte",
+      "enfarte agudo do miocárdio"
+    ]
+  },
+  {
+    "code": "K76",
+    "label": "Doença cardíaca isquêmica sem angina",
+    "terms": [
+      "doença arterial coronariana",
+      "doença coronariana",
+      "cardiopatia isquêmica",
+      "isquemia miocárdica",
+      "coronariopatia"
+    ]
+  },
+  {
+    "code": "K77",
+    "label": "Insuficiência cardíaca",
+    "terms": [
+      "insuficiência cardíaca",
+      "insuficiência cardíaca congestiva",
+      "coração fraco",
+      "falência cardíaca"
+    ]
+  },
+  {
+    "code": "K78",
+    "label": "Fibrilação/flutter auricular/atrial",
+    "terms": [
+      "fibrilação atrial",
+      "fibrilação auricular",
+      "flutter atrial",
+      "flutter auricular"
+    ]
+  },
+  {
+    "code": "K79",
+    "label": "Taquicardia paroxística",
+    "terms": [
+      "taquicardia",
+      "taquicardia paroxística",
+      "taquicardia supraventricular",
+      "crises de taquicardia"
+    ]
+  },
+  {
+    "code": "K80",
+    "label": "Arritmia cardíaca NE",
+    "terms": [
+      "arritmia",
+      "arritmia cardíaca",
+      "bradicardia",
+      "bloqueio atrioventricular",
+      "bloqueio de ramo"
+    ]
+  },
+  {
+    "code": "K81",
+    "label": "Sopro cardíaco/arterial NE",
+    "terms": [
+      "sopro no coração",
+      "sopro cardíaco",
+      "sopro arterial",
+      "sopro carotídeo",
+      "sopro funcional"
+    ]
+  },
+  {
+    "code": "K82",
+    "label": "Doença cardiopulmonar",
+    "terms": [
+      "cor pulmonale",
+      "doença cardiopulmonar",
+      "hipertensão pulmonar",
+      "coração pulmonar crônico"
+    ]
+  },
+  {
+    "code": "K83",
+    "label": "Doença valvular cardíaca NE",
+    "terms": [
+      "doença valvar",
+      "valvulopatia",
+      "estenose aórtica",
+      "insuficiência mitral",
+      "estenose mitral",
+      "prolapso da válvula mitral",
+      "insuficiência aórtica",
+      "problema na válvula do coração"
+    ]
+  },
+  {
+    "code": "K84",
+    "label": "Outras doenças cardíacas",
+    "terms": []
+  },
+  {
+    "code": "K85",
+    "label": "Pressão arterial elevada",
+    "terms": [
+      "pressão alta",
+      "pressão arterial elevada",
+      "pressão elevada",
+      "pico de pressão",
+      "crise hipertensiva"
+    ]
+  },
+  {
+    "code": "K86",
+    "label": "Hipertensão sem complicações",
+    "terms": [
+      "hipertensão",
+      "hipertensão arterial",
+      "hipertensão arterial sistêmica",
+      "hipertenso",
+      "hipertensa"
+    ]
+  },
+  {
+    "code": "K87",
+    "label": "Hipertensão com complicações",
+    "terms": [
+      "hipertensão com complicações",
+      "hipertensão com complicação",
+      "hipertensão complicada",
+      "hipertensão com lesão de órgão-alvo",
+      "cardiopatia hipertensiva",
+      "nefropatia hipertensiva"
+    ]
+  },
+  {
+    "code": "K88",
+    "label": "Hipotensão postural",
+    "terms": [
+      "hipotensão postural",
+      "hipotensão ortostática",
+      "hipotensão",
+      "pressão baixa",
+      "queda de pressão ao levantar",
+      "tontura ao levantar"
+    ]
+  },
+  {
+    "code": "K89",
+    "label": "Isquemia/acidente cerebral transitória(o)",
+    "terms": [
+      "ataque isquêmico transitório",
+      "mini avc",
+      "mini derrame",
+      "isquemia cerebral transitória",
+      "avc transitório"
+    ]
+  },
+  {
+    "code": "K90",
+    "label": "Trombose/acidente vascular cerebral",
+    "terms": [
+      "avc",
+      "derrame cerebral",
+      "acidente vascular cerebral",
+      "avc isquêmico",
+      "avc hemorrágico",
+      "trombose cerebral"
+    ]
+  },
+  {
+    "code": "K91",
+    "label": "Doença vascular cerebral",
+    "terms": [
+      "doença cerebrovascular",
+      "sequela de avc",
+      "sequela de derrame",
+      "aterosclerose cerebral",
+      "doença vascular cerebral"
+    ]
+  },
+  {
+    "code": "K92",
+    "label": "Aterosclerose/doença vascular periférica",
+    "terms": [
+      "aterosclerose",
+      "arteriosclerose",
+      "doença arterial periférica",
+      "doença vascular periférica",
+      "doença arterial obstrutiva periférica",
+      "claudicação intermitente"
+    ]
+  },
+  {
+    "code": "K93",
+    "label": "Embolia pulmonar",
+    "terms": [
+      "embolia pulmonar",
+      "tromboembolismo pulmonar",
+      "trombo no pulmão",
+      "coágulo no pulmão"
+    ]
+  },
+  {
+    "code": "K94",
+    "label": "Flebite/tromboflebite",
+    "terms": [
+      "flebite",
+      "tromboflebite",
+      "trombose venosa profunda",
+      "trombose venosa",
+      "trombose na perna",
+      "veia inflamada"
+    ]
+  },
+  {
+    "code": "K95",
+    "label": "Veias varicosas da perna",
+    "terms": [
+      "varizes",
+      "veias varicosas",
+      "varizes nas pernas",
+      "varicose"
+    ]
+  },
+  {
+    "code": "K96",
+    "label": "Hemorroidas",
+    "terms": [
+      "hemorroidas",
+      "hemorroida",
+      "hemorroidas internas",
+      "hemorroidas externas",
+      "hemorroida trombosada"
+    ]
+  },
+  {
+    "code": "K99",
+    "label": "Outras doenças do aparelho circulatório",
+    "terms": []
+  },
+  {
+    "code": "L01",
+    "label": "Sinais/sintomas do pescoço",
+    "terms": [
+      "dor no pescoço",
+      "cervicalgia"
+    ]
+  },
+  {
+    "code": "L02",
+    "label": "Sinais/sintomas da região dorsal",
+    "terms": [
+      "dor dorsal",
+      "dorsalgia",
+      "dor no meio das costas"
+    ]
+  },
+  {
+    "code": "L03",
+    "label": "Sinais/sintomas da região lombar",
+    "terms": [
+      "dor lombar",
+      "lombalgia",
+      "dor nas costas na lombar",
+      "dor na lombar"
+    ]
+  },
+  {
+    "code": "L04",
+    "label": "Sinais/sintomas do tórax",
+    "terms": [
+      "dor nas costelas",
+      "dor na costela",
+      "dor na parede torácica",
+      "dor no esterno",
+      "costocondrite"
+    ]
+  },
+  {
+    "code": "L05",
+    "label": "Sinais/sintomas da axila",
+    "terms": [
+      "dor na axila",
+      "caroço na axila",
+      "inchaço na axila",
+      "nódulo na axila",
+      "ínguas na axila",
+      "axila inchada"
+    ]
+  },
+  {
+    "code": "L07",
+    "label": "Sinais/sintomas da mandíbula",
+    "terms": [
+      "dor na mandíbula",
+      "dor no maxilar",
+      "estalo na mandíbula",
+      "mandíbula travada",
+      "disfunção temporomandibular"
+    ]
+  },
+  {
+    "code": "L08",
+    "label": "Sinais/sintomas dos ombros",
+    "terms": [
+      "dor no ombro",
+      "ombro dolorido"
+    ]
+  },
+  {
+    "code": "L09",
+    "label": "Sinais/sintomas dos braços",
+    "terms": [
+      "dor no braço",
+      "dor nos braços",
+      "braço dolorido",
+      "braço inchado"
+    ]
+  },
+  {
+    "code": "L10",
+    "label": "Sinais/sintomas dos cotovelos",
+    "terms": [
+      "dor no cotovelo",
+      "dor nos cotovelos",
+      "cotovelo dolorido",
+      "cotovelo inchado"
+    ]
+  },
+  {
+    "code": "L11",
+    "label": "Sinais/sintomas dos punhos",
+    "terms": [
+      "dor no punho",
+      "dor nos punhos",
+      "punho dolorido",
+      "punho inchado",
+      "dor no pulso",
+      "dor nos pulsos"
+    ]
+  },
+  {
+    "code": "L12",
+    "label": "Sinais/sintomas das mãos e dedos",
+    "terms": [
+      "dor na mão",
+      "dor nas mãos",
+      "dor nos dedos",
+      "dor no dedo",
+      "mão dolorida",
+      "dedo inchado",
+      "dedos inchados",
+      "rigidez nas mãos"
+    ]
+  },
+  {
+    "code": "L13",
+    "label": "Sinais/sintomas do quadril",
+    "terms": [
+      "dor no quadril",
+      "dor nos quadris",
+      "quadril dolorido",
+      "dor na bacia",
+      "dor na anca"
+    ]
+  },
+  {
+    "code": "L14",
+    "label": "Sinais/sintomas da coxa/perna",
+    "terms": [
+      "dor na coxa",
+      "dor na perna",
+      "dor nas pernas",
+      "dor na panturrilha",
+      "dor na batata da perna",
+      "perna dolorida"
+    ]
+  },
+  {
+    "code": "L15",
+    "label": "Sinais/sintomas do joelho",
+    "terms": [
+      "dor no joelho",
+      "joelho dolorido"
+    ]
+  },
+  {
+    "code": "L16",
+    "label": "Sinais/sintomas do tornozelo",
+    "terms": [
+      "dor no tornozelo",
+      "dor nos tornozelos",
+      "tornozelo dolorido",
+      "tornozelo fraco"
+    ]
+  },
+  {
+    "code": "L17",
+    "label": "Sinais/sintomas do pé/dedos pé",
+    "terms": [
+      "dor no pé",
+      "dor nos pés",
+      "dor no calcanhar",
+      "dor na planta do pé",
+      "dor nos dedos do pé",
+      "pé dolorido"
+    ]
+  },
+  {
+    "code": "L18",
+    "label": "Dores musculares",
+    "terms": [
+      "mialgia",
+      "dor muscular",
+      "dores musculares"
+    ]
+  },
+  {
+    "code": "L19",
+    "label": "Sinais/sintomas musculares NE",
+    "terms": [
+      "cãibra",
+      "cãibras",
+      "espasmo muscular",
+      "contratura muscular",
+      "fraqueza muscular"
+    ]
+  },
+  {
+    "code": "L20",
+    "label": "Sinais/sintomas das articulações NE",
+    "terms": [
+      "dor nas articulações",
+      "artralgia",
+      "dores articulares"
+    ]
+  },
+  {
+    "code": "L26",
+    "label": "Medo de câncer no aparelho musculoesquelético",
+    "terms": [
+      "medo de câncer nos ossos",
+      "medo de câncer no osso",
+      "medo de câncer ósseo",
+      "medo de tumor no osso"
+    ]
+  },
+  {
+    "code": "L27",
+    "label": "Medo de doença no aparelho musculoesquelético, outro",
+    "terms": [
+      "medo de artrose",
+      "medo de artrite",
+      "medo de osteoporose",
+      "medo de reumatismo",
+      "medo de doença nos ossos",
+      "medo de doença reumática"
+    ]
+  },
+  {
+    "code": "L28",
+    "label": "Limitação funcional/incapacidade",
+    "terms": []
+  },
+  {
+    "code": "L29",
+    "label": "Outros sinais/sintomas do aparelho musculoesquelético",
+    "terms": []
+  },
+  {
+    "code": "L70",
+    "label": "Infecções do aparelho musculoesquelético",
+    "terms": [
+      "osteomielite",
+      "artrite séptica",
+      "infecção óssea",
+      "infecção no osso",
+      "infecção articular",
+      "espondilodiscite"
+    ]
+  },
+  {
+    "code": "L71",
+    "label": "Neoplasia maligna do aparelho musculoesquelético",
+    "terms": [
+      "câncer ósseo",
+      "câncer nos ossos",
+      "osteossarcoma",
+      "sarcoma de ewing",
+      "tumor ósseo maligno",
+      "neoplasia óssea maligna",
+      "condrossarcoma"
+    ]
+  },
+  {
+    "code": "L72",
+    "label": "Fratura: rádio/cúbito",
+    "terms": [
+      "fratura do punho",
+      "fratura do antebraço",
+      "fratura de rádio",
+      "fratura do rádio",
+      "fratura de ulna",
+      "fratura de cúbito",
+      "fratura de colles",
+      "quebrou o punho",
+      "quebrou o antebraço"
+    ]
+  },
+  {
+    "code": "L73",
+    "label": "Fratura: tíbia/perônio/fíbula",
+    "terms": [
+      "fratura da perna",
+      "fratura da tíbia",
+      "fratura de tíbia",
+      "fratura da fíbula",
+      "fratura de fíbula",
+      "fratura do perônio",
+      "quebrou a perna"
+    ]
+  },
+  {
+    "code": "L74",
+    "label": "Fratura: osso da mão/pé",
+    "terms": [
+      "fratura da mão",
+      "fratura do pé",
+      "fratura de dedo",
+      "fratura do dedo",
+      "fratura de metacarpo",
+      "fratura de metatarso",
+      "fratura do escafoide",
+      "quebrou o dedo",
+      "quebrou o pé",
+      "quebrou a mão"
+    ]
+  },
+  {
+    "code": "L75",
+    "label": "Fratura: fêmur",
+    "terms": [
+      "fratura de fêmur",
+      "fratura do fêmur",
+      "fratura do colo do fêmur",
+      "fratura de quadril",
+      "quebrou o fêmur"
+    ]
+  },
+  {
+    "code": "L76",
+    "label": "Outras fraturas",
+    "terms": [
+      "fratura de clavícula",
+      "fratura de costela",
+      "fratura de úmero",
+      "fratura vertebral",
+      "fratura de bacia"
+    ]
+  },
+  {
+    "code": "L77",
+    "label": "Entorses e distensões do tornozelo",
+    "terms": [
+      "entorse de tornozelo",
+      "entorse no tornozelo",
+      "torceu o tornozelo",
+      "tornozelo torcido",
+      "distensão no tornozelo"
+    ]
+  },
+  {
+    "code": "L78",
+    "label": "Entorses e distensões do joelho",
+    "terms": [
+      "entorse de joelho",
+      "entorse no joelho",
+      "torceu o joelho",
+      "joelho torcido",
+      "distensão de ligamento do joelho"
+    ]
+  },
+  {
+    "code": "L79",
+    "label": "Entorses e distensões das articulações NE",
+    "terms": [
+      "entorse",
+      "torceu o pé",
+      "pé torcido",
+      "torceu o punho",
+      "punho torcido"
+    ]
+  },
+  {
+    "code": "L80",
+    "label": "Luxação/subluxação",
+    "terms": [
+      "luxação",
+      "subluxação",
+      "ombro deslocado",
+      "deslocou o ombro",
+      "luxação do ombro",
+      "deslocamento articular"
+    ]
+  },
+  {
+    "code": "L81",
+    "label": "Traumatismos do aparelho musculoesquelético NE",
+    "terms": [
+      "lesão muscular",
+      "distensão muscular",
+      "estiramento muscular",
+      "contusão muscular",
+      "trauma muscular"
+    ]
+  },
+  {
+    "code": "L82",
+    "label": "Malformações congênitas do aparelho musculoesquelético",
+    "terms": [
+      "pé torto congênito",
+      "displasia do desenvolvimento do quadril",
+      "luxação congênita do quadril",
+      "polidactilia",
+      "sindactilia",
+      "malformação óssea"
+    ]
+  },
+  {
+    "code": "L83",
+    "label": "Doenças ou síndromes da coluna cervical",
+    "terms": [
+      "hérnia de disco cervical",
+      "cervicobraquialgia",
+      "artrose cervical",
+      "espondilose cervical",
+      "síndrome cervical"
+    ]
+  },
+  {
+    "code": "L84",
+    "label": "Doenças ou síndromes da coluna sem irradiação de dor",
+    "terms": [
+      "espondilose",
+      "artrose na coluna",
+      "artrose de coluna",
+      "espondiloartrose",
+      "bico de papagaio",
+      "degeneração da coluna"
+    ]
+  },
+  {
+    "code": "L85",
+    "label": "Deformação adquirida da coluna",
+    "terms": [
+      "escoliose",
+      "cifose",
+      "hiperlordose",
+      "coluna torta",
+      "desvio na coluna",
+      "corcunda"
+    ]
+  },
+  {
+    "code": "L86",
+    "label": "Síndrome vertebral com irradiação dor",
+    "terms": [
+      "ciática",
+      "ciatalgia",
+      "lombociatalgia",
+      "hérnia de disco",
+      "dor irradiada para a perna",
+      "dor que desce pela perna",
+      "radiculopatia",
+      "compressão do nervo ciático"
+    ]
+  },
+  {
+    "code": "L87",
+    "label": "Bursite/tendinite/sinovite NE",
+    "terms": [
+      "bursite",
+      "tendinite",
+      "sinovite",
+      "tenossinovite",
+      "tendinopatia"
+    ]
+  },
+  {
+    "code": "L88",
+    "label": "Artrite reumatoide/seropositiva",
+    "terms": [
+      "artrite reumatoide",
+      "artrite seropositiva",
+      "espondilite anquilosante",
+      "artrite psoriásica",
+      "reumatismo"
+    ]
+  },
+  {
+    "code": "L89",
+    "label": "Osteoartrose do quadril",
+    "terms": [
+      "artrose no quadril",
+      "artrose do quadril",
+      "coxartrose",
+      "osteoartrose do quadril",
+      "osteoartrite do quadril"
+    ]
+  },
+  {
+    "code": "L90",
+    "label": "Osteoartrose do joelho",
+    "terms": [
+      "artrose no joelho",
+      "artrose do joelho",
+      "gonartrose",
+      "osteoartrose do joelho",
+      "osteoartrite do joelho"
+    ]
+  },
+  {
+    "code": "L91",
+    "label": "Outras osteoartroses",
+    "terms": [
+      "artrose",
+      "osteoartrose",
+      "osteoartrite",
+      "artrose nas mãos",
+      "artrose no ombro",
+      "artrose nos dedos"
+    ]
+  },
+  {
+    "code": "L92",
+    "label": "Síndrome do ombro doloroso",
+    "terms": [
+      "síndrome do ombro doloroso",
+      "ombro congelado",
+      "capsulite adesiva",
+      "tendinite do ombro",
+      "bursite do ombro",
+      "síndrome do manguito rotador",
+      "lesão do manguito rotador",
+      "impacto do ombro"
+    ]
+  },
+  {
+    "code": "L93",
+    "label": "Cotovelo de tenista",
+    "terms": [
+      "cotovelo de tenista",
+      "epicondilite",
+      "epicondilite lateral",
+      "epicondilite medial",
+      "cotovelo de golfista"
+    ]
+  },
+  {
+    "code": "L94",
+    "label": "Osteocondrose",
+    "terms": [
+      "osteocondrose",
+      "osteocondrite",
+      "doença de osgood-schlatter",
+      "doença de scheuermann",
+      "doença de legg-calvé-perthes"
+    ]
+  },
+  {
+    "code": "L95",
+    "label": "Osteoporose",
+    "terms": [
+      "osteoporose",
+      "osteopenia",
+      "perda de massa óssea",
+      "ossos fracos",
+      "densidade óssea baixa"
+    ]
+  },
+  {
+    "code": "L96",
+    "label": "Lesão interna aguda do joelho",
+    "terms": [
+      "lesão de menisco",
+      "lesão do menisco",
+      "menisco rompido",
+      "lesão de ligamento cruzado",
+      "ruptura do ligamento cruzado",
+      "lesão no joelho"
+    ]
+  },
+  {
+    "code": "L97",
+    "label": "Neoplasia benigna/incertas",
+    "terms": [
+      "osteocondroma",
+      "tumor ósseo benigno",
+      "cisto ósseo",
+      "tumor benigno nos ossos"
+    ]
+  },
+  {
+    "code": "L98",
+    "label": "Malformação adquirida de um membro",
+    "terms": [
+      "joanete",
+      "hálux valgo",
+      "pé chato",
+      "pé plano",
+      "dedo em martelo",
+      "joelho valgo",
+      "pernas tortas"
+    ]
+  },
+  {
+    "code": "L99",
+    "label": "Outra doença do aparelho musculoesquelético",
+    "terms": []
+  },
+  {
+    "code": "N01",
+    "label": "Cefaleia",
+    "terms": [
+      "cefaleia",
+      "cefaleias",
+      "cefalgia",
+      "dor de cabeça",
+      "dores de cabeça",
+      "dor na cabeça"
+    ]
+  },
+  {
+    "code": "N03",
+    "label": "Dores da face",
+    "terms": [
+      "dor na face",
+      "dor no rosto",
+      "dor facial",
+      "dor na bochecha"
+    ]
+  },
+  {
+    "code": "N04",
+    "label": "Síndrome das pernas inquietas",
+    "terms": [
+      "pernas inquietas",
+      "síndrome das pernas inquietas",
+      "pernas agitadas",
+      "inquietação nas pernas",
+      "vontade de mexer as pernas"
+    ]
+  },
+  {
+    "code": "N05",
+    "label": "Formigamento/parestesia nos dedos das mãos/pés",
+    "terms": [
+      "formigamento nos dedos",
+      "formigamento nas mãos",
+      "formigamento nos pés"
+    ]
+  },
+  {
+    "code": "N06",
+    "label": "Outras alterações da sensibilidade",
+    "terms": [
+      "dormência",
+      "adormecimento",
+      "perda de sensibilidade",
+      "parestesia",
+      "sensibilidade alterada",
+      "formigamento no rosto",
+      "formigamento nas pernas"
+    ]
+  },
+  {
+    "code": "N07",
+    "label": "Convulsões/ataques",
+    "terms": [
+      "convulsão",
+      "convulsões",
+      "crise convulsiva",
+      "convulsionando",
+      "convulsionou",
+      "ataque convulsivo",
+      "crise de ausência"
+    ]
+  },
+  {
+    "code": "N08",
+    "label": "Movimentos involuntários anormais",
+    "terms": [
+      "tremor nas mãos",
+      "tremores",
+      "movimentos involuntários",
+      "espasmos involuntários",
+      "tremor essencial",
+      "mãos tremendo",
+      "mão tremendo"
+    ]
+  },
+  {
+    "code": "N16",
+    "label": "Alterações do olfato/gosto",
+    "terms": [
+      "anosmia",
+      "perda do olfato",
+      "perda de olfato",
+      "não sente cheiro",
+      "ageusia",
+      "perda do paladar",
+      "perda de paladar",
+      "não sente o gosto",
+      "alteração do paladar"
+    ]
+  },
+  {
+    "code": "N17",
+    "label": "Vertigens/tonturas",
+    "terms": [
+      "tontura",
+      "tonturas",
+      "vertigem",
+      "vertigens"
+    ]
+  },
+  {
+    "code": "N18",
+    "label": "Paralisia/fraqueza",
+    "terms": [
+      "paralisia",
+      "fraqueza nas pernas",
+      "fraqueza no braço",
+      "paresia",
+      "hemiparesia",
+      "hemiplegia",
+      "perda de força",
+      "falta de força",
+      "fraqueza em um lado do corpo"
+    ]
+  },
+  {
+    "code": "N19",
+    "label": "Perturbações da fala",
+    "terms": [
+      "dificuldade para falar",
+      "dificuldade de fala",
+      "fala arrastada",
+      "fala enrolada",
+      "afasia",
+      "disartria",
+      "não consegue falar",
+      "perda da fala"
+    ]
+  },
+  {
+    "code": "N26",
+    "label": "Medo de câncer do sistema neurológico",
+    "terms": [
+      "medo de tumor no cérebro",
+      "medo de câncer no cérebro",
+      "medo de tumor cerebral",
+      "medo de câncer cerebral"
+    ]
+  },
+  {
+    "code": "N27",
+    "label": "Medo de outras doenças neurológicas",
+    "terms": [
+      "medo de alzheimer",
+      "medo de parkinson",
+      "medo de esclerose múltipla",
+      "medo de epilepsia",
+      "medo de meningite",
+      "medo de aneurisma",
+      "medo de doença neurológica"
+    ]
+  },
+  {
+    "code": "N28",
+    "label": "Limitação funcional/incapacidade",
+    "terms": []
+  },
+  {
+    "code": "N29",
+    "label": "Sinais/sintomas do sistema neurológico, outros",
+    "terms": []
+  },
+  {
+    "code": "N70",
+    "label": "Poliomielite",
+    "terms": [
+      "poliomielite",
+      "paralisia infantil",
+      "pólio",
+      "sequela de poliomielite",
+      "síndrome pós-pólio"
+    ]
+  },
+  {
+    "code": "N71",
+    "label": "Meningite/encefalite",
+    "terms": [
+      "meningite",
+      "encefalite",
+      "meningite bacteriana",
+      "meningite viral",
+      "meningoencefalite"
+    ]
+  },
+  {
+    "code": "N72",
+    "label": "Tétano",
+    "terms": [
+      "tétano",
+      "tétano acidental",
+      "infecção por tétano",
+      "suspeita de tétano"
+    ]
+  },
+  {
+    "code": "N73",
+    "label": "Outra infecção neurológica",
+    "terms": []
+  },
+  {
+    "code": "N74",
+    "label": "Neoplasia maligna do sistema neurológico",
+    "terms": [
+      "tumor cerebral maligno",
+      "câncer no cérebro",
+      "câncer cerebral",
+      "glioma",
+      "glioblastoma",
+      "astrocitoma",
+      "meduloblastoma",
+      "neoplasia maligna do sistema nervoso"
+    ]
+  },
+  {
+    "code": "N75",
+    "label": "Neoplasia benigna do sistema neurológico",
+    "terms": [
+      "meningioma",
+      "neurinoma",
+      "schwannoma",
+      "neurofibroma",
+      "tumor benigno no cérebro"
+    ]
+  },
+  {
+    "code": "N76",
+    "label": "Neoplasia do sistema neurológico de natureza incerta",
+    "terms": [
+      "tumor cerebral",
+      "tumor no cérebro",
+      "massa no cérebro",
+      "lesão expansiva cerebral",
+      "tumor no sistema nervoso",
+      "nódulo cerebral"
+    ]
+  },
+  {
+    "code": "N79",
+    "label": "Concussão",
+    "terms": [
+      "concussão",
+      "concussão cerebral",
+      "trauma craniano leve",
+      "bateu a cabeça",
+      "pancada na cabeça",
+      "traumatismo cranioencefálico leve"
+    ]
+  },
+  {
+    "code": "N80",
+    "label": "Outras lesões cranianas",
+    "terms": []
+  },
+  {
+    "code": "N81",
+    "label": "Outra lesão do sistema neurológico",
+    "terms": []
+  },
+  {
+    "code": "N85",
+    "label": "Malformações congênitas",
+    "terms": [
+      "espinha bífida",
+      "mielomeningocele",
+      "hidrocefalia",
+      "microcefalia",
+      "anencefalia",
+      "malformação do sistema nervoso"
+    ]
+  },
+  {
+    "code": "N86",
+    "label": "Esclerose múltipla",
+    "terms": [
+      "esclerose múltipla",
+      "esclerose em placas",
+      "surto de esclerose múltipla"
+    ]
+  },
+  {
+    "code": "N87",
+    "label": "Parkinsonismo",
+    "terms": [
+      "doença de parkinson",
+      "parkinson",
+      "parkinsonismo",
+      "síndrome parkinsoniana"
+    ]
+  },
+  {
+    "code": "N88",
+    "label": "Epilepsia",
+    "terms": [
+      "epilepsia",
+      "epiléptico",
+      "epiléptica",
+      "crise epiléptica",
+      "convulsões epilépticas",
+      "ataques epilépticos",
+      "controle de epilepsia"
+    ]
+  },
+  {
+    "code": "N89",
+    "label": "Enxaqueca",
+    "terms": [
+      "enxaqueca",
+      "migrânea",
+      "enxaqueca com aura",
+      "enxaqueca sem aura",
+      "crise de enxaqueca"
+    ]
+  },
+  {
+    "code": "N90",
+    "label": "Cefaleia de cluster",
+    "terms": [
+      "cefaleia em salvas",
+      "cefaleia de cluster",
+      "cefaleia em cluster",
+      "dor de cabeça em salvas"
+    ]
+  },
+  {
+    "code": "N91",
+    "label": "Paralisia facial/paralisia de Bell",
+    "terms": [
+      "paralisia facial",
+      "paralisia de bell",
+      "boca torta",
+      "rosto caído",
+      "face caída",
+      "desvio da boca"
+    ]
+  },
+  {
+    "code": "N92",
+    "label": "Neuralgia do trigêmeo",
+    "terms": [
+      "nevralgia do trigêmeo",
+      "neuralgia do trigêmeo",
+      "nevralgia trigeminal",
+      "neuralgia trigeminal",
+      "dor do trigêmeo",
+      "dor tipo choque no rosto"
+    ]
+  },
+  {
+    "code": "N93",
+    "label": "Síndrome do túnel do carpo/Síndrome do canal carpiano",
+    "terms": [
+      "síndrome do túnel do carpo",
+      "túnel do carpo",
+      "síndrome do canal carpiano",
+      "compressão do nervo mediano",
+      "dormência na mão à noite"
+    ]
+  },
+  {
+    "code": "N94",
+    "label": "Neurite/neuropatia periférica",
+    "terms": [
+      "neuropatia periférica",
+      "neuropatia",
+      "neurite",
+      "nevrite",
+      "neuropatia diabética",
+      "polineuropatia",
+      "dor neuropática"
+    ]
+  },
+  {
+    "code": "N95",
+    "label": "Cefaleia tensional",
+    "terms": [
+      "cefaleia tensional",
+      "cefaleia de tensão",
+      "cefaleia do tipo tensional",
+      "dor de cabeça tensional",
+      "dor de cabeça de tensão",
+      "dor de cabeça por estresse"
+    ]
+  },
+  {
+    "code": "N99",
+    "label": "Outras doenças do sistema neurológico",
+    "terms": []
+  },
+  {
+    "code": "P01",
+    "label": "Sensação de ansiedade/nervosismo/tensão",
+    "terms": [
+      "ansiedade",
+      "ansioso",
+      "ansiosa",
+      "nervosismo"
+    ]
+  },
+  {
+    "code": "P02",
+    "label": "Reação aguda ao estresse",
+    "terms": [
+      "reação aguda ao estresse",
+      "reação aguda de estresse",
+      "crise de estresse",
+      "estresse agudo",
+      "estressado",
+      "estressada",
+      "estresse"
+    ]
+  },
+  {
+    "code": "P03",
+    "label": "Tristeza/Sensação de depressão",
+    "terms": [
+      "tristeza",
+      "se sente triste",
+      "desanimado",
+      "desanimada"
+    ]
+  },
+  {
+    "code": "P04",
+    "label": "Sentir/comportar-se de forma irritável/zangada",
+    "terms": [
+      "irritabilidade",
+      "fica irritado",
+      "fica irritada",
+      "muito irritado",
+      "muito irritada",
+      "agressividade",
+      "explosivo",
+      "explosiva",
+      "muita raiva"
+    ]
+  },
+  {
+    "code": "P05",
+    "label": "Sensação/comportamento senil",
+    "terms": [
+      "senilidade",
+      "comportamento senil",
+      "caduquice",
+      "idoso desorientado",
+      "idosa desorientada"
+    ]
+  },
+  {
+    "code": "P06",
+    "label": "Perturbação do sono",
+    "terms": [
+      "insônia",
+      "insonia",
+      "dificuldade para dormir",
+      "sono ruim",
+      "não consegue dormir"
+    ]
+  },
+  {
+    "code": "P07",
+    "label": "Diminuição do desejo sexual",
+    "terms": [
+      "diminuição do desejo sexual",
+      "diminuição da libido",
+      "baixa libido",
+      "falta de libido",
+      "falta de desejo sexual",
+      "perda do desejo sexual",
+      "sem vontade de sexo"
+    ]
+  },
+  {
+    "code": "P08",
+    "label": "Diminuição da satisfação sexual",
+    "terms": [
+      "insatisfação sexual",
+      "satisfação sexual diminuída",
+      "anorgasmia",
+      "dificuldade de ter orgasmo",
+      "falta de prazer na relação",
+      "sem prazer sexual"
+    ]
+  },
+  {
+    "code": "P09",
+    "label": "Preocupação com a preferência sexual",
+    "terms": [
+      "preocupação com a preferência sexual",
+      "dúvidas sobre orientação sexual",
+      "preocupação com orientação sexual",
+      "conflito sobre a orientação sexual"
+    ]
+  },
+  {
+    "code": "P10",
+    "label": "Gaguejar/balbuciar/tiques",
+    "terms": [
+      "gagueira",
+      "gaguejando",
+      "gagueja",
+      "tiques",
+      "tique nervoso",
+      "balbucio"
+    ]
+  },
+  {
+    "code": "P11",
+    "label": "Problemas de alimentação da criança",
+    "terms": [
+      "criança não quer comer",
+      "criança não come",
+      "recusa alimentar da criança",
+      "criança seletiva com comida",
+      "dificuldade para alimentar a criança",
+      "problemas de alimentação da criança"
+    ]
+  },
+  {
+    "code": "P12",
+    "label": "Molhar a cama/enurese",
+    "terms": [
+      "enurese",
+      "xixi na cama",
+      "molha a cama",
+      "faz xixi na cama",
+      "urina na cama",
+      "enurese noturna"
+    ]
+  },
+  {
+    "code": "P13",
+    "label": "Encoprese/outros problemas de incontinência fecal",
+    "terms": [
+      "encoprese",
+      "faz cocô na roupa",
+      "faz cocô na calça",
+      "suja a roupa de fezes",
+      "escape fecal em criança"
+    ]
+  },
+  {
+    "code": "P15",
+    "label": "Abuso crônico de álcool",
+    "terms": [
+      "alcoolismo",
+      "etilismo",
+      "etilista",
+      "alcoolista",
+      "dependência alcoólica",
+      "dependente de álcool",
+      "uso abusivo de álcool",
+      "bebe todos os dias"
+    ]
+  },
+  {
+    "code": "P16",
+    "label": "Abuso agudo de álcool",
+    "terms": [
+      "embriaguez",
+      "intoxicação alcoólica",
+      "bebedeira",
+      "alcoolizado",
+      "alcoolizada",
+      "bêbado",
+      "porre"
+    ]
+  },
+  {
+    "code": "P17",
+    "label": "Abuso do tabaco",
+    "terms": [
+      "tabagismo",
+      "tabagista",
+      "fumante",
+      "fumando",
+      "parar de fumar",
+      "quer parar de fumar",
+      "dependência de nicotina",
+      "cessação do tabagismo"
+    ]
+  },
+  {
+    "code": "P18",
+    "label": "Abuso de medicação",
+    "terms": [
+      "abuso de medicação",
+      "uso abusivo de medicamentos",
+      "dependência de benzodiazepínicos",
+      "dependência de remédio",
+      "vício em remédio",
+      "vício em medicação"
+    ]
+  },
+  {
+    "code": "P19",
+    "label": "Abuso de drogas",
+    "terms": [
+      "uso de drogas",
+      "usuário de drogas",
+      "dependência de drogas",
+      "dependente químico",
+      "uso abusivo de drogas",
+      "cocaína",
+      "crack",
+      "maconha",
+      "drogadição"
+    ]
+  },
+  {
+    "code": "P20",
+    "label": "Alterações da memória",
+    "terms": [
+      "esquecimento",
+      "perda de memória",
+      "problema de memória",
+      "falhas de memória",
+      "memória fraca",
+      "amnésia",
+      "esquece as coisas",
+      "esquecendo as coisas"
+    ]
+  },
+  {
+    "code": "P22",
+    "label": "Sinais/sintomas relacionados ao comportamento da criança",
+    "terms": [
+      "criança agitada",
+      "criança agressiva",
+      "criança desobediente",
+      "birra",
+      "birras",
+      "problema de comportamento na criança",
+      "mau comportamento da criança"
+    ]
+  },
+  {
+    "code": "P23",
+    "label": "Sinais/sintomas relacionados ao comportamento do adolescente",
+    "terms": [
+      "adolescente rebelde",
+      "adolescente agressivo",
+      "adolescente agressiva",
+      "adolescente desobediente",
+      "problema de comportamento do adolescente",
+      "mau comportamento do adolescente"
+    ]
+  },
+  {
+    "code": "P24",
+    "label": "Dificuldades especificas de aprendizagem",
+    "terms": [
+      "dificuldade de aprendizagem",
+      "dificuldades de aprendizagem",
+      "dificuldade para aprender",
+      "dislexia",
+      "discalculia",
+      "problema de aprendizagem",
+      "dificuldade de leitura",
+      "dificuldade de escrita"
+    ]
+  },
+  {
+    "code": "P25",
+    "label": "Problemas da fase de vida de adulto",
+    "terms": [
+      "crise de meia-idade",
+      "crise da meia-idade",
+      "síndrome do ninho vazio",
+      "dificuldade com a aposentadoria",
+      "crise existencial"
+    ]
+  },
+  {
+    "code": "P27",
+    "label": "Medo de perturbações mentais",
+    "terms": [
+      "medo de ficar louco",
+      "medo de enlouquecer",
+      "medo de ficar maluco",
+      "medo de ter doença mental",
+      "medo de ter transtorno mental",
+      "medo de perder a cabeça"
+    ]
+  },
+  {
+    "code": "P28",
+    "label": "Limitação funcional/incapacidade",
+    "terms": []
+  },
+  {
+    "code": "P29",
+    "label": "Sinais/sintomas psicológicos, outros",
+    "terms": []
+  },
+  {
+    "code": "P70",
+    "label": "Demência",
+    "terms": [
+      "demência",
+      "alzheimer",
+      "doença de alzheimer",
+      "demência vascular",
+      "demência senil",
+      "demência de alzheimer"
+    ]
+  },
+  {
+    "code": "P71",
+    "label": "Outras psicoses orgânicas NE",
+    "terms": []
+  },
+  {
+    "code": "P72",
+    "label": "Esquizofrenia",
+    "terms": [
+      "esquizofrenia",
+      "esquizofrênico",
+      "esquizofrênica",
+      "surto esquizofrênico",
+      "esquizofrenia paranoide"
+    ]
+  },
+  {
+    "code": "P73",
+    "label": "Psicose afetiva",
+    "terms": [
+      "transtorno bipolar",
+      "transtorno afetivo bipolar",
+      "bipolar",
+      "episódio maníaco",
+      "psicose maníaco-depressiva",
+      "psicose afetiva"
+    ]
+  },
+  {
+    "code": "P74",
+    "label": "Distúrbio ansioso/estado de ansiedade",
+    "terms": [
+      "transtorno de ansiedade",
+      "transtorno de ansiedade generalizada",
+      "ansiedade generalizada",
+      "transtorno do pânico",
+      "síndrome do pânico",
+      "ataque de pânico",
+      "crise de pânico"
+    ]
+  },
+  {
+    "code": "P75",
+    "label": "Somatização",
+    "terms": [
+      "somatização",
+      "transtorno de somatização",
+      "transtorno somatoforme",
+      "somatiza",
+      "somatizando",
+      "sintomas sem causa orgânica"
+    ]
+  },
+  {
+    "code": "P76",
+    "label": "Perturbações depressivas",
+    "terms": [
+      "depressão",
+      "transtorno depressivo",
+      "depressão maior",
+      "episódio depressivo",
+      "depressivo",
+      "depressiva",
+      "distimia",
+      "quadro depressivo"
+    ]
+  },
+  {
+    "code": "P77",
+    "label": "Suicídio/tentativa de suicídio",
+    "terms": [
+      "tentativa de suicídio",
+      "tentou suicídio",
+      "tentou se matar",
+      "ideação suicida",
+      "pensamentos suicidas",
+      "pensa em se matar",
+      "quer se matar",
+      "quer morrer",
+      "suicídio"
+    ]
+  },
+  {
+    "code": "P78",
+    "label": "Neurastenia",
+    "terms": [
+      "neurastenia",
+      "burnout",
+      "síndrome de burnout",
+      "esgotamento nervoso",
+      "esgotamento profissional",
+      "esgotamento mental",
+      "estafa"
+    ]
+  },
+  {
+    "code": "P79",
+    "label": "Fobia/perturbação compulsiva",
+    "terms": [
+      "fobia",
+      "fobia social",
+      "claustrofobia",
+      "agorafobia",
+      "transtorno obsessivo compulsivo",
+      "transtorno obsessivo-compulsivo",
+      "compulsões",
+      "obsessões"
+    ]
+  },
+  {
+    "code": "P80",
+    "label": "Perturbações de personalidade",
+    "terms": [
+      "transtorno de personalidade",
+      "transtorno de personalidade borderline",
+      "borderline",
+      "transtorno de personalidade antissocial",
+      "distúrbio de personalidade"
+    ]
+  },
+  {
+    "code": "P81",
+    "label": "Perturbação hipercinética",
+    "terms": [
+      "tdah",
+      "hiperatividade",
+      "déficit de atenção",
+      "transtorno de déficit de atenção e hiperatividade",
+      "criança hiperativa",
+      "hiperativo",
+      "hiperativa"
+    ]
+  },
+  {
+    "code": "P82",
+    "label": "Estresse pós-traumático",
+    "terms": [
+      "estresse pós-traumático",
+      "estresse pós traumático",
+      "transtorno de estresse pós-traumático",
+      "tept",
+      "trauma psicológico",
+      "flashbacks"
+    ]
+  },
+  {
+    "code": "P85",
+    "label": "Retardo/Atraso mental",
+    "terms": [
+      "retardo mental",
+      "atraso mental",
+      "deficiência intelectual",
+      "deficiência mental",
+      "atraso cognitivo"
+    ]
+  },
+  {
+    "code": "P86",
+    "label": "Anorexia nervosa, bulimia",
+    "terms": [
+      "anorexia nervosa",
+      "bulimia",
+      "bulimia nervosa",
+      "anorexia",
+      "transtorno alimentar"
+    ]
+  },
+  {
+    "code": "P98",
+    "label": "Outras psicoses NE",
+    "terms": []
+  },
+  {
+    "code": "P99",
+    "label": "Outras perturbações psicológicas",
+    "terms": []
+  },
+  {
+    "code": "R01",
+    "label": "Dor atribuída ao aparelho respiratório",
+    "terms": [
+      "dor ao respirar",
+      "dor para respirar",
+      "dor ao inspirar",
+      "dor pleurítica",
+      "dor no pulmão",
+      "dor nos pulmões",
+      "pontada ao respirar"
+    ]
+  },
+  {
+    "code": "R02",
+    "label": "Dificuldade respiratória, dispneia",
+    "terms": [
+      "falta de ar",
+      "dispneia",
+      "dificuldade para respirar",
+      "dificuldade respiratória"
+    ]
+  },
+  {
+    "code": "R03",
+    "label": "Respiração ruidosa",
+    "terms": [
+      "chiado no peito",
+      "chiado",
+      "sibilo",
+      "sibilância",
+      "respiração ruidosa",
+      "peito chiando",
+      "ronqueira",
+      "estridor"
+    ]
+  },
+  {
+    "code": "R04",
+    "label": "Outros problemas respiratórios",
+    "terms": []
+  },
+  {
+    "code": "R05",
+    "label": "Tosse",
+    "terms": [
+      "tosse",
+      "tossindo",
+      "tossir"
+    ]
+  },
+  {
+    "code": "R06",
+    "label": "Hemorragia nasal/epistaxe",
+    "terms": [
+      "sangramento nasal",
+      "sangramento pelo nariz",
+      "epistaxe"
+    ]
+  },
+  {
+    "code": "R07",
+    "label": "Espirro/congestão nasal",
+    "terms": [
+      "espirro",
+      "espirros",
+      "nariz entupido",
+      "congestão nasal"
+    ]
+  },
+  {
+    "code": "R08",
+    "label": "Outros sinais/sintomas nasais",
+    "terms": []
+  },
+  {
+    "code": "R09",
+    "label": "Sinais/sintomas dos seios paranasais",
+    "terms": [
+      "dor nos seios da face",
+      "dor nos seios paranasais",
+      "pressão nos seios da face",
+      "peso nos seios da face"
+    ]
+  },
+  {
+    "code": "R21",
+    "label": "Sinais/sintomas da garganta",
+    "terms": [
+      "dor de garganta",
+      "garganta dolorida",
+      "irritação na garganta"
+    ]
+  },
+  {
+    "code": "R23",
+    "label": "Sinais/sintomas da voz",
+    "terms": [
+      "rouquidão",
+      "voz rouca",
+      "disfonia",
+      "afonia",
+      "perda da voz",
+      "voz alterada",
+      "ficou sem voz",
+      "voz fraca"
+    ]
+  },
+  {
+    "code": "R24",
+    "label": "Hemoptise",
+    "terms": [
+      "hemoptise",
+      "tosse com sangue",
+      "escarro com sangue",
+      "catarro com sangue",
+      "expectoração com sangue",
+      "cuspindo sangue",
+      "cuspiu sangue"
+    ]
+  },
+  {
+    "code": "R25",
+    "label": "Expectoração/mucosidade anormal",
+    "terms": [
+      "catarro",
+      "expectoração",
+      "escarro"
+    ]
+  },
+  {
+    "code": "R26",
+    "label": "Medo de câncer do aparelho respiratório",
+    "terms": [
+      "medo de câncer no pulmão",
+      "medo de câncer de pulmão",
+      "medo de câncer na garganta",
+      "medo de câncer de laringe"
+    ]
+  },
+  {
+    "code": "R27",
+    "label": "Medo de outras doenças respiratórias",
+    "terms": [
+      "medo de asma",
+      "medo de pneumonia",
+      "medo de tuberculose",
+      "medo de bronquite",
+      "medo de doença no pulmão",
+      "medo de doença respiratória"
+    ]
+  },
+  {
+    "code": "R28",
+    "label": "Limitação funcional/incapacidade",
+    "terms": []
+  },
+  {
+    "code": "R29",
+    "label": "Sinais/sintomas do aparelho respiratório, outros",
+    "terms": []
+  },
+  {
+    "code": "R71",
+    "label": "Tosse convulsa/pertussis",
+    "terms": [
+      "coqueluche",
+      "tosse convulsa",
+      "pertussis",
+      "tosse comprida"
+    ]
+  },
+  {
+    "code": "R72",
+    "label": "Infecção estreptocócica da orofaringe",
+    "terms": [
+      "faringite estreptocócica",
+      "infecção estreptocócica",
+      "infecção estreptocócica da garganta",
+      "infecção por estreptococo",
+      "estreptococo na garganta"
+    ]
+  },
+  {
+    "code": "R73",
+    "label": "Abscesso/furúnculo no nariz",
+    "terms": [
+      "furúnculo no nariz",
+      "abscesso no nariz",
+      "abcesso no nariz",
+      "foliculite nasal",
+      "infecção no nariz"
+    ]
+  },
+  {
+    "code": "R74",
+    "label": "Infecção aguda do aparelho respiratório superior (IVAS)",
+    "terms": [
+      "resfriado",
+      "resfriado comum",
+      "infecção das vias aéreas superiores",
+      "infecção de vias aéreas superiores",
+      "infecção respiratória alta",
+      "infecção viral das vias aéreas"
+    ]
+  },
+  {
+    "code": "R75",
+    "label": "Sinusite crônica/aguda",
+    "terms": [
+      "sinusite",
+      "sinusite aguda",
+      "sinusite crônica",
+      "rinossinusite",
+      "infecção nos seios da face",
+      "seios da face inflamados"
+    ]
+  },
+  {
+    "code": "R76",
+    "label": "Amigdalite aguda",
+    "terms": [
+      "amigdalite",
+      "amigdalite aguda",
+      "amígdalas inflamadas",
+      "amígdalas inchadas",
+      "placas na garganta",
+      "pus na garganta"
+    ]
+  },
+  {
+    "code": "R77",
+    "label": "Laringite/traqueíte aguda",
+    "terms": [
+      "laringite",
+      "laringite aguda",
+      "traqueíte",
+      "crupe",
+      "tosse de cachorro",
+      "laringotraqueíte"
+    ]
+  },
+  {
+    "code": "R78",
+    "label": "Bronquite/bronquiolite aguda",
+    "terms": [
+      "bronquite",
+      "bronquite aguda",
+      "bronquiolite",
+      "bronquiolite aguda",
+      "infecção nos brônquios"
+    ]
+  },
+  {
+    "code": "R79",
+    "label": "Bronquite crônica",
+    "terms": [
+      "bronquite crônica",
+      "bronquite de fumante",
+      "bronquite crônica obstrutiva",
+      "bronquite recorrente"
+    ]
+  },
+  {
+    "code": "R80",
+    "label": "Gripe",
+    "terms": [
+      "gripe",
+      "influenza",
+      "síndrome gripal",
+      "gripado",
+      "gripada",
+      "h1n1"
+    ]
+  },
+  {
+    "code": "R81",
+    "label": "Pneumonia",
+    "terms": [
+      "pneumonia",
+      "pneumonia bacteriana",
+      "broncopneumonia",
+      "pneumonia comunitária",
+      "pneumonia lobar",
+      "infecção no pulmão"
+    ]
+  },
+  {
+    "code": "R82",
+    "label": "Pleurite/derrame pleural",
+    "terms": [
+      "pleurite",
+      "pleurisia",
+      "derrame pleural",
+      "derrame na pleura",
+      "líquido na pleura",
+      "líquido no pulmão",
+      "água no pulmão"
+    ]
+  },
+  {
+    "code": "R83",
+    "label": "Outra infecção respiratória",
+    "terms": []
+  },
+  {
+    "code": "R84",
+    "label": "Neoplasia maligna dos brônquios/pulmão",
+    "terms": [
+      "câncer de pulmão",
+      "câncer no pulmão",
+      "tumor no pulmão",
+      "neoplasia de pulmão",
+      "carcinoma pulmonar",
+      "câncer de brônquio",
+      "neoplasia pulmonar"
+    ]
+  },
+  {
+    "code": "R85",
+    "label": "Outra neoplasia respiratória maligna",
+    "terms": [
+      "câncer de laringe",
+      "câncer na laringe",
+      "mesotelioma"
+    ]
+  },
+  {
+    "code": "R86",
+    "label": "Neoplasia benigna respiratória",
+    "terms": [
+      "pólipo nasal",
+      "pólipos nasais",
+      "pólipo nas cordas vocais",
+      "nódulo benigno no pulmão",
+      "tumor benigno no pulmão"
+    ]
+  },
+  {
+    "code": "R87",
+    "label": "Corpo estranho nariz/laringe/brônquios",
+    "terms": [
+      "corpo estranho no nariz",
+      "corpo estranho na garganta",
+      "corpo estranho nos brônquios",
+      "objeto no nariz",
+      "colocou algo no nariz",
+      "aspirou corpo estranho",
+      "aspirou objeto"
+    ]
+  },
+  {
+    "code": "R88",
+    "label": "Outra lesão respiratória",
+    "terms": []
+  },
+  {
+    "code": "R89",
+    "label": "Malformação congênita do aparelho respiratório",
+    "terms": [
+      "atresia de coanas",
+      "laringomalácia",
+      "hipoplasia pulmonar",
+      "fístula traqueoesofágica",
+      "malformação pulmonar congênita"
+    ]
+  },
+  {
+    "code": "R90",
+    "label": "Hipertrofia das amígdalas/adenoides",
+    "terms": [
+      "amígdalas aumentadas",
+      "amígdalas grandes",
+      "hipertrofia das amígdalas",
+      "hipertrofia de adenoides",
+      "adenoide",
+      "adenoides",
+      "vegetações"
+    ]
+  },
+  {
+    "code": "R92",
+    "label": "Neoplasia respiratória NE",
+    "terms": [
+      "neoplasia respiratória",
+      "tumor respiratório",
+      "massa no pulmão",
+      "massa pulmonar",
+      "nódulo no pulmão",
+      "nódulo pulmonar"
+    ]
+  },
+  {
+    "code": "R95",
+    "label": "Doença pulmonar obstrutiva crônica",
+    "terms": [
+      "dpoc",
+      "doença pulmonar obstrutiva crônica",
+      "enfisema",
+      "enfisema pulmonar"
+    ]
+  },
+  {
+    "code": "R96",
+    "label": "Asma",
+    "terms": [
+      "asma",
+      "asmático",
+      "asmática",
+      "crise de asma",
+      "bronquite asmática",
+      "asma brônquica",
+      "broncoespasmo"
+    ]
+  },
+  {
+    "code": "R97",
+    "label": "Rinite alérgica",
+    "terms": [
+      "rinite alérgica",
+      "rinite",
+      "febre do feno",
+      "alergia nasal",
+      "rinite crônica",
+      "nariz alérgico"
+    ]
+  },
+  {
+    "code": "R98",
+    "label": "Síndrome de hiperventilação",
+    "terms": [
+      "hiperventilação",
+      "síndrome de hiperventilação",
+      "crise de hiperventilação",
+      "respiração acelerada por ansiedade",
+      "respira rápido demais"
+    ]
+  },
+  {
+    "code": "R99",
+    "label": "Outras doenças respiratórias",
+    "terms": []
+  },
+  {
+    "code": "S01",
+    "label": "Dor/sensibilidade dolorosa da pele",
+    "terms": [
+      "dor na pele",
+      "pele dolorida",
+      "pele sensível",
+      "pele doendo",
+      "dor ao toque na pele"
+    ]
+  },
+  {
+    "code": "S02",
+    "label": "Prurido",
+    "terms": [
+      "coceira",
+      "prurido",
+      "pele coçando"
+    ]
+  },
+  {
+    "code": "S03",
+    "label": "Verrugas",
+    "terms": [
+      "verruga",
+      "verrugas",
+      "verruga plantar",
+      "verruga vulgar",
+      "verruga na mão"
+    ]
+  },
+  {
+    "code": "S04",
+    "label": "Tumor/inchaço localizado",
+    "terms": [
+      "caroço na pele",
+      "nódulo na pele",
+      "bolinha na pele",
+      "inchaço localizado",
+      "nódulo subcutâneo",
+      "caroço embaixo da pele"
+    ]
+  },
+  {
+    "code": "S05",
+    "label": "Tumores/inchaços generalizados",
+    "terms": [
+      "vários caroços",
+      "caroços pelo corpo",
+      "caroços no corpo todo",
+      "nódulos pelo corpo",
+      "inchaços pelo corpo",
+      "múltiplos nódulos na pele"
+    ]
+  },
+  {
+    "code": "S06",
+    "label": "Erupção cutânea localizada",
+    "terms": [
+      "manchas na pele localizadas",
+      "erupção localizada",
+      "lesões avermelhadas localizadas"
+    ]
+  },
+  {
+    "code": "S07",
+    "label": "Erupção cutânea generalizada",
+    "terms": [
+      "erupção cutânea generalizada",
+      "erupção generalizada",
+      "manchas pelo corpo",
+      "manchas vermelhas pelo corpo",
+      "vermelhidão pelo corpo",
+      "bolinhas pelo corpo",
+      "lesões pelo corpo todo"
+    ]
+  },
+  {
+    "code": "S08",
+    "label": "Alterações da cor da pele",
+    "terms": [
+      "mancha na pele",
+      "manchas escuras na pele",
+      "manchas brancas na pele",
+      "pele pálida",
+      "pele escurecida",
+      "hiperpigmentação",
+      "hipopigmentação"
+    ]
+  },
+  {
+    "code": "S09",
+    "label": "Infecção dos dedos das mãos/pés",
+    "terms": [
+      "paroníquia",
+      "unheiro",
+      "panarício",
+      "infecção no dedo",
+      "dedo infeccionado",
+      "infecção ao redor da unha"
+    ]
+  },
+  {
+    "code": "S10",
+    "label": "Furúnculo/carbúnculo",
+    "terms": [
+      "furúnculo",
+      "furúnculos",
+      "carbúnculo",
+      "furunculose"
+    ]
+  },
+  {
+    "code": "S11",
+    "label": "Infecção pós-traumática da pele",
+    "terms": [
+      "ferida infeccionada",
+      "infecção em ferida",
+      "ferida com pus",
+      "corte infeccionado",
+      "infecção na ferida",
+      "ferida inflamada"
+    ]
+  },
+  {
+    "code": "S12",
+    "label": "Picada ou mordedura de inseto",
+    "terms": [
+      "picada de inseto",
+      "picada de mosquito",
+      "picada de abelha",
+      "picada de vespa",
+      "picada de aranha",
+      "picada de escorpião",
+      "mordida de inseto",
+      "ferroada de abelha"
+    ]
+  },
+  {
+    "code": "S13",
+    "label": "Mordedura animal/humana",
+    "terms": [
+      "mordida de cachorro",
+      "mordida de cão",
+      "mordedura de cão",
+      "mordida de gato",
+      "mordida de animal",
+      "mordedura animal",
+      "mordida humana",
+      "mordida de morcego"
+    ]
+  },
+  {
+    "code": "S14",
+    "label": "Queimadura/escaldão",
+    "terms": [
+      "queimadura",
+      "queimadura de primeiro grau",
+      "queimadura de segundo grau",
+      "queimadura de terceiro grau",
+      "queimou",
+      "escaldadura",
+      "queimadura por água quente",
+      "queimadura por óleo",
+      "queimadura química"
+    ]
+  },
+  {
+    "code": "S15",
+    "label": "Corpo estranho na pele",
+    "terms": [
+      "farpa",
+      "farpa na pele",
+      "espinho na pele",
+      "lasca na pele",
+      "corpo estranho na pele",
+      "cacos de vidro na pele",
+      "anzol na pele"
+    ]
+  },
+  {
+    "code": "S16",
+    "label": "Traumatismo/contusão",
+    "terms": [
+      "hematoma",
+      "contusão",
+      "pancada",
+      "bateu e ficou roxo",
+      "equimose"
+    ]
+  },
+  {
+    "code": "S17",
+    "label": "Abrasão/arranhão/bolhas",
+    "terms": [
+      "arranhão",
+      "arranhões",
+      "esfolado",
+      "esfolou",
+      "ralado",
+      "ralou",
+      "escoriação",
+      "abrasão",
+      "bolha",
+      "bolhas",
+      "bolha no pé"
+    ]
+  },
+  {
+    "code": "S18",
+    "label": "Laceração/corte",
+    "terms": [
+      "corte profundo",
+      "corte na pele",
+      "cortou a mão",
+      "cortou o dedo",
+      "cortou a perna",
+      "laceração",
+      "ferida cortante",
+      "ferimento por corte"
+    ]
+  },
+  {
+    "code": "S19",
+    "label": "Outra lesão cutânea",
+    "terms": []
+  },
+  {
+    "code": "S20",
+    "label": "Calos/calosidades",
+    "terms": [
+      "calos",
+      "calosidade",
+      "calosidades",
+      "calo no pé",
+      "calo na mão",
+      "calosidade plantar"
+    ]
+  },
+  {
+    "code": "S21",
+    "label": "Sinais/sintomas da textura da pele",
+    "terms": [
+      "pele seca",
+      "pele ressecada",
+      "pele áspera",
+      "ressecamento da pele",
+      "pele descamando",
+      "descamação",
+      "pele escamosa",
+      "pele rachada"
+    ]
+  },
+  {
+    "code": "S22",
+    "label": "Sinais/sintomas das unhas",
+    "terms": [
+      "unha quebradiça",
+      "unhas quebradiças",
+      "unha fraca",
+      "unhas fracas",
+      "unha escura",
+      "unha amarelada",
+      "unha grossa",
+      "unha descolando",
+      "unha roxa",
+      "alteração na unha"
+    ]
+  },
+  {
+    "code": "S23",
+    "label": "Queda de cabelo/calvície",
+    "terms": [
+      "queda de cabelo",
+      "cabelo caindo",
+      "alopecia"
+    ]
+  },
+  {
+    "code": "S24",
+    "label": "Sinais/sintomas do cabelo/couro cabeludo",
+    "terms": [
+      "coceira no couro cabeludo",
+      "couro cabeludo descamando",
+      "cabelo quebradiço",
+      "cabelo ressecado",
+      "cabelo oleoso",
+      "dor no couro cabeludo",
+      "couro cabeludo dolorido"
+    ]
+  },
+  {
+    "code": "S26",
+    "label": "Medo de câncer de pele",
+    "terms": [
+      "medo de câncer de pele",
+      "medo de câncer na pele",
+      "medo de ter câncer de pele",
+      "medo de melanoma"
+    ]
+  },
+  {
+    "code": "S27",
+    "label": "Medo de outra doença da pele",
+    "terms": [
+      "medo de doença de pele",
+      "medo de doença na pele",
+      "medo de ter doença de pele",
+      "medo de ter micose",
+      "medo de pegar doença de pele"
+    ]
+  },
+  {
+    "code": "S28",
+    "label": "Limitação funcional/incapacidade",
+    "terms": []
+  },
+  {
+    "code": "S29",
+    "label": "Sinais/sintomas da pele, outros",
+    "terms": []
+  },
+  {
+    "code": "S70",
+    "label": "Herpes zoster",
+    "terms": [
+      "herpes zoster",
+      "herpes-zóster",
+      "cobreiro",
+      "zona herpética",
+      "nevralgia pós-herpética"
+    ]
+  },
+  {
+    "code": "S71",
+    "label": "Herpes simples",
+    "terms": [
+      "herpes simples",
+      "herpes labial",
+      "herpes na boca",
+      "herpes no lábio",
+      "bolinhas de herpes",
+      "feridas de herpes"
+    ]
+  },
+  {
+    "code": "S72",
+    "label": "Escabiose/outras acaríases",
+    "terms": [
+      "escabiose",
+      "sarna",
+      "sarna humana",
+      "acaríase",
+      "coceira por sarna"
+    ]
+  },
+  {
+    "code": "S73",
+    "label": "Pediculose/outras infecções da pele",
+    "terms": [
+      "piolho",
+      "piolhos",
+      "pediculose",
+      "lêndea",
+      "lêndeas",
+      "ftiríase",
+      "bicho geográfico",
+      "larva migrans",
+      "bicho de pé",
+      "tungíase"
+    ]
+  },
+  {
+    "code": "S74",
+    "label": "Dermatofitose",
+    "terms": [
+      "micose",
+      "micoses",
+      "micose na pele",
+      "micose na unha",
+      "onicomicose",
+      "pé de atleta",
+      "frieira",
+      "impingem",
+      "dermatofitose"
+    ]
+  },
+  {
+    "code": "S75",
+    "label": "Monilíase oral/candidíase na pele",
+    "terms": [
+      "sapinho",
+      "candidíase oral",
+      "candidíase cutânea",
+      "candidíase na pele",
+      "monilíase"
+    ]
+  },
+  {
+    "code": "S76",
+    "label": "Outras infecções da pele",
+    "terms": []
+  },
+  {
+    "code": "S77",
+    "label": "Neoplasias malignas da pele",
+    "terms": [
+      "câncer de pele",
+      "câncer na pele",
+      "melanoma",
+      "carcinoma basocelular",
+      "carcinoma espinocelular",
+      "neoplasia maligna de pele"
+    ]
+  },
+  {
+    "code": "S78",
+    "label": "Lipoma",
+    "terms": [
+      "lipoma",
+      "lipomas",
+      "caroço de gordura",
+      "nódulo de gordura"
+    ]
+  },
+  {
+    "code": "S79",
+    "label": "Neoplasia cutânea benigna/incerta",
+    "terms": [
+      "neoplasia cutânea benigna",
+      "tumor benigno de pele",
+      "lesão pigmentada suspeita",
+      "sinal que cresceu",
+      "mancha que cresceu",
+      "acrocórdon",
+      "papiloma de pele"
+    ]
+  },
+  {
+    "code": "S80",
+    "label": "Ceratose/Queratose solar/queimadura solar",
+    "terms": [
+      "ceratose actínica",
+      "queratose actínica",
+      "ceratose solar",
+      "queratose solar",
+      "queimadura solar",
+      "queimadura de sol"
+    ]
+  },
+  {
+    "code": "S81",
+    "label": "Hemangioma/linfangioma",
+    "terms": [
+      "hemangioma",
+      "hemangioma infantil",
+      "linfangioma",
+      "angioma",
+      "mancha vinho do porto",
+      "mancha de vinho do porto"
+    ]
+  },
+  {
+    "code": "S82",
+    "label": "Nevos/sinais da pele",
+    "terms": [
+      "nevo",
+      "nevos",
+      "nevus",
+      "pintas na pele",
+      "pinta na pele",
+      "sinal na pele",
+      "sinais na pele",
+      "mancha de nascença",
+      "sinal de nascença"
+    ]
+  },
+  {
+    "code": "S83",
+    "label": "Lesões da pele congênitas, outras",
+    "terms": []
+  },
+  {
+    "code": "S84",
+    "label": "Impetigo",
+    "terms": [
+      "impetigo",
+      "impetigo bolhoso",
+      "crostas melicéricas",
+      "ferida com crosta amarelada"
+    ]
+  },
+  {
+    "code": "S85",
+    "label": "Cisto pilonidal/fístula",
+    "terms": [
+      "cisto pilonidal",
+      "fístula pilonidal",
+      "abscesso pilonidal",
+      "cisto no cóccix",
+      "cisto na base da coluna"
+    ]
+  },
+  {
+    "code": "S86",
+    "label": "Dermatite seborreica",
+    "terms": [
+      "dermatite seborreica",
+      "seborreia",
+      "caspa",
+      "crosta de leite",
+      "crosta láctea"
+    ]
+  },
+  {
+    "code": "S87",
+    "label": "Dermatite/eczema atópico",
+    "terms": [
+      "dermatite atópica",
+      "eczema atópico",
+      "eczema",
+      "atopia",
+      "dermatite eczematosa"
+    ]
+  },
+  {
+    "code": "S88",
+    "label": "Dermatite de contato/alérgica",
+    "terms": [
+      "dermatite de contato",
+      "dermatite alérgica",
+      "alergia de contato",
+      "alergia na pele",
+      "alergia de pele",
+      "reação alérgica na pele",
+      "alergia a níquel"
+    ]
+  },
+  {
+    "code": "S89",
+    "label": "Dermatite das fraldas",
+    "terms": [
+      "assadura",
+      "assadura de fralda",
+      "dermatite de fralda",
+      "dermatite das fraldas",
+      "bumbum assado",
+      "bebê assado",
+      "fralda assada"
+    ]
+  },
+  {
+    "code": "S90",
+    "label": "Pitiríase rósea",
+    "terms": [
+      "pitiríase rósea",
+      "pitiríase"
+    ]
+  },
+  {
+    "code": "S91",
+    "label": "Psoríase",
+    "terms": [
+      "psoríase",
+      "psoríase em placas",
+      "placas de psoríase",
+      "psoríase gutata",
+      "psoríase no couro cabeludo"
+    ]
+  },
+  {
+    "code": "S92",
+    "label": "Doença das glândulas sudoríparas",
+    "terms": [
+      "hidradenite",
+      "hidradenite supurativa",
+      "miliária",
+      "brotoeja",
+      "brotoejas",
+      "sudamina"
+    ]
+  },
+  {
+    "code": "S93",
+    "label": "Cisto sebáceo",
+    "terms": [
+      "cisto sebáceo",
+      "cisto epidérmico",
+      "cisto de gordura",
+      "cisto na pele",
+      "cisto de inclusão"
+    ]
+  },
+  {
+    "code": "S94",
+    "label": "Unha encravada",
+    "terms": [
+      "unha encravada",
+      "unha encravando",
+      "unha do pé encravada",
+      "onicocriptose",
+      "encravamento de unha"
+    ]
+  },
+  {
+    "code": "S95",
+    "label": "Molusco contagioso",
+    "terms": [
+      "molusco contagioso",
+      "molusco",
+      "moluscos"
+    ]
+  },
+  {
+    "code": "S96",
+    "label": "Acne",
+    "terms": [
+      "acne",
+      "acne vulgar",
+      "acne juvenil",
+      "espinhas",
+      "espinha no rosto",
+      "cravos e espinhas"
+    ]
+  },
+  {
+    "code": "S97",
+    "label": "Úlcera crônica da pele",
+    "terms": [
+      "úlcera crônica",
+      "úlcera de perna",
+      "úlcera na perna",
+      "úlcera venosa",
+      "úlcera varicosa",
+      "úlcera de pressão",
+      "lesão por pressão",
+      "úlcera de decúbito",
+      "escara",
+      "escaras",
+      "úlcera diabética",
+      "pé diabético",
+      "ferida crônica",
+      "ferida que não cicatriza"
+    ]
+  },
+  {
+    "code": "S98",
+    "label": "Urticária",
+    "terms": [
+      "urticária",
+      "urticária aguda",
+      "urticária crônica",
+      "vergões",
+      "vergões na pele"
+    ]
+  },
+  {
+    "code": "S99",
+    "label": "Outras doenças da pele",
+    "terms": []
   },
   {
     "code": "T01",
@@ -434,12 +5487,2531 @@
     ]
   },
   {
+    "code": "T02",
+    "label": "Apetite excessivo",
+    "terms": [
+      "apetite excessivo",
+      "aumento do apetite",
+      "apetite aumentado",
+      "fome excessiva",
+      "muita fome",
+      "polifagia",
+      "fome o tempo todo"
+    ]
+  },
+  {
+    "code": "T03",
+    "label": "Perda de apetite",
+    "terms": [
+      "perda de apetite",
+      "falta de apetite",
+      "inapetência",
+      "sem apetite",
+      "apetite diminuído",
+      "diminuição do apetite",
+      "não quer comer",
+      "não tem fome",
+      "sem fome"
+    ]
+  },
+  {
+    "code": "T04",
+    "label": "Problemas alimentares de lactente/criança",
+    "terms": [
+      "bebê não mama",
+      "bebê não quer mamar",
+      "bebê recusa a mamadeira",
+      "dificuldade alimentar do lactente",
+      "problema alimentar do bebê"
+    ]
+  },
+  {
+    "code": "T05",
+    "label": "Problemas alimentares do adulto",
+    "terms": [
+      "má alimentação",
+      "alimentação inadequada",
+      "alimentação desregrada",
+      "dieta inadequada",
+      "problemas alimentares"
+    ]
+  },
+  {
+    "code": "T07",
+    "label": "Aumento de peso",
+    "terms": [
+      "aumento de peso",
+      "ganho de peso",
+      "engordou",
+      "engordando",
+      "ganhou peso",
+      "ganhando peso",
+      "aumentou de peso"
+    ]
+  },
+  {
     "code": "T08",
     "label": "Perda de peso",
     "terms": [
       "perda de peso",
       "emagrecimento involuntário",
       "perdendo peso"
+    ]
+  },
+  {
+    "code": "T10",
+    "label": "Atraso do crescimento",
+    "terms": [
+      "atraso de crescimento",
+      "atraso no crescimento",
+      "baixa estatura",
+      "crescimento lento",
+      "déficit de crescimento",
+      "criança pequena para a idade"
+    ]
+  },
+  {
+    "code": "T11",
+    "label": "Desidratação",
+    "terms": [
+      "desidratação",
+      "desidratado",
+      "desidratada",
+      "sinais de desidratação",
+      "mucosas secas"
+    ]
+  },
+  {
+    "code": "T26",
+    "label": "Medo de câncer do sistema endócrino",
+    "terms": [
+      "medo de câncer na tireoide",
+      "medo de câncer de tireoide",
+      "medo de tumor na tireoide",
+      "medo de câncer endócrino"
+    ]
+  },
+  {
+    "code": "T27",
+    "label": "Medo de outra doença endócrina/metabólica",
+    "terms": [
+      "medo de diabetes",
+      "medo de ter diabetes",
+      "medo de ficar diabético",
+      "medo de colesterol alto",
+      "medo de doença da tireoide",
+      "medo de problema na tireoide",
+      "medo de obesidade"
+    ]
+  },
+  {
+    "code": "T28",
+    "label": "Limitação funcional/incapacidade",
+    "terms": []
+  },
+  {
+    "code": "T29",
+    "label": "Sinais/sintomas endocrinológicos/metabólicos/nutricionais, outros",
+    "terms": []
+  },
+  {
+    "code": "T70",
+    "label": "Infecção endócrina",
+    "terms": [
+      "tireoidite infecciosa",
+      "tireoidite aguda",
+      "tireoidite supurativa",
+      "infecção na tireoide",
+      "abscesso na tireoide",
+      "infecção endócrina"
+    ]
+  },
+  {
+    "code": "T71",
+    "label": "Neoplasia maligna da tireoide",
+    "terms": [
+      "câncer de tireoide",
+      "câncer na tireoide",
+      "carcinoma de tireoide",
+      "carcinoma papilar da tireoide",
+      "neoplasia maligna da tireoide",
+      "tumor maligno de tireoide"
+    ]
+  },
+  {
+    "code": "T72",
+    "label": "Neoplasia benigna da tireoide",
+    "terms": [
+      "nódulo na tireoide",
+      "nódulos na tireoide",
+      "nódulo de tireoide",
+      "adenoma de tireoide",
+      "nódulo benigno na tireoide",
+      "tumor benigno de tireoide",
+      "cisto na tireoide"
+    ]
+  },
+  {
+    "code": "T73",
+    "label": "Outra neoplasia endócrina NE",
+    "terms": []
+  },
+  {
+    "code": "T78",
+    "label": "Cisto do canal tireoglosso",
+    "terms": [
+      "cisto tireoglosso",
+      "cisto do canal tireoglosso",
+      "cisto do canal tiroglosso",
+      "cisto do ducto tireoglosso",
+      "cisto no pescoço na linha média"
+    ]
+  },
+  {
+    "code": "T80",
+    "label": "Malformação congênita endócrina/metabólica",
+    "terms": [
+      "hipotireoidismo congênito",
+      "hiperplasia adrenal congênita",
+      "fenilcetonúria",
+      "galactosemia",
+      "erro inato do metabolismo",
+      "doença metabólica congênita"
+    ]
+  },
+  {
+    "code": "T81",
+    "label": "Bócio",
+    "terms": [
+      "bócio",
+      "bócio nodular",
+      "bócio difuso",
+      "bócio multinodular",
+      "aumento da tireoide",
+      "tireoide aumentada",
+      "tireoide inchada"
+    ]
+  },
+  {
+    "code": "T82",
+    "label": "Obesidade",
+    "terms": [
+      "obesidade",
+      "obeso",
+      "obesa",
+      "obesidade mórbida",
+      "obesidade grau 1",
+      "obesidade grau 2",
+      "obesidade grau 3"
+    ]
+  },
+  {
+    "code": "T83",
+    "label": "Excesso de peso",
+    "terms": [
+      "sobrepeso",
+      "excesso de peso",
+      "acima do peso",
+      "peso acima do ideal",
+      "peso excessivo"
+    ]
+  },
+  {
+    "code": "T85",
+    "label": "Hipertireoidismo/tireotoxicose",
+    "terms": [
+      "hipertireoidismo",
+      "hipertiroidismo",
+      "tireotoxicose",
+      "doença de graves",
+      "tireoide hiperativa",
+      "bócio tóxico",
+      "crise tireotóxica"
+    ]
+  },
+  {
+    "code": "T86",
+    "label": "Hipotireoidismo/mixedema",
+    "terms": [
+      "hipotireoidismo",
+      "hipotiroidismo",
+      "mixedema",
+      "tireoidite de hashimoto",
+      "hashimoto",
+      "tireoide hipoativa",
+      "tireoide preguiçosa"
+    ]
+  },
+  {
+    "code": "T87",
+    "label": "Hipoglicemia",
+    "terms": [
+      "hipoglicemia",
+      "hipoglicêmico",
+      "hipoglicêmica",
+      "glicemia baixa",
+      "glicose baixa",
+      "açúcar baixo no sangue",
+      "queda de glicemia",
+      "queda de açúcar"
+    ]
+  },
+  {
+    "code": "T89",
+    "label": "Diabetes insulino-dependente",
+    "terms": [
+      "diabetes tipo 1",
+      "diabetes mellitus tipo 1",
+      "diabetes tipo i",
+      "diabetes insulinodependente",
+      "diabetes insulino-dependente",
+      "diabetes juvenil"
+    ]
+  },
+  {
+    "code": "T90",
+    "label": "Diabetes não insulino-dependente",
+    "terms": [
+      "diabetes",
+      "diabetes mellitus",
+      "diabético",
+      "diabética",
+      "diabetes tipo 2",
+      "diabetes mellitus tipo 2",
+      "diabetes tipo ii",
+      "diabetes não insulinodependente",
+      "diabetes não insulino-dependente",
+      "glicemia alta",
+      "açúcar alto"
+    ]
+  },
+  {
+    "code": "T91",
+    "label": "Deficiência vitamínica/nutricional",
+    "terms": [
+      "deficiência de vitamina d",
+      "vitamina d baixa",
+      "deficiência vitamínica",
+      "carência vitamínica",
+      "desnutrição",
+      "desnutrido",
+      "desnutrida",
+      "deficiência nutricional",
+      "déficit nutricional"
+    ]
+  },
+  {
+    "code": "T92",
+    "label": "Gota",
+    "terms": [
+      "crise de gota",
+      "ataque de gota",
+      "artrite gotosa",
+      "ácido úrico alto",
+      "hiperuricemia",
+      "podagra"
+    ]
+  },
+  {
+    "code": "T93",
+    "label": "Alteração no metabolismo dos lipídios",
+    "terms": [
+      "colesterol alto",
+      "colesterol elevado",
+      "hipercolesterolemia",
+      "dislipidemia",
+      "triglicerídeos altos",
+      "triglicérides altos",
+      "hipertrigliceridemia",
+      "gordura no sangue",
+      "ldl alto"
+    ]
+  },
+  {
+    "code": "T99",
+    "label": "Outras doenças endocrinológicas/metabólicas/nutricionais",
+    "terms": []
+  },
+  {
+    "code": "U01",
+    "label": "Disúria/micção dolorosa",
+    "terms": [
+      "disúria",
+      "dor ao urinar",
+      "ardor ao urinar",
+      "queimação ao urinar"
+    ]
+  },
+  {
+    "code": "U02",
+    "label": "Micção frequente/urgência urinária/polaciúria",
+    "terms": [
+      "urina toda hora",
+      "urinando toda hora",
+      "micção frequente",
+      "urgência urinária",
+      "polaciúria"
+    ]
+  },
+  {
+    "code": "U04",
+    "label": "Incontinência urinária",
+    "terms": [
+      "incontinência urinária",
+      "perda involuntária de urina",
+      "escapa urina"
+    ]
+  },
+  {
+    "code": "U05",
+    "label": "Outros problemas com a micção",
+    "terms": []
+  },
+  {
+    "code": "U06",
+    "label": "Hematúria",
+    "terms": [
+      "sangue na urina",
+      "hematúria"
+    ]
+  },
+  {
+    "code": "U07",
+    "label": "Outros sinais/sintomas urinários",
+    "terms": []
+  },
+  {
+    "code": "U08",
+    "label": "Retenção urinária",
+    "terms": [
+      "retenção urinária",
+      "não consegue urinar",
+      "dificuldade para urinar",
+      "urina presa",
+      "globo vesical"
+    ]
+  },
+  {
+    "code": "U13",
+    "label": "Sinais/sintomas da bexiga, outros",
+    "terms": []
+  },
+  {
+    "code": "U14",
+    "label": "Sinais/sintomas dos rins",
+    "terms": [
+      "dor nos rins",
+      "dor no rim",
+      "dor renal",
+      "rins doendo"
+    ]
+  },
+  {
+    "code": "U26",
+    "label": "Medo de câncer no aparelho urinário",
+    "terms": [
+      "medo de câncer na bexiga",
+      "medo de câncer de bexiga",
+      "medo de câncer no rim",
+      "medo de câncer de rim"
+    ]
+  },
+  {
+    "code": "U27",
+    "label": "Medo de outra doença urinária",
+    "terms": [
+      "medo de infecção urinária",
+      "medo de pedra no rim",
+      "medo de cálculo renal",
+      "medo de doença nos rins",
+      "medo de doença renal",
+      "medo de insuficiência renal"
+    ]
+  },
+  {
+    "code": "U28",
+    "label": "Limitação funcional/incapacidade",
+    "terms": []
+  },
+  {
+    "code": "U29",
+    "label": "Sinais/sintomas aparelho urinário, outros",
+    "terms": []
+  },
+  {
+    "code": "U70",
+    "label": "Pielonefrite",
+    "terms": [
+      "pielonefrite",
+      "pielonefrite aguda",
+      "infecção no rim",
+      "infecção renal",
+      "infecção urinária alta",
+      "rim infeccionado"
+    ]
+  },
+  {
+    "code": "U71",
+    "label": "Cistite/outra infecção urinária",
+    "terms": [
+      "cistite",
+      "cistite aguda",
+      "infecção urinária",
+      "infecção do trato urinário",
+      "infecção de urina",
+      "infecção na urina",
+      "infecção na bexiga"
+    ]
+  },
+  {
+    "code": "U72",
+    "label": "Uretrite",
+    "terms": [
+      "uretrite",
+      "uretrite inespecífica",
+      "inflamação da uretra",
+      "infecção da uretra"
+    ]
+  },
+  {
+    "code": "U75",
+    "label": "Neoplasia maligna do rim",
+    "terms": [
+      "câncer de rim",
+      "câncer no rim",
+      "tumor de rim",
+      "tumor no rim",
+      "carcinoma renal",
+      "tumor de wilms",
+      "neoplasia maligna do rim"
+    ]
+  },
+  {
+    "code": "U76",
+    "label": "Neoplasia benigna do rim",
+    "terms": [
+      "neoplasia benigna do rim",
+      "tumor benigno do rim",
+      "tumor benigno no rim",
+      "angiomiolipoma",
+      "adenoma renal"
+    ]
+  },
+  {
+    "code": "U77",
+    "label": "Neoplasia maligna do aparelho urinário, outra",
+    "terms": [
+      "câncer de bexiga",
+      "câncer na bexiga",
+      "tumor na bexiga",
+      "carcinoma de bexiga"
+    ]
+  },
+  {
+    "code": "U78",
+    "label": "Neoplasia benigna do aparelho urinário",
+    "terms": [
+      "pólipo de bexiga",
+      "pólipo na bexiga",
+      "papiloma de bexiga",
+      "tumor benigno da bexiga",
+      "neoplasia benigna da bexiga"
+    ]
+  },
+  {
+    "code": "U79",
+    "label": "Neoplasia do aparelho urinário NE",
+    "terms": [
+      "massa na bexiga",
+      "massa renal",
+      "massa no rim",
+      "nódulo no rim",
+      "nódulo renal",
+      "neoplasia urinária",
+      "tumor urinário"
+    ]
+  },
+  {
+    "code": "U80",
+    "label": "Lesões traumáticas do aparelho urinário",
+    "terms": [
+      "trauma renal",
+      "trauma na bexiga",
+      "trauma urinário",
+      "lesão traumática do rim",
+      "lesão traumática da bexiga"
+    ]
+  },
+  {
+    "code": "U85",
+    "label": "Malformação congênita do aparelho urinário",
+    "terms": [
+      "hidronefrose congênita",
+      "refluxo vesicoureteral",
+      "válvula de uretra posterior",
+      "agenesia renal",
+      "rim em ferradura",
+      "malformação renal",
+      "malformação do aparelho urinário"
+    ]
+  },
+  {
+    "code": "U88",
+    "label": "Glomerulonefrite/síndrome nefrótica",
+    "terms": [
+      "glomerulonefrite",
+      "síndrome nefrótica",
+      "síndrome nefrítica",
+      "glomerulopatia"
+    ]
+  },
+  {
+    "code": "U90",
+    "label": "Albuminúria/proteinúria ortostática",
+    "terms": [
+      "albuminúria",
+      "proteinúria",
+      "proteína na urina",
+      "albumina na urina",
+      "urina com proteína",
+      "proteinúria ortostática"
+    ]
+  },
+  {
+    "code": "U95",
+    "label": "Cálculo urinário",
+    "terms": [
+      "cálculo renal",
+      "pedra no rim",
+      "pedras nos rins",
+      "cálculo urinário",
+      "litíase renal",
+      "litíase urinária",
+      "cólica renal",
+      "pedra na bexiga",
+      "cálculo ureteral",
+      "pedra no ureter"
+    ]
+  },
+  {
+    "code": "U98",
+    "label": "Análise de urina anormal NE",
+    "terms": [
+      "exame de urina alterado",
+      "urina com alteração no exame",
+      "leucócitos na urina",
+      "piúria",
+      "bacteriúria",
+      "cilindros na urina"
+    ]
+  },
+  {
+    "code": "U99",
+    "label": "Outras doenças urinárias",
+    "terms": []
+  },
+  {
+    "code": "W01",
+    "label": "Questão sobre gravidez",
+    "terms": [
+      "dúvida sobre gravidez",
+      "suspeita de gravidez",
+      "suspeita de gestação",
+      "possível gravidez",
+      "teste de gravidez",
+      "será que estou grávida",
+      "quer saber se está grávida"
+    ]
+  },
+  {
+    "code": "W02",
+    "label": "Medo de estar grávida",
+    "terms": [
+      "medo de estar grávida",
+      "medo de engravidar",
+      "medo de ficar grávida",
+      "medo de gravidez",
+      "receio de gravidez"
+    ]
+  },
+  {
+    "code": "W03",
+    "label": "Hemorragia antes do parto",
+    "terms": [
+      "sangramento na gravidez",
+      "sangramento na gestação",
+      "sangramento vaginal na gravidez",
+      "hemorragia na gravidez",
+      "hemorragia da gestação",
+      "perda de sangue na gravidez"
+    ]
+  },
+  {
+    "code": "W05",
+    "label": "Vômitos/náuseas durante a gravidez",
+    "terms": [
+      "enjoo na gravidez",
+      "enjoo na gestação",
+      "náuseas na gravidez",
+      "náuseas na gestação",
+      "vômitos na gravidez",
+      "hiperêmese gravídica"
+    ]
+  },
+  {
+    "code": "W10",
+    "label": "Contracepção pós-coital",
+    "terms": [
+      "pílula do dia seguinte",
+      "contracepção de emergência",
+      "contracepção pós-coital",
+      "anticoncepção de emergência",
+      "pílula de emergência"
+    ]
+  },
+  {
+    "code": "W11",
+    "label": "Contracepção oral",
+    "terms": [
+      "anticoncepcional oral",
+      "pílula anticoncepcional",
+      "contraceptivo oral",
+      "pílula combinada",
+      "minipílula",
+      "tomar a pílula",
+      "uso de pílula anticoncepcional"
+    ]
+  },
+  {
+    "code": "W12",
+    "label": "Contracepção intrauterina/Dispositivo Intrauterino/DIU",
+    "terms": [
+      "dispositivo intrauterino",
+      "dispositivo intra-uterino",
+      "inserção de diu",
+      "colocação de diu",
+      "retirada de diu",
+      "diu de cobre",
+      "diu hormonal",
+      "mirena"
+    ]
+  },
+  {
+    "code": "W13",
+    "label": "Esterilização",
+    "terms": [
+      "laqueadura",
+      "laqueadura tubária",
+      "ligadura de trompas",
+      "esterilização feminina",
+      "esterilização",
+      "quer fazer laqueadura"
+    ]
+  },
+  {
+    "code": "W14",
+    "label": "Contracepção/outros",
+    "terms": [
+      "anticoncepcional injetável",
+      "injeção anticoncepcional",
+      "implante contraceptivo",
+      "implante subdérmico",
+      "implanon",
+      "método contraceptivo",
+      "métodos contraceptivos",
+      "planejamento familiar"
+    ]
+  },
+  {
+    "code": "W15",
+    "label": "Infertilidade/subfertilidade",
+    "terms": [
+      "infertilidade",
+      "infertilidade feminina",
+      "infertilidade do casal",
+      "subfertilidade",
+      "esterilidade",
+      "dificuldade para engravidar",
+      "não consegue engravidar"
+    ]
+  },
+  {
+    "code": "W17",
+    "label": "Hemorragia pós-parto",
+    "terms": [
+      "hemorragia pós-parto",
+      "hemorragia puerperal",
+      "sangramento após o parto",
+      "sangramento excessivo após o parto",
+      "sangrando muito depois do parto"
+    ]
+  },
+  {
+    "code": "W18",
+    "label": "Sinais/sintomas pós-parto",
+    "terms": [
+      "sintomas pós-parto",
+      "dor após o parto",
+      "lóquios",
+      "dor na episiotomia",
+      "dor na cicatriz da cesárea",
+      "revisão pós-parto",
+      "consulta de puerpério"
+    ]
+  },
+  {
+    "code": "W19",
+    "label": "Sinais/sintomas da mama/lactação",
+    "terms": [
+      "dor ao amamentar",
+      "mamilo rachado",
+      "fissura mamilar",
+      "fissura no mamilo",
+      "leite empedrado",
+      "ingurgitamento mamário",
+      "pouco leite",
+      "falta de leite",
+      "excesso de leite",
+      "dificuldade para amamentar",
+      "mamilo machucado"
+    ]
+  },
+  {
+    "code": "W21",
+    "label": "Preocupação com a imagem corporal na gravidez",
+    "terms": [
+      "preocupação com a imagem corporal na gravidez",
+      "preocupada com o corpo na gravidez",
+      "medo de engordar na gravidez",
+      "insatisfação com o corpo na gestação",
+      "gestante preocupada com o peso"
+    ]
+  },
+  {
+    "code": "W27",
+    "label": "Medo de complicações na gravidez",
+    "terms": [
+      "medo de complicações na gravidez",
+      "medo de perder o bebê",
+      "medo de aborto",
+      "medo do parto",
+      "medo de parto",
+      "receio com o parto",
+      "medo de o bebê nascer com problema"
+    ]
+  },
+  {
+    "code": "W28",
+    "label": "Limitação funcional/incapacidade",
+    "terms": []
+  },
+  {
+    "code": "W29",
+    "label": "Sinais/sintomas da gravidez, outros",
+    "terms": []
+  },
+  {
+    "code": "W70",
+    "label": "Sepse/infecção puerperal",
+    "terms": [
+      "infecção puerperal",
+      "sepse puerperal",
+      "febre puerperal",
+      "infecção após o parto",
+      "infecção pós-parto",
+      "endometrite pós-parto"
+    ]
+  },
+  {
+    "code": "W71",
+    "label": "Infecções que complicam a gravidez",
+    "terms": [
+      "infecção urinária na gravidez",
+      "infecção urinária na gestação",
+      "infecção na gravidez",
+      "infecção na gestação",
+      "sífilis gestacional",
+      "sífilis na gestação",
+      "toxoplasmose gestacional",
+      "toxoplasmose na gravidez"
+    ]
+  },
+  {
+    "code": "W72",
+    "label": "Neoplasia maligna relacionada com gravidez",
+    "terms": [
+      "coriocarcinoma",
+      "neoplasia trofoblástica gestacional",
+      "mola invasora",
+      "câncer na gravidez",
+      "câncer durante a gestação"
+    ]
+  },
+  {
+    "code": "W73",
+    "label": "Neoplasia benigna/incerta relacionada com a gravidez",
+    "terms": [
+      "mola hidatiforme",
+      "mola hidatidiforme",
+      "gravidez molar",
+      "neoplasia benigna na gravidez"
+    ]
+  },
+  {
+    "code": "W75",
+    "label": "Lesões traumáticas que complicam a gravidez",
+    "terms": [
+      "trauma na gravidez",
+      "queda na gravidez",
+      "queda durante a gestação",
+      "acidente na gravidez",
+      "lesão traumática na gestação",
+      "pancada na barriga grávida",
+      "trauma abdominal em gestante"
+    ]
+  },
+  {
+    "code": "W76",
+    "label": "Malformação congênita que complica a gravidez",
+    "terms": [
+      "malformação fetal",
+      "feto com malformação",
+      "feto malformado",
+      "anomalia fetal",
+      "malformação detectada no ultrassom"
+    ]
+  },
+  {
+    "code": "W78",
+    "label": "Gravidez",
+    "terms": [
+      "grávida",
+      "gestante",
+      "pré-natal",
+      "gravidez confirmada",
+      "teste de gravidez positivo",
+      "semanas de gestação",
+      "idade gestacional"
+    ]
+  },
+  {
+    "code": "W79",
+    "label": "Gravidez não desejada",
+    "terms": [
+      "gravidez indesejada",
+      "gravidez não desejada",
+      "gravidez não planejada",
+      "gravidez inesperada",
+      "não queria engravidar",
+      "engravidou sem querer"
+    ]
+  },
+  {
+    "code": "W80",
+    "label": "Gravidez ectópica",
+    "terms": [
+      "gravidez ectópica",
+      "gravidez tubária",
+      "gestação ectópica",
+      "gravidez fora do útero"
+    ]
+  },
+  {
+    "code": "W81",
+    "label": "Toxemia gravídica/DHEG",
+    "terms": [
+      "pré-eclâmpsia",
+      "eclâmpsia",
+      "toxemia gravídica",
+      "síndrome hellp",
+      "hipertensão gestacional",
+      "hipertensão na gravidez",
+      "pressão alta na gravidez",
+      "pressão alta na gestação"
+    ]
+  },
+  {
+    "code": "W82",
+    "label": "Aborto espontâneo",
+    "terms": [
+      "aborto espontâneo",
+      "abortamento espontâneo",
+      "abortou",
+      "perdeu o bebê",
+      "perda gestacional",
+      "aborto retido",
+      "ameaça de aborto",
+      "aborto incompleto"
+    ]
+  },
+  {
+    "code": "W83",
+    "label": "Aborto provocado",
+    "terms": [
+      "aborto provocado",
+      "aborto induzido",
+      "abortamento provocado",
+      "interrupção da gravidez",
+      "interrupção da gestação",
+      "aborto legal"
+    ]
+  },
+  {
+    "code": "W84",
+    "label": "Gravidez de alto risco",
+    "terms": [
+      "gravidez de alto risco",
+      "gestação de alto risco",
+      "gestante de alto risco",
+      "gravidez de risco",
+      "gestação de risco",
+      "pré-natal de alto risco"
+    ]
+  },
+  {
+    "code": "W85",
+    "label": "Diabetes gestacional",
+    "terms": [
+      "diabetes gestacional",
+      "diabetes na gravidez",
+      "diabetes na gestação",
+      "glicemia alta na gravidez",
+      "açúcar alto na gravidez"
+    ]
+  },
+  {
+    "code": "W90",
+    "label": "Parto sem complicações de nascido vivo",
+    "terms": [
+      "parto normal",
+      "parto vaginal",
+      "parto sem complicações",
+      "parto sem intercorrências",
+      "parto natural",
+      "nascimento sem intercorrências"
+    ]
+  },
+  {
+    "code": "W91",
+    "label": "Parto sem complicações de natimorto",
+    "terms": [
+      "natimorto",
+      "parto de natimorto sem complicações",
+      "parto de feto morto sem complicações",
+      "parto sem complicações de natimorto"
+    ]
+  },
+  {
+    "code": "W92",
+    "label": "Parto com complicações de nascido vivo",
+    "terms": [
+      "parto complicado",
+      "parto com complicações",
+      "parto com intercorrências",
+      "parto distócico",
+      "distocia",
+      "parto prolongado",
+      "laceração de parto",
+      "parto a fórceps"
+    ]
+  },
+  {
+    "code": "W93",
+    "label": "Parto com complicações de natimorto",
+    "terms": [
+      "parto de natimorto com complicações",
+      "parto complicado de natimorto",
+      "parto de feto morto com complicações"
+    ]
+  },
+  {
+    "code": "W94",
+    "label": "Mastite puerperal",
+    "terms": [
+      "mastite",
+      "mastite puerperal",
+      "abscesso mamário puerperal",
+      "infecção na mama durante a amamentação",
+      "mama inflamada durante a amamentação",
+      "peito inflamado"
+    ]
+  },
+  {
+    "code": "W95",
+    "label": "Outros problemas da mama durante gravidez/puerpério",
+    "terms": []
+  },
+  {
+    "code": "W96",
+    "label": "Outras complicações do puerpério",
+    "terms": []
+  },
+  {
+    "code": "W99",
+    "label": "Outros problemas da gravidez/parto",
+    "terms": []
+  },
+  {
+    "code": "X01",
+    "label": "Dor genital",
+    "terms": [
+      "dor genital",
+      "dor na região genital",
+      "dor na genitália",
+      "dor no órgão genital"
+    ]
+  },
+  {
+    "code": "X02",
+    "label": "Dores menstruais",
+    "terms": [
+      "cólica menstrual",
+      "cólicas menstruais",
+      "dor menstrual",
+      "dores menstruais",
+      "dismenorreia",
+      "dor na menstruação",
+      "menstruação dolorosa"
+    ]
+  },
+  {
+    "code": "X03",
+    "label": "Dores intermenstruais",
+    "terms": [
+      "dor intermenstrual",
+      "dor no meio do ciclo",
+      "dor da ovulação",
+      "dor ovulatória",
+      "dor na ovulação",
+      "dor entre as menstruações"
+    ]
+  },
+  {
+    "code": "X04",
+    "label": "Relação sexual dolorosa na mulher",
+    "terms": [
+      "dispareunia",
+      "dor na relação sexual",
+      "dor durante a relação",
+      "dor ao ter relação",
+      "relação dolorosa",
+      "sexo doloroso"
+    ]
+  },
+  {
+    "code": "X05",
+    "label": "Menstruação escassa/ausente",
+    "terms": [
+      "amenorreia",
+      "menstruação ausente",
+      "menstruação atrasada",
+      "atraso menstrual",
+      "menstruação escassa",
+      "não menstrua",
+      "sem menstruar",
+      "oligomenorreia",
+      "hipomenorreia"
+    ]
+  },
+  {
+    "code": "X06",
+    "label": "Menstruação excessiva",
+    "terms": [
+      "menstruação excessiva",
+      "menstruação abundante",
+      "menorragia",
+      "hipermenorreia",
+      "menstruação muito forte",
+      "menstruação muito intensa",
+      "sangramento menstrual excessivo",
+      "fluxo menstrual aumentado"
+    ]
+  },
+  {
+    "code": "X07",
+    "label": "Menstruação irregular/frequente",
+    "terms": [
+      "menstruação irregular",
+      "ciclo irregular",
+      "ciclos irregulares",
+      "menstruação desregulada",
+      "menstruação frequente",
+      "menstruando toda hora",
+      "polimenorreia",
+      "desregulação menstrual"
+    ]
+  },
+  {
+    "code": "X08",
+    "label": "Hemorragia intermenstrual",
+    "terms": [
+      "sangramento entre as menstruações",
+      "sangramento intermenstrual",
+      "sangramento fora da menstruação",
+      "sangramento de escape",
+      "metrorragia"
+    ]
+  },
+  {
+    "code": "X09",
+    "label": "Sinais/sintomas pré-menstruais",
+    "terms": [
+      "sintomas pré-menstruais",
+      "sintomas antes da menstruação",
+      "dor nos seios antes da menstruação",
+      "inchaço antes da menstruação",
+      "mal-estar pré-menstrual",
+      "irritabilidade pré-menstrual"
+    ]
+  },
+  {
+    "code": "X10",
+    "label": "Desejo de alterar a data menstruação",
+    "terms": [
+      "adiar a menstruação",
+      "adiar menstruação",
+      "adiantar a menstruação",
+      "antecipar a menstruação",
+      "segurar a menstruação"
+    ]
+  },
+  {
+    "code": "X11",
+    "label": "Sinais/sintomas da menopausa/climatério",
+    "terms": [
+      "menopausa",
+      "climatério",
+      "fogachos",
+      "ondas de calor",
+      "calorões",
+      "sintomas da menopausa",
+      "sintomas do climatério",
+      "perimenopausa"
+    ]
+  },
+  {
+    "code": "X12",
+    "label": "Hemorragia pós-menopausa",
+    "terms": [
+      "sangramento pós-menopausa",
+      "sangramento após a menopausa",
+      "sangramento depois da menopausa",
+      "sangramento vaginal pós-menopausa"
+    ]
+  },
+  {
+    "code": "X13",
+    "label": "Hemorragia pós-coital",
+    "terms": [
+      "sangramento após relação sexual",
+      "sangramento pós-coito",
+      "sangramento pós-coital",
+      "sangramento depois do sexo",
+      "sangra depois da relação"
+    ]
+  },
+  {
+    "code": "X14",
+    "label": "Secreção vaginal",
+    "terms": [
+      "corrimento",
+      "corrimento vaginal",
+      "leucorreia",
+      "secreção vaginal",
+      "corrimento branco",
+      "corrimento amarelado",
+      "corrimento esverdeado",
+      "corrimento com mau cheiro",
+      "fluxo vaginal"
+    ]
+  },
+  {
+    "code": "X15",
+    "label": "Sinais/sintomas da vagina",
+    "terms": [
+      "coceira na vagina",
+      "coceira vaginal",
+      "prurido vaginal",
+      "ardência na vagina",
+      "ressecamento vaginal",
+      "secura vaginal",
+      "dor na vagina",
+      "irritação vaginal"
+    ]
+  },
+  {
+    "code": "X16",
+    "label": "Sinais/sintomas da vulva",
+    "terms": [
+      "coceira na vulva",
+      "prurido vulvar",
+      "irritação na vulva",
+      "vulva inchada",
+      "vulva dolorida",
+      "ardência na vulva",
+      "caroço na vulva",
+      "ferida na vulva"
+    ]
+  },
+  {
+    "code": "X17",
+    "label": "Sinais/sintomas da pelve feminina",
+    "terms": [
+      "dor pélvica",
+      "dor na pelve",
+      "dor pélvica crônica",
+      "dor no útero",
+      "dor nos ovários",
+      "dor no ovário",
+      "peso na pelve"
+    ]
+  },
+  {
+    "code": "X18",
+    "label": "Dor na mama feminina",
+    "terms": [
+      "dor na mama",
+      "dor nas mamas",
+      "dor no seio",
+      "dor nos seios",
+      "mama dolorida",
+      "seio dolorido",
+      "mastalgia",
+      "dor mamária"
+    ]
+  },
+  {
+    "code": "X19",
+    "label": "Tumor ou nódulo na mama feminina",
+    "terms": [
+      "nódulo na mama",
+      "caroço na mama",
+      "nódulo mamário",
+      "caroço no seio",
+      "nódulo no seio",
+      "massa na mama",
+      "tumor na mama",
+      "bolinha na mama"
+    ]
+  },
+  {
+    "code": "X20",
+    "label": "Sinais/sintomas do mamilo da mulher",
+    "terms": [
+      "mamilo invertido",
+      "mamilo retraído",
+      "secreção no mamilo",
+      "secreção mamilar",
+      "descarga papilar",
+      "saindo líquido pelo mamilo",
+      "alteração no mamilo"
+    ]
+  },
+  {
+    "code": "X21",
+    "label": "Sinais/sintomas da mama feminina, outros",
+    "terms": []
+  },
+  {
+    "code": "X22",
+    "label": "Preocupação com a aparência da mama feminina",
+    "terms": [
+      "preocupação com a aparência das mamas",
+      "seios pequenos",
+      "seios grandes",
+      "seios caídos",
+      "mamas caídas",
+      "seios assimétricos",
+      "insatisfeita com o tamanho dos seios"
+    ]
+  },
+  {
+    "code": "X23",
+    "label": "Medo de doença de transmissão sexual",
+    "terms": [
+      "medo de doença sexualmente transmissível",
+      "medo de infecção sexualmente transmissível",
+      "medo de doença de transmissão sexual",
+      "medo de doença venérea",
+      "medo de ter pego doença",
+      "medo de ter pego uma doença"
+    ]
+  },
+  {
+    "code": "X24",
+    "label": "Medo de disfunção sexual",
+    "terms": [
+      "medo de disfunção sexual",
+      "medo de não sentir prazer",
+      "medo de sentir dor na relação",
+      "medo de não conseguir ter relação sexual"
+    ]
+  },
+  {
+    "code": "X25",
+    "label": "Medo de câncer genital",
+    "terms": [
+      "medo de câncer no colo do útero",
+      "medo de câncer de colo de útero",
+      "medo de câncer de útero",
+      "medo de câncer de ovário",
+      "medo de câncer genital",
+      "medo de câncer ginecológico"
+    ]
+  },
+  {
+    "code": "X26",
+    "label": "Medo de câncer na mama",
+    "terms": [
+      "medo de câncer de mama",
+      "medo de câncer na mama",
+      "medo de ter câncer de mama",
+      "medo de ter câncer na mama",
+      "receio de câncer de mama"
+    ]
+  },
+  {
+    "code": "X27",
+    "label": "Medo de outra doença genital/mama",
+    "terms": [
+      "medo de doença ginecológica",
+      "medo de doença genital",
+      "medo de doença na mama",
+      "medo de doença no útero",
+      "medo de mioma",
+      "medo de ter mioma",
+      "medo de endometriose"
+    ]
+  },
+  {
+    "code": "X28",
+    "label": "Limitação funcional/incapacidade",
+    "terms": []
+  },
+  {
+    "code": "X29",
+    "label": "Sinais/sintomas do aparelho genital feminino, outra",
+    "terms": []
+  },
+  {
+    "code": "X70",
+    "label": "Sífilis feminina",
+    "terms": [
+      "sífilis",
+      "sífilis feminina",
+      "sífilis na mulher",
+      "sífilis adquirida",
+      "vdrl reagente",
+      "vdrl positivo"
+    ]
+  },
+  {
+    "code": "X71",
+    "label": "Gonorreia feminina",
+    "terms": [
+      "gonorreia",
+      "gonorreia feminina",
+      "gonococo",
+      "infecção por gonococo",
+      "cervicite gonocócica"
+    ]
+  },
+  {
+    "code": "X72",
+    "label": "Candidíase genital feminina",
+    "terms": [
+      "candidíase vaginal",
+      "candidíase genital",
+      "candidíase genital feminina",
+      "vulvovaginite por cândida",
+      "infecção por fungo na vagina",
+      "corrimento tipo leite coalhado",
+      "monilíase vaginal"
+    ]
+  },
+  {
+    "code": "X73",
+    "label": "Tricomoníase genital feminina",
+    "terms": [
+      "tricomoníase",
+      "tricomoníase genital",
+      "tricomoníase vaginal",
+      "tricomonas",
+      "trichomonas"
+    ]
+  },
+  {
+    "code": "X74",
+    "label": "Doença inflamatória pélvica",
+    "terms": [
+      "doença inflamatória pélvica",
+      "salpingite",
+      "anexite",
+      "ooforite",
+      "infecção pélvica",
+      "infecção nas trompas"
+    ]
+  },
+  {
+    "code": "X75",
+    "label": "Neoplasia maligna do colo",
+    "terms": [
+      "câncer de colo do útero",
+      "câncer do colo do útero",
+      "câncer de colo de útero",
+      "câncer no colo do útero",
+      "câncer cervical",
+      "carcinoma de colo uterino",
+      "neoplasia maligna do colo uterino"
+    ]
+  },
+  {
+    "code": "X76",
+    "label": "Neoplasia maligna da mama feminina",
+    "terms": [
+      "câncer de mama",
+      "câncer na mama",
+      "carcinoma de mama",
+      "carcinoma ductal",
+      "neoplasia maligna da mama",
+      "tumor maligno na mama"
+    ]
+  },
+  {
+    "code": "X77",
+    "label": "Neoplasia maligna genital feminina, outra",
+    "terms": [
+      "câncer de ovário",
+      "câncer de endométrio",
+      "câncer de vulva",
+      "câncer de vagina",
+      "câncer de corpo do útero",
+      "carcinoma de ovário",
+      "carcinoma de endométrio"
+    ]
+  },
+  {
+    "code": "X78",
+    "label": "Fibromioma uterino",
+    "terms": [
+      "mioma",
+      "miomas",
+      "mioma uterino",
+      "fibroma uterino",
+      "fibromioma",
+      "leiomioma",
+      "miomatose uterina"
+    ]
+  },
+  {
+    "code": "X79",
+    "label": "Neoplasia benigna da mama feminina/fibroadenoma",
+    "terms": [
+      "fibroadenoma",
+      "fibroadenoma mamário",
+      "nódulo benigno na mama",
+      "tumor benigno de mama",
+      "cisto mamário",
+      "cisto na mama",
+      "neoplasia benigna de mama"
+    ]
+  },
+  {
+    "code": "X80",
+    "label": "Neoplasia benigna genital",
+    "terms": [
+      "pólipo endometrial",
+      "pólipo uterino",
+      "pólipo cervical",
+      "pólipo no colo do útero",
+      "tumor benigno de ovário",
+      "neoplasia benigna do ovário",
+      "tumor benigno genital"
+    ]
+  },
+  {
+    "code": "X81",
+    "label": "Neoplasia genital feminina, outra/NE",
+    "terms": [
+      "massa pélvica",
+      "massa anexial",
+      "massa no ovário",
+      "massa ovariana",
+      "nódulo no ovário",
+      "tumor genital feminino"
+    ]
+  },
+  {
+    "code": "X82",
+    "label": "Lesão traumática genital feminina",
+    "terms": [
+      "trauma genital feminino",
+      "lesão traumática genital",
+      "trauma na vagina",
+      "trauma na vulva",
+      "laceração vaginal",
+      "laceração vulvar"
+    ]
+  },
+  {
+    "code": "X83",
+    "label": "Malformações congênitas genitais",
+    "terms": [
+      "malformação genital",
+      "útero septado",
+      "útero bicorno",
+      "útero didelfo",
+      "agenesia vaginal",
+      "hímen imperfurado",
+      "genitália ambígua",
+      "septo vaginal"
+    ]
+  },
+  {
+    "code": "X84",
+    "label": "Vaginite/vulvite NE",
+    "terms": [
+      "vaginite",
+      "vulvite",
+      "vulvovaginite",
+      "vaginose bacteriana",
+      "vaginose",
+      "inflamação na vagina",
+      "inflamação na vulva",
+      "infecção vaginal"
+    ]
+  },
+  {
+    "code": "X85",
+    "label": "Doença do colo NE",
+    "terms": [
+      "cervicite",
+      "ectopia cervical",
+      "ectrópio cervical",
+      "colo do útero inflamado",
+      "ferida no colo do útero"
+    ]
+  },
+  {
+    "code": "X86",
+    "label": "Esfregaço de Papanicolau/colpocitologia oncótica anormal",
+    "terms": [
+      "papanicolau alterado",
+      "papanicolau anormal",
+      "preventivo alterado",
+      "citologia alterada",
+      "citologia oncótica alterada",
+      "colpocitologia alterada",
+      "displasia do colo do útero",
+      "lesão intraepitelial",
+      "neoplasia intraepitelial cervical",
+      "ascus"
+    ]
+  },
+  {
+    "code": "X87",
+    "label": "Prolapso útero-vaginal",
+    "terms": [
+      "prolapso uterino",
+      "prolapso vaginal",
+      "prolapso genital",
+      "prolapso de útero",
+      "útero caído",
+      "útero prolapsado",
+      "bexiga caída",
+      "cistocele",
+      "retocele"
+    ]
+  },
+  {
+    "code": "X88",
+    "label": "Doença fibrocística da mama",
+    "terms": [
+      "doença fibrocística da mama",
+      "mama fibrocística",
+      "mastopatia fibrocística",
+      "mastopatia cística",
+      "fibrose mamária",
+      "mama cística"
+    ]
+  },
+  {
+    "code": "X89",
+    "label": "Síndrome da tensão pré-menstrual",
+    "terms": [
+      "síndrome da tensão pré-menstrual",
+      "tensão pré-menstrual",
+      "tpm"
+    ]
+  },
+  {
+    "code": "X90",
+    "label": "Herpes genital feminino",
+    "terms": [
+      "herpes genital",
+      "herpes genital feminino",
+      "herpes na vagina",
+      "herpes na vulva",
+      "bolhas na vulva",
+      "feridas de herpes genital",
+      "lesões de herpes genital"
+    ]
+  },
+  {
+    "code": "X91",
+    "label": "Condiloma acuminado feminino",
+    "terms": [
+      "condiloma",
+      "condiloma acuminado",
+      "condilomas",
+      "verruga genital",
+      "verrugas genitais",
+      "crista de galo",
+      "hpv",
+      "infecção por hpv",
+      "verruga na vulva",
+      "verruga na vagina"
+    ]
+  },
+  {
+    "code": "X92",
+    "label": "Infecção por clamídia",
+    "terms": [
+      "clamídia",
+      "infecção por clamídia",
+      "clamidiose",
+      "chlamydia",
+      "chlamydia trachomatis",
+      "cervicite por clamídia"
+    ]
+  },
+  {
+    "code": "X99",
+    "label": "Doença genital feminina, outra",
+    "terms": []
+  },
+  {
+    "code": "Y01",
+    "label": "Dor no pênis",
+    "terms": [
+      "dor no pênis",
+      "dor peniana",
+      "pênis dolorido",
+      "dor na glande",
+      "dor na ereção",
+      "dor ao ter ereção"
+    ]
+  },
+  {
+    "code": "Y02",
+    "label": "Dor no escroto/testículos",
+    "terms": [
+      "dor no testículo",
+      "dor nos testículos",
+      "dor testicular",
+      "dor no escroto",
+      "dor escrotal",
+      "testículo doendo",
+      "testículo dolorido",
+      "dor no saco"
+    ]
+  },
+  {
+    "code": "Y03",
+    "label": "Secreção uretral",
+    "terms": [
+      "secreção uretral",
+      "corrimento uretral",
+      "corrimento no pênis",
+      "secreção no pênis",
+      "pus no pênis",
+      "gota matinal",
+      "pingadeira"
+    ]
+  },
+  {
+    "code": "Y04",
+    "label": "Sinais/sintomas do pênis, outros",
+    "terms": []
+  },
+  {
+    "code": "Y05",
+    "label": "Sinais/sintomas do escroto/testículos, outros",
+    "terms": []
+  },
+  {
+    "code": "Y06",
+    "label": "Sinais/sintomas da próstata",
+    "terms": [
+      "problema na próstata",
+      "dor na próstata",
+      "sintomas prostáticos",
+      "jato urinário fraco",
+      "jato fraco",
+      "noctúria",
+      "nictúria",
+      "urina pingando",
+      "demora para urinar",
+      "próstata inchada"
+    ]
+  },
+  {
+    "code": "Y07",
+    "label": "Impotência NE",
+    "terms": [
+      "impotência",
+      "impotência sexual",
+      "disfunção erétil",
+      "falta de ereção",
+      "dificuldade de ereção",
+      "não consegue ter ereção",
+      "não mantém a ereção",
+      "ereção fraca"
+    ]
+  },
+  {
+    "code": "Y08",
+    "label": "Sinais/sintomas da função sexual masculina, outros",
+    "terms": [
+      "ejaculação precoce",
+      "ejaculação retardada",
+      "ejaculação retrógrada",
+      "ejaculação dolorosa",
+      "sem ejaculação",
+      "sangue no sêmen",
+      "hemospermia"
+    ]
+  },
+  {
+    "code": "Y10",
+    "label": "Infertilidade/subfertilidade masculina",
+    "terms": [
+      "infertilidade masculina",
+      "esterilidade masculina",
+      "infertilidade do homem",
+      "oligospermia",
+      "azoospermia",
+      "espermograma alterado",
+      "baixa contagem de espermatozoides"
+    ]
+  },
+  {
+    "code": "Y13",
+    "label": "Esterilização masculina",
+    "terms": [
+      "vasectomia",
+      "esterilização masculina",
+      "quer fazer vasectomia",
+      "consulta para vasectomia",
+      "pós-vasectomia"
+    ]
+  },
+  {
+    "code": "Y14",
+    "label": "Planejamento familiar, outros",
+    "terms": [
+      "camisinha",
+      "preservativo",
+      "preservativo masculino",
+      "método contraceptivo masculino",
+      "planejamento familiar masculino"
+    ]
+  },
+  {
+    "code": "Y16",
+    "label": "Sinais/sintomas da mama masculina",
+    "terms": [
+      "ginecomastia",
+      "mama masculina",
+      "dor na mama masculina",
+      "nódulo na mama masculina",
+      "caroço na mama do homem",
+      "mama aumentada no homem"
+    ]
+  },
+  {
+    "code": "Y24",
+    "label": "Medo de disfunção sexual masculina",
+    "terms": [
+      "medo de disfunção erétil",
+      "medo de impotência",
+      "medo de ficar impotente",
+      "medo de não ter ereção",
+      "medo de não conseguir manter a ereção",
+      "medo de ejaculação precoce",
+      "medo de falhar na relação"
+    ]
+  },
+  {
+    "code": "Y25",
+    "label": "Medo de doença sexualmente transmissível",
+    "terms": [
+      "medo de doença sexualmente transmissível",
+      "medo de infecção sexualmente transmissível",
+      "medo de doença de transmissão sexual",
+      "medo de doença venérea",
+      "medo de ter pego doença",
+      "medo de ter pego uma doença"
+    ]
+  },
+  {
+    "code": "Y26",
+    "label": "Medo de câncer genital masculino",
+    "terms": [
+      "medo de câncer de próstata",
+      "medo de câncer de testículo",
+      "medo de câncer no testículo",
+      "medo de câncer de pênis",
+      "medo de câncer genital",
+      "receio de câncer de próstata"
+    ]
+  },
+  {
+    "code": "Y27",
+    "label": "Medo de doença genital masculina, outra",
+    "terms": [
+      "medo de problema na próstata",
+      "medo de doença genital",
+      "medo de doença no pênis",
+      "medo de doença no testículo",
+      "medo de varicocele"
+    ]
+  },
+  {
+    "code": "Y28",
+    "label": "Limitação funcional/incapacidade",
+    "terms": []
+  },
+  {
+    "code": "Y29",
+    "label": "Sinais/sintomas, outros",
+    "terms": []
+  },
+  {
+    "code": "Y70",
+    "label": "Sífilis masculina",
+    "terms": [
+      "sífilis",
+      "sífilis masculina",
+      "sífilis no homem",
+      "sífilis adquirida",
+      "vdrl reagente",
+      "vdrl positivo"
+    ]
+  },
+  {
+    "code": "Y71",
+    "label": "Gonorreia masculina",
+    "terms": [
+      "gonorreia",
+      "gonorreia masculina",
+      "gonococo",
+      "infecção por gonococo",
+      "uretrite gonocócica"
+    ]
+  },
+  {
+    "code": "Y72",
+    "label": "Herpes genital",
+    "terms": [
+      "herpes genital",
+      "herpes genital masculino",
+      "herpes no pênis",
+      "bolhas no pênis",
+      "lesões de herpes no pênis",
+      "feridas de herpes genital"
+    ]
+  },
+  {
+    "code": "Y73",
+    "label": "Prostatite/vesiculite seminal",
+    "terms": [
+      "prostatite",
+      "prostatite aguda",
+      "prostatite crônica",
+      "prostatite bacteriana",
+      "vesiculite seminal",
+      "inflamação da próstata",
+      "infecção na próstata"
+    ]
+  },
+  {
+    "code": "Y74",
+    "label": "Orquite/epididimite",
+    "terms": [
+      "orquite",
+      "epididimite",
+      "orquiepididimite",
+      "inflamação no testículo",
+      "infecção no testículo",
+      "testículo inflamado"
+    ]
+  },
+  {
+    "code": "Y75",
+    "label": "Balanite/Balanopostite",
+    "terms": [
+      "balanite",
+      "balanopostite",
+      "inflamação na glande",
+      "inflamação da glande",
+      "glande inflamada",
+      "vermelhidão na glande",
+      "coceira na glande",
+      "infecção na glande",
+      "candidíase peniana"
+    ]
+  },
+  {
+    "code": "Y76",
+    "label": "Condiloma acuminado",
+    "terms": [
+      "condiloma",
+      "condiloma acuminado",
+      "condilomas",
+      "verruga genital",
+      "verrugas genitais",
+      "crista de galo",
+      "hpv",
+      "infecção por hpv",
+      "verruga no pênis",
+      "verrugas no pênis"
+    ]
+  },
+  {
+    "code": "Y77",
+    "label": "Neoplasia maligna da próstata",
+    "terms": [
+      "câncer de próstata",
+      "câncer na próstata",
+      "neoplasia maligna da próstata",
+      "adenocarcinoma de próstata",
+      "carcinoma de próstata"
+    ]
+  },
+  {
+    "code": "Y78",
+    "label": "Neoplasia maligna genital masculina, outra",
+    "terms": [
+      "câncer de testículo",
+      "câncer no testículo",
+      "câncer de pênis",
+      "câncer no pênis",
+      "tumor de testículo",
+      "seminoma",
+      "carcinoma peniano"
+    ]
+  },
+  {
+    "code": "Y79",
+    "label": "Neoplasia benigna genital masculina NE",
+    "terms": [
+      "nódulo no testículo",
+      "caroço no testículo",
+      "nódulo testicular",
+      "massa testicular",
+      "nódulo no escroto",
+      "caroço no escroto",
+      "espermatocele"
+    ]
+  },
+  {
+    "code": "Y80",
+    "label": "Traumatismo genital masculino, outro",
+    "terms": [
+      "trauma no testículo",
+      "pancada no testículo",
+      "trauma no pênis",
+      "fratura peniana",
+      "trauma genital masculino",
+      "lesão traumática no pênis",
+      "lesão traumática no escroto"
+    ]
+  },
+  {
+    "code": "Y81",
+    "label": "Fimose/prepúcio redundante",
+    "terms": [
+      "fimose",
+      "prepúcio redundante",
+      "prepúcio apertado",
+      "prepúcio justo",
+      "parafimose",
+      "não consegue descobrir a glande"
+    ]
+  },
+  {
+    "code": "Y82",
+    "label": "Hipospádias",
+    "terms": [
+      "hipospádia",
+      "hipospádias",
+      "epispádia",
+      "meato uretral ectópico"
+    ]
+  },
+  {
+    "code": "Y83",
+    "label": "Testículo não descido/Criptorquidia/Testículo ectópico",
+    "terms": [
+      "criptorquidia",
+      "testículo não descido",
+      "testículo ectópico",
+      "testículo retido",
+      "testículo que não desceu",
+      "bolsa escrotal vazia"
+    ]
+  },
+  {
+    "code": "Y84",
+    "label": "Malformação genital congênita masculina, outra",
+    "terms": []
+  },
+  {
+    "code": "Y85",
+    "label": "Hipertrofia benigna da próstata/hiperplasia prostática benigna",
+    "terms": [
+      "hiperplasia prostática benigna",
+      "hiperplasia benigna da próstata",
+      "hipertrofia benigna da próstata",
+      "hipertrofia prostática",
+      "aumento benigno da próstata",
+      "aumento da próstata",
+      "próstata crescida"
+    ]
+  },
+  {
+    "code": "Y86",
+    "label": "Hidrocele",
+    "terms": [
+      "hidrocele",
+      "hidrocele testicular",
+      "água no testículo",
+      "líquido no testículo",
+      "líquido na bolsa escrotal"
+    ]
+  },
+  {
+    "code": "Y99",
+    "label": "Doença genital masculina, outra",
+    "terms": []
+  },
+  {
+    "code": "Z01",
+    "label": "Pobreza/problemas econômicos",
+    "terms": [
+      "pobreza",
+      "problemas econômicos",
+      "dificuldade financeira",
+      "problemas financeiros",
+      "sem dinheiro",
+      "dívidas",
+      "endividamento",
+      "vulnerabilidade econômica"
+    ]
+  },
+  {
+    "code": "Z02",
+    "label": "Problemas relacionados a água/alimentação",
+    "terms": [
+      "insegurança alimentar",
+      "falta de alimentos",
+      "falta de comida",
+      "passando fome",
+      "sem comida em casa",
+      "não tem o que comer",
+      "falta de água",
+      "sem água potável",
+      "sem acesso à água"
+    ]
+  },
+  {
+    "code": "Z03",
+    "label": "Problemas de habitação/vizinhança",
+    "terms": [
+      "moradia precária",
+      "moradia inadequada",
+      "sem moradia",
+      "situação de rua",
+      "morador de rua",
+      "problemas com vizinhos",
+      "conflito com vizinhos",
+      "despejo",
+      "habitação precária"
+    ]
+  },
+  {
+    "code": "Z04",
+    "label": "Problema sociocultural",
+    "terms": [
+      "discriminação",
+      "racismo",
+      "preconceito",
+      "xenofobia",
+      "isolamento social",
+      "exclusão social",
+      "problema sociocultural",
+      "barreira cultural",
+      "barreira de idioma"
+    ]
+  },
+  {
+    "code": "Z05",
+    "label": "Problemas com condições de trabalho",
+    "terms": [
+      "condições de trabalho",
+      "problemas no trabalho",
+      "estresse no trabalho",
+      "assédio moral",
+      "assédio no trabalho",
+      "sobrecarga de trabalho",
+      "excesso de trabalho",
+      "conflito no trabalho",
+      "problemas com o chefe"
+    ]
+  },
+  {
+    "code": "Z06",
+    "label": "Problemas de desemprego",
+    "terms": [
+      "desemprego",
+      "desempregado",
+      "desempregada",
+      "perdeu o emprego",
+      "perda de emprego",
+      "sem emprego",
+      "foi demitido",
+      "foi demitida",
+      "procurando emprego"
+    ]
+  },
+  {
+    "code": "Z07",
+    "label": "Problemas relacionados com educação",
+    "terms": [
+      "problemas na escola",
+      "evasão escolar",
+      "abandono escolar",
+      "bullying",
+      "repetência",
+      "reprovação escolar",
+      "não frequenta a escola",
+      "recusa escolar"
+    ]
+  },
+  {
+    "code": "Z08",
+    "label": "Problema relacionado com sistema de previdência social",
+    "terms": [
+      "problema com benefício",
+      "benefício negado",
+      "benefício suspenso",
+      "benefício cancelado",
+      "auxílio negado",
+      "auxílio-doença negado",
+      "problema com o inss",
+      "perícia do inss",
+      "aposentadoria negada",
+      "bolsa família cancelado",
+      "bolsa família suspenso"
+    ]
+  },
+  {
+    "code": "Z09",
+    "label": "Problema de ordem legal",
+    "terms": [
+      "problema com a justiça",
+      "problema jurídico",
+      "processo judicial",
+      "audiência judicial",
+      "detento",
+      "cumprindo pena",
+      "sistema prisional",
+      "egresso do sistema prisional",
+      "pensão alimentícia",
+      "guarda dos filhos",
+      "problema com a polícia"
+    ]
+  },
+  {
+    "code": "Z10",
+    "label": "Problema relacionado com sistema de saúde",
+    "terms": [
+      "dificuldade de acesso à saúde",
+      "demora para consulta",
+      "demora no atendimento",
+      "fila de espera",
+      "falta de vaga",
+      "falta de medicamento",
+      "falta de medicamentos",
+      "dificuldade para agendar",
+      "dificuldade para marcar consulta",
+      "dificuldade para conseguir exame",
+      "falta de especialista"
+    ]
+  },
+  {
+    "code": "Z11",
+    "label": "Problema relacionado com estar doente",
+    "terms": [
+      "dificuldade para aceitar a doença",
+      "não aceita a doença",
+      "dificuldade em lidar com a doença",
+      "problemas por estar doente",
+      "impacto da doença na vida",
+      "adaptação à doença"
+    ]
+  },
+  {
+    "code": "Z12",
+    "label": "Problema de relacionamento com parceiro/conjugal",
+    "terms": [
+      "problemas conjugais",
+      "conflito conjugal",
+      "problema no casamento",
+      "crise no casamento",
+      "briga com o marido",
+      "briga com a esposa",
+      "briga com o parceiro",
+      "briga com a parceira",
+      "problema com o companheiro",
+      "separação do casal",
+      "divórcio"
+    ]
+  },
+  {
+    "code": "Z13",
+    "label": "Problema comportamental do parceiro/companheiro",
+    "terms": [
+      "marido alcoolista",
+      "marido usa drogas",
+      "companheiro alcoolista",
+      "parceiro alcoolista",
+      "parceiro usuário de drogas",
+      "infidelidade",
+      "traição do parceiro",
+      "marido infiel",
+      "esposa infiel",
+      "ciúmes do parceiro",
+      "marido ciumento",
+      "companheiro ciumento"
+    ]
+  },
+  {
+    "code": "Z14",
+    "label": "Problema por doença do parceiro/companheiro",
+    "terms": [
+      "marido doente",
+      "esposa doente",
+      "companheiro doente",
+      "parceiro doente",
+      "cuidando do marido doente",
+      "cuidando da esposa doente",
+      "doença do marido",
+      "doença da esposa",
+      "sobrecarga por cuidar do marido",
+      "sobrecarga por cuidar da esposa"
+    ]
+  },
+  {
+    "code": "Z15",
+    "label": "Perda ou falecimento do parceiro/companheiro",
+    "terms": [
+      "viuvez",
+      "viúva",
+      "viúvo",
+      "morte do marido",
+      "morte da esposa",
+      "morte do companheiro",
+      "perdeu o marido",
+      "perdeu a esposa",
+      "falecimento do marido",
+      "falecimento da esposa",
+      "falecimento do companheiro",
+      "luto pelo marido",
+      "luto pela esposa"
+    ]
+  },
+  {
+    "code": "Z16",
+    "label": "Problema de relacionamento com criança",
+    "terms": [
+      "problema com o filho",
+      "problema com a filha",
+      "conflito com o filho",
+      "conflito com a filha",
+      "briga com o filho",
+      "briga com a filha",
+      "dificuldade de relacionamento com o filho",
+      "dificuldade para impor limites ao filho"
+    ]
+  },
+  {
+    "code": "Z18",
+    "label": "Problema com criança doente",
+    "terms": [
+      "filho doente",
+      "filha doente",
+      "criança doente em casa",
+      "cuidando de filho doente",
+      "filho com doença crônica",
+      "preocupação com filho doente",
+      "sobrecarga por cuidar de criança doente"
+    ]
+  },
+  {
+    "code": "Z19",
+    "label": "Perda ou falecimento de criança",
+    "terms": [
+      "morte de filho",
+      "morte da filha",
+      "morte de criança",
+      "perdeu o filho",
+      "perdeu a filha",
+      "falecimento do filho",
+      "falecimento da filha",
+      "óbito do filho",
+      "óbito da filha",
+      "luto pela perda do filho",
+      "luto pela perda da filha"
+    ]
+  },
+  {
+    "code": "Z20",
+    "label": "Problema de relacionamento com familiares",
+    "terms": [
+      "conflito familiar",
+      "problemas familiares",
+      "briga com a família",
+      "briga com familiares",
+      "problema com a sogra",
+      "problema com a nora",
+      "problema com o genro",
+      "problema com os pais",
+      "conflito com os pais",
+      "desentendimento familiar"
+    ]
+  },
+  {
+    "code": "Z21",
+    "label": "Problema comportamental de familiar",
+    "terms": [
+      "familiar alcoolista",
+      "familiar usuário de drogas",
+      "familiar dependente químico",
+      "pai alcoólatra",
+      "mãe alcoólatra",
+      "filho usa drogas",
+      "filho dependente químico",
+      "irmão usa drogas"
+    ]
+  },
+  {
+    "code": "Z22",
+    "label": "Problema por doença familiar",
+    "terms": [
+      "familiar doente",
+      "doença na família",
+      "mãe doente",
+      "pai doente",
+      "cuidando da mãe doente",
+      "cuidando do pai doente",
+      "cuidando de familiar doente",
+      "familiar acamado",
+      "sobrecarga do cuidador"
+    ]
+  },
+  {
+    "code": "Z23",
+    "label": "Perda/falecimento de familiar",
+    "terms": [
+      "falecimento de familiar",
+      "morte de familiar",
+      "luto familiar",
+      "luto pela mãe",
+      "luto pelo pai",
+      "perda de ente querido",
+      "perda de familiar",
+      "morte da mãe",
+      "morte do pai",
+      "perdeu a mãe",
+      "perdeu o pai"
+    ]
+  },
+  {
+    "code": "Z24",
+    "label": "Problema de relacionamento com amigos",
+    "terms": [
+      "briga com amigos",
+      "briga com amigo",
+      "briga com amiga",
+      "conflito com amigos",
+      "problema com amigos",
+      "desavença com amigos",
+      "dificuldade de fazer amigos",
+      "sem amigos"
+    ]
+  },
+  {
+    "code": "Z25",
+    "label": "Ato ou acontecimento violento",
+    "terms": [
+      "violência doméstica",
+      "violência física",
+      "violência sexual",
+      "violência psicológica",
+      "violência intrafamiliar",
+      "violência contra a mulher",
+      "violência contra a criança",
+      "agressão física",
+      "espancada",
+      "espancado",
+      "estupro",
+      "abuso sexual",
+      "abuso físico",
+      "maus-tratos",
+      "maus tratos",
+      "vítima de violência",
+      "medida protetiva",
+      "ameaça de morte",
+      "assalto",
+      "sequestro",
+      "baleado",
+      "baleada",
+      "esfaqueado",
+      "esfaqueada"
+    ]
+  },
+  {
+    "code": "Z27",
+    "label": "Medo de problema social",
+    "terms": [
+      "medo de perder o emprego",
+      "medo de ficar desempregado",
+      "medo de ser demitido",
+      "medo de ser demitida",
+      "medo de violência",
+      "medo de sofrer violência",
+      "medo de ficar sem casa",
+      "medo de ficar sem dinheiro",
+      "medo de despejo"
+    ]
+  },
+  {
+    "code": "Z28",
+    "label": "Limitação funcional/incapacidade",
+    "terms": []
+  },
+  {
+    "code": "Z29",
+    "label": "Problema social NE",
+    "terms": [
+      "problema social",
+      "questão social",
+      "demanda social",
+      "vulnerabilidade social",
+      "situação de vulnerabilidade social",
+      "situação de rua"
     ]
   }
 ]
